@@ -1,5 +1,6 @@
 ## Utility
 完成了新浪主页的简单爬取, 爬到的url会被送入redis.
+完成了新闻页爬取
 
 ## Dependency
 python3.5.2
@@ -9,7 +10,9 @@ scrapy
 redis
 
 ## Usage
-执行SinaHomeSpider.py
+执行launcher下面的脚本即可
 
 ## Issue
-目前采取单条上传的方式太慢, 需要优化.
+现在的pipeline不能处理404，烦的一比
+
+要写MongoDb的dao了
