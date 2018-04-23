@@ -1,5 +1,4 @@
 import scrapy
-from scrapy.crawler import CrawlerProcess
 
 class SinaHomeSpider(scrapy.Spider):
     name = "sina_home"
@@ -27,16 +26,3 @@ class SinaHomeSpider(scrapy.Spider):
                 }
 
                 yield news_dic
-
-
-process = CrawlerProcess({
-    'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
-    'ITEM_PIPELINES': '{"pipeline.RedisPipeline.RedisPipeline": 300}',
-    'REDIS_URI': '13.231.182.153',
-    'REDIS_PASSWORD': 'redisredis',
-    'REDIS_PORT': '6379',
-    'REDIS_QUEUE_KEY': 'queue'
-})
-process.crawl(SinaHomeSpider)
-process.start()
-print("end")

@@ -1,0 +1,8 @@
+进入redis，--raw是为了防止显示中文乱码
+redis-cli --raw
+
+
+有密码保护时，进入redis后auth password
+
+查看队列内容：LRANGE key index1 index2 (lrange queue 0 5)
+删除键：DEL keyname

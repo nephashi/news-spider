@@ -20,10 +20,13 @@ class RedisUrlPusher(object):
                 crawled = True
 
         if (crawled == False):
+            # 缓存级为空，添加一级缓存
             if (len(self.__crawled_urls) == 0):
                 self.__crawled_urls.append({})
+            # 缓存级内部溢出，添加一级缓存
             if (len(self.__crawled_urls[-1]) >= self.__crawled_cache_max_size):
                 self.__crawled_urls.append({})
+            # 缓存级数量达到最大，清除第一级(最早添加的)缓存
             if (len(self.__crawled_urls) == self.__crawled_cache_level_num):
                 self.__crawled_urls.pop(0)
                 self.__crawled_urls.append({})
