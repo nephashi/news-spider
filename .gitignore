@@ -1,0 +1,7 @@
+.idea
+.vscode
+note
+*.html
+*.pyc
+_pycache_
+.DS_Store
