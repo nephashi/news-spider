@@ -1,2 +1,17 @@
 13.231.182.153：redis
 18.182.13.109：mongodb
+
+当前的url字典结构：
+news_dic = {
+               'title': news.css('::text').extract_first(),
+               'link': news.css('::attr(href)').extract_first()
+           }
+
+当前新闻数据结构是一个字典：
+dict = {
+            'title': titles,
+            'link': response.url,
+            'content': content,
+            'date': date_now, #"%Y-%m-%d"
+            'unix_timestamp': tu.date2timestamp(date_now)
+        }

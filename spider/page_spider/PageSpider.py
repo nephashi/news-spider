@@ -1,5 +1,7 @@
 import scrapy
 import common_utils.system_util as su
+import time
+import common_utils.time_util as tu
 
 class PageSpider(scrapy.Spider):
     name = "page"
@@ -24,20 +26,31 @@ class PageSpider(scrapy.Spider):
     def parse_content(self, response):
         line_break = su.get_line_break()
 
+        #抓所有h1，最长的认为是题目
         titles = []
         for title_pom in response.css('h1'):
             title = title_pom.css('::text').extract_first()
             if(titles != None):
                 titles.append(title)
+        title = ""
+        for t in titles:
+            if (len(t) > title):
+                title = t
+
+        #抓所有p，连起来认为是内容
         content = ""
         for p_pom in response.css('p'):
             parag = p_pom.css('::text').extract_first()
             if (parag != None and len(parag.strip()) > 0):
                 content += parag
                 content += line_break
+        date_now = time.strftime("%Y-%m-%d", time.localtime())
         dict = {
-            'title': titles,
-            'content': content
+            'title': title,
+            'link': response.url,
+            'content': content,
+            'date': date_now,
+            'unix_timestamp': tu.date2timestamp(date_now)
         }
         return dict
 

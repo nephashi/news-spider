@@ -35,4 +35,3 @@ class RedisUrlPusher(object):
             news_url_json_str = ju.dic2json(dic)
 
             self.__redis_queue_dao.put(item = news_url_json_str)
-
