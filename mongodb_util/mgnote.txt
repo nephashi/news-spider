@@ -1,0 +1,14 @@
+一些控制命令行
+mongo --host 127.0.0.1:27017
+show dbs
+show collections
+db.collection.find({})
+
+坑！！
+mongodb默认绑定本地，要打开远程访问：
+sudo vim /etc/mongodb.conf
+找到bind_ip，改为
+bind_ip = 0.0.0.0
+
+mongoengine在初始化连接时指定数据库，默认使用继承Document的类名作为集合名。
+可以用with上下文管理器来调整这两个数据库配置。
