@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1996324c-d5cb-47d7-9c87-c0ee01f020ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/launcher/launch_news_loop.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/middleware/FailureMiddleware.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrapy_note" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mongodb_util/mgdb_test.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/news_spider.iml" afterPath="$PROJECT_DIR$/.idea/news_spider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/launch_news_ppl.py" afterPath="$PROJECT_DIR$/launcher/launch_news_ppl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/launch_url_ppl.py" afterPath="$PROJECT_DIR$/launcher/launch_url_ppl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mongodb_util/MongoNewsDao.py" afterPath="$PROJECT_DIR$/mongodb_util/MongoNewsDao.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mongodb_util/mgnote.txt" afterPath="$PROJECT_DIR$/mongodb_util/mgnote.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pipeline/NewsPipeline.py" afterPath="$PROJECT_DIR$/pipeline/NewsPipeline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pipeline/UrlPushPipeline.py" afterPath="$PROJECT_DIR$/pipeline/UrlPushPipeline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis_util/redis_url_pusher.py" afterPath="$PROJECT_DIR$/redis_util/redis_url_pusher.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/page_spider/PageSpider.py" afterPath="$PROJECT_DIR$/spider/page_spider/PageSpider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/test_spider.py" afterPath="$PROJECT_DIR$/spider/test_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/url_spider/SinaHomeSpider.py" afterPath="$PROJECT_DIR$/spider/url_spider/SinaHomeSpider.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/redis_util/note" afterPath="$PROJECT_DIR$/redis_util/redis_note" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/NewsSpider.log" afterPath="$PROJECT_DIR$/logs/NewsSpider.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/URLSpider.log" afterPath="$PROJECT_DIR$/logs/URLSpider.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,14 +66,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="launch_news_loop.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="launch_news_loop.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/launcher/launch_news_loop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -993,7 +989,7 @@
         <state relative-caret-position="-549">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1042,17 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pipeline/UrlPushPipeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1089,11 +1074,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/launcher/launch_news_loop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
