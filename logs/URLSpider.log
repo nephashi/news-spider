@@ -2208,3 +2208,1923 @@
 2018-04-30 21:54:21 [sina_home] INFO: push to redis
 2018-04-30 21:54:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
 {'link': 'http://gongyi.sina.com.cn/gyzx/2018-02-02/doc-ifyrcsrw8309120.shtml', 'title': '坐轮椅坚守村小讲台'}
+2018-04-30 21:54:21 [sina_home] INFO: push to redis
+2018-04-30 21:54:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://weibo.com/gongyi', 'title': '微博'}
+2018-04-30 21:54:21 [sina_home] INFO: push to redis
+2018-04-30 21:54:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://weibo.com/p/100808a67de472af3268ae3e4fca38a77678b4', 'title': '为#爱加餐# 为了中国孩子！'}
+2018-04-30 21:54:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://gongyi.sina.com.cn/zhuantilist.html', 'title': '专题'}
+2018-04-30 21:54:21 [sina_home] INFO: push to redis
+2018-04-30 21:54:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://gongyi.sina.com.cn/gyzx/ngo/2017-04-05/doc-ifycwymx3903119.shtml', 'title': '“点亮蓝灯”暨水立方公益基金成立仪式盛大开幕'}
+2018-04-30 21:54:21 [sina_home] INFO: push to redis
+2018-04-30 21:54:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://yangfanbook.sina.com.cn/', 'title': '扬帆'}
+2018-04-30 21:54:21 [sina_home] INFO: push to redis
+2018-04-30 21:54:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://yangfanbook.sina.com.cn/news/2307', 'title': '为爱而走·爱在春天'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://weibo.com/1274469185/G9ueToi1N\n', 'title': '万步走公益挑战赛'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [sina_home] INFO: catched 732 URLs, pushed 640 URLs to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.sina.com.cn/m/dq/2017-06-19/doc-ifyhfnqa4449265.shtml', 'title': '环保| 盈利之外，还有环境责任'}
+2018-04-30 21:54:22 [sina_home] INFO: catched 733 URLs, pushed 640 URLs to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/', 'title': '英伟达参与《古墓丽影暗影》开发'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-30/fzvpatr3641234.shtml', 'title': '独立游戏《Inked》在Steam开售'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-30/fzvpatr3641195.shtml', 'title': '《战锤末世鼠疫2》1.07版本改动'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/g/2018-04-30/fzvpatr3089539.shtml', 'title': 'XDD正面回应为何不去打无外挂服'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-28/fztkpip7199512.shtml', 'title': '统计网站SteamSpy复活了'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-28/fztkpip7200018.shtml', 'title': '刀剑神域夺命凶弹首个DLC'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-28/fztkpip6386830.shtml', 'title': '《猎天使魔女2》NS销量'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [sina_home] INFO: catched 740 URLs, pushed 647 URLs to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-28/fztkpip6082354.shtml', 'title': '冰汽时代66小时销量超25万'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/g/2018-04-28/fztkpip7172012.shtml', 'title': '网友票选最简单动漫角色'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/g/2018-04-28/fztkpip6849516.shtml', 'title': '死侍2最新宣传片狼叔再现'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [sina_home] INFO: catched 743 URLs, pushed 650 URLs to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://ka.sina.com.cn/', 'title': '发卡'}
+2018-04-30 21:54:22 [sina_home] INFO: push to redis
+2018-04-30 21:54:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://ka.sina.com.cn/25725', 'title': '仙侠世界2邀请码'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://ka.sina.com.cn/26324', 'title': '神道三国礼包'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://ka.sina.com.cn/26447', 'title': '问道至尊礼包'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/newgame/', 'title': '新游'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-28/fztkpip7199100.shtml', 'title': '古墓丽影暗影PC版移植'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-28/fztkpip7199536.shtml', 'title': '女神异闻录3·5劲舞版'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://www.97973.com/', 'title': '手游'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/o/n/2018-04-28/fztkpip6972423.shtml', 'title': '王者荣耀五五开黑节凯'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/o/n/2018-04-28/fztkpip7002815.shtml', 'title': 'iPhone SE2真机璃机身'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [sina_home] INFO: catched 753 URLs, pushed 660 URLs to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/gamer', 'title': '趣闻'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/g/2018-04-28/fzvpatq4595446.shtml', 'title': '大学生吃鸡网购假AWM'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/g/2018-04-28/fzvpatq4495283.shtml', 'title': '进击的巨人第三季动画'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zq.games.sina.com.cn/', 'title': '专区'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/zhuanqu/z/2018-04-28/zq-ifztkpip6675787.shtml', 'title': '守望先锋世界杯参赛国'}
+2018-04-30 21:54:23 [sina_home] INFO: push to redis
+2018-04-30 21:54:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/zhuanqu/z/2018-04-28/zq-ifztkpip6359676.shtml', 'title': '暴雪竞技场内部深度游'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/ng/jieshuo/', 'title': '我爱解说'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [sina_home] INFO: catched 760 URLs, pushed 667 URLs to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-17/fzfkmth5256353.shtml', 'title': '消逝的光芒Steam低价促销'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-17/fzfkmth5218535.shtml', 'title': '《诸神灰烬救赎》'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.cn/pc/newslist.d.html?cid=6773&newstags=%E5%9B%A7%E5%90%90%E6%A7%BD', 'title': '趣味吐槽'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [sina_home] INFO: catched 763 URLs, pushed 670 URLs to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-17/fyuwqfa2749106.shtml', 'title': '《莎木1&2》新截图'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-17/fyuwqfa2753843.shtml', 'title': '《底特律变人》背景设定'}
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/', 'title': '原创专栏'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-17/fyuwqfa2680791.shtml', 'title': 'PC版伊苏8遭差评'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/t/n/2018-04-17/fyuwqfa2680304.shtml', 'title': '《复仇者联盟3》印尼上映'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/zt_d/ol/xbjy', 'title': '荐贱新游'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/o/n/2018-04-17/fzihnen8110266.shtml', 'title': 'RW“逗比”登韩服第九'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/wm/2018-04-17/doc-ifzfkmth5260435.shtml', 'title': '《守望先锋》新皮肤'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/zt/ywts/', 'title': '游闻吐撕'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/o/n/2018-04-17/fzihnen8189231.shtml', 'title': 'iPhone X Plus屏量产'}
+2018-04-30 21:54:24 [sina_home] INFO: push to redis
+2018-04-30 21:54:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/o/n/2018-04-17/fzihnen8185539.shtml', 'title': '华为MateRS保时捷设计'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [sina_home] INFO: catched 774 URLs, pushed 680 URLs to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/ng/weixing/', 'title': '新游尾行'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/g/2018-04-17/fyuwqfa2814417.shtml', 'title': '日本N站推VR虚拟化身'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/o/z/wow/2018-04-17/fzihnen8057862.shtml', 'title': '惟妙惟肖魔兽角色纸模'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/zt/all/o/', 'title': '热门专题'}
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/g/g/2018-04-17/fyuwqfa2942478.shtml', 'title': '北斗神拳推出35周年邮票'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/e/g/2018-04-17/fzihnen9003626.shtml', 'title': '玩家求绝地保留死斗'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [sina_home] INFO: catched 780 URLs, pushed 685 URLs to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/yxbk/', 'title': '游戏百科'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/wm/2018-04-17/doc-ifzfkmth5447670.shtml', 'title': '风暴英雄吉姆雷诺重做'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://games.sina.com.cn/wm/2018-04-17/doc-ifyuwqfa2984367.shtml', 'title': '暴雪宣布与Twitch合作'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyteqtq6380547.shtml', 'title': '蓝洞起诉一案网易启动正式维权'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyuwqez7271624.shtml', 'title': '71:学习心态策略运气是获胜关键'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [sina_home] INFO: catched 785 URLs, pushed 690 URLs to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyteqtq6343542.shtml', 'title': '2018英雄联盟LPL季后赛对战一览'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyteqtq6331651.shtml', 'title': '吴京代言《绝地求生:刺激战场》'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyteqtq6337757.shtml', 'title': '厂长回归首秀EDG完美收官'}
+2018-04-30 21:54:25 [sina_home] INFO: push to redis
+2018-04-30 21:54:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyvtmxe3430390.shtml', 'title': 'ESL伯明翰中国区海选报名'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyteqtq6346037.shtml', 'title': 'CSGO职业战队年龄统计'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyteqtq6311578.shtml', 'title': '大师兄率领液体夺得首个冠军'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyuwqez7291469.shtml', 'title': '绝地求生4x4新地图Savage大揭秘'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyvtmxc8100372.shtml', 'title': 'LKP鸡皇锦标赛落幕'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/information/3', 'title': '电竞资讯'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyvtmxc9867567.shtml', 'title': '中国DOTA：青春未曾落幕，遗憾亦是完美'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [sina_home] INFO: catched 795 URLs, pushed 700 URLs to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/', 'title': '深度报道'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyvtmxc7680529.shtml', 'title': '新华社电子竞技大赛 英雄联盟邀请赛开打'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/information', 'title': '深度报道'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyvtmxc7552172.shtml', 'title': '想成为电竞头号玩家 你要弄明白这三件事'}
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/information', 'title': '赛事专题'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [sina_home] INFO: catched 800 URLs, pushed 704 URLs to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyteqtq6299488.shtml', 'title': 'HR苦战击败North赢得Bets.net大师赛冠军'}
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/information', 'title': '战队动态'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://dj.sina.com.cn/article/fyvtmxc7371105.shtml', 'title': '三方会谈：TACO代替Steel正式加盟Liquid'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/', 'title': '如何做到老公离不开你'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/', 'title': '情感'}
+2018-04-30 21:54:26 [sina_home] INFO: push to redis
+2018-04-30 21:54:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': '\xa0http://eladies.sina.com.cn/feel/xinli/2018-04-30/0614/doc-ifyfuzym8218642.shtml', 'title': '安稳的婚姻'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-30/0616/doc-ifzqvvsc0036768.shtml', 'title': '约会的男人'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [sina_home] INFO: catched 807 URLs, pushed 710 URLs to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/', 'title': '花边'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': '\xa0http://eladies.sina.com.cn/news/star/2018-04-30/0620/doc-ifztkpip2086560.shtml\xa0\xa0\xa0\xa0\xa0', 'title': '五一观影指南'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-30/0620/doc-ifzvpatq7560959.shtml', 'title': '何炅好人缘'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/photo/ ', 'title': '明星'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114838.html', 'title': '王俊凯青春'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114842.html', 'title': '马思纯摩登'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/', 'title': '服饰'}
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ac/2018-04-30/0116/doc-ifyzeyqc1122868.shtml', 'title': '唐嫣短裙秀腿'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114863.html', 'title': '五一穿可爱风'}
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ce/2018-04-30/0124/doc-ifztkpip2420143.shtml', 'title': '马思纯带火珠串包'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/beauty/', 'title': '美容'}
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/ha/2018-04-30/0116/doc-ifztkpip0854485.shtml', 'title': '黑发版蔡徐坤'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/mk/2018-04-30/0123/doc-ifzcyxmu0412078.shtml', 'title': '袁泉刘诗诗水晶唇'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [sina_home] INFO: catched 820 URLs, pushed 720 URLs to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/mk/2018-04-30/0137/doc-ifyzeyqa6117764.shtml', 'title': '水光感气质girl'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn', 'title': '医美'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/yt/2018-04-29/0654/doc-ifzqvvsa6156972.shtml', 'title': '打瘦腿针的条件'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/other/2018-04-29/0706/doc-ifzqvvsc2397877.shtml', 'title': '侧颜分三种'}
+2018-04-30 21:54:27 [sina_home] INFO: push to redis
+2018-04-30 21:54:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/other/2018-04-29/0757/doc-ifzqvvsc0411615.shtml', 'title': '臀部吸脂术效果'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/video/', 'title': None}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/luxury/', 'title': '尚品'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/fashion/fas/doc/2018-04-04/171268135609.html', 'title': '\n'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/l/ts/go/2018-04-30/0118/doc-ifztkpip1083926.shtml', 'title': '全球10佳泡面榜单'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/l/ds/2018-04-28/1032/doc-ifztkpip1150387.shtml', 'title': '上海北京一日游了解下'}
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/', 'title': '八卦'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [sina_home] INFO: catched 831 URLs, pushed 730 URLs to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-30/0620/doc-ifztkpip2253665.shtml', 'title': '偶像女团困境'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': '\xa0http://eladies.sina.com.cn/news/star/2018-04-30/0620/doc-ifztkpin6845354.shtml', 'title': '青春片最怕啥'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-28/0810/doc-ifztkpip3640571.shtml', 'title': '哈里王子的伴郎'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/qg/koushu/', 'title': '恋爱'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': '\xa0http://eladies.sina.com.cn/feel/xinli/2018-04-30/0617/doc-ifzqvvsa9941479.shtml', 'title': '妻子错误的行为'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': '\xa0http://eladies.sina.com.cn/feel/xinli/2018-04-30/0617/doc-ifzqvvsa4808502.shtml', 'title': '感情里不谈利益'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-30/0618/doc-ifzqvvsa6469423.shtml', 'title': '情侣分手征兆'}
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/video/', 'title': 'FUNer视频'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/fashion/fas/doc/2018-04-27/170768218608.html', 'title': '一周减肥午餐'}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [sina_home] INFO: catched 840 URLs, pushed 738 URLs to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/fashion/fas/doc/2018-04-27/165768218592.html ', 'title': '上班族必备包款指南'}
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/video/', 'title': None}
+2018-04-30 21:54:28 [sina_home] INFO: push to redis
+2018-04-30 21:54:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/try', 'title': '试用'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [sina_home] INFO: catched 843 URLs, pushed 740 URLs to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/try/product/1694', 'title': '爆款网红3D贝壳提亮液'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/try/product/1675', 'title': '重温佛手柑温暖香气'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-27/0021/doc-ifyavwcv8831447.shtml', 'title': '喜欢什么样的人就会有什么未来'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-27/0019/doc-ifyavrsx4981625.shtml', 'title': '找个能陪你秀恩爱的人在一起'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-27/0026/doc-ifztkpin7132469.shtml', 'title': '鹿晗绿茵场炫技 '}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-27/0023/doc-ifztkpin6914509.shtml', 'title': '杨丞琳求原谅'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-27/0012/doc-ifztkpin6918094.shtml', 'title': '率真川妹子戚薇'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-27/0023/doc-ifztkpin6819295.shtml', 'title': '马伊琍颠覆形象'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-27/0021/doc-ifznefkf8630052.shtml', 'title': '我不想体面我想再见你一面！'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-27/0018/doc-ifzqvvrz8102573.shtml', 'title': '男生女生容易被甩的类型'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [sina_home] INFO: catched 853 URLs, pushed 750 URLs to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-27/0019/doc-ifznefkf8631233.shtml', 'title': '爱你的人不需要你仰视'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-04-27/0012/doc-ifzqvvrz7798500.shtml', 'title': '男人珍视女人的到底是什么？'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/bagua/2018-04-27/0018/doc-ifztkpin6723724.shtml', 'title': '多少现实剧“不现实”'}
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/news/star/2018-04-28/0810/doc-ifztkpip3640571.shtml', 'title': '哈里王子大婚威廉王子将任伴郎'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_4a302c450102xn92.html', 'title': '婚姻不应该为了物质去计较'}
+2018-04-30 21:54:29 [sina_home] INFO: push to redis
+2018-04-30 21:54:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-01-31/1020/doc-ifyhmtrw3596439.shtml', 'title': '聊天记录判断他爱不爱你'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.eladies.sina.com.cn/news/slide_3_85178_125823.html', 'title': '五一放假去哪玩？'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [sina_home] INFO: catched 860 URLs, pushed 756 URLs to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.eladies.sina.com.cn/news/slide_3_85178_125812.html', 'title': '捕捉少女凝视的目光'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.eladies.sina.com.cn/news/slide_3_85178_125814.html', 'title': '地板情景设置'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/bz/2018-04-27/0011/doc-ifznefkf6608906.shtml', 'title': '区分手术隆鼻和注射隆鼻'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/bns/2018-04-27/0841/doc-ifztkpin1128017.shtml', 'title': '为何选乔雅登'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [sina_home] INFO: catched 864 URLs, pushed 760 URLs to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/bz/2018-04-27/1704/doc-ifztkpin6596395.shtml', 'title': '隆鼻注意事项'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/bagua/2018-01-29/1051/doc-ifyqyuhy7295379.shtml', 'title': '父母对孩子的教育不该太苛刻'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/xinli/2018-01-29/1030/doc-ifyqyuhy6601958.shtml', 'title': '婚姻决定了你的生活状态'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/we/em/2017-11-14/1501/doc-ifynsait7950423.shtml', 'title': '他们让我又相信了爱情'}
+2018-04-30 21:54:30 [sina_home] INFO: push to redis
+2018-04-30 21:54:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/feel/bagua/2018-01-29/1012/doc-ifyqyuhy7280942.shtml', 'title': '她的慈善之举让所有人称赞'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '热点'}
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '差别化调控亟待更精准化'}
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '聚焦'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.house.sina.com.cn/news/zhengce/2018-04-30/06586396492767824228574.shtml#source=pc_sina_syhq&source_ext=pc_sina', 'title': '抢人大战后的热点城市楼景'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://huodong.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '免费'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://survey.leju.com/1852.html#source=pc_sina_syhq&source_ext=pc_sina', 'title': '全程免费 150万安家北京'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/#bi=tg&type=sina-pc&pos=index-fcgz#source=pc_sina_syhq&source_ext=pc_sina', 'title': '话题'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [sina_home] INFO: catched 876 URLs, pushed 770 URLs to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-28/77349/#page#bi=tg&type=sina-pc&pos=index-gznews#source=pc_sina_syhq&source_ext=pc_sina', 'title': '五一就靠它制霸朋友圈了！'}
+2018-04-30 21:54:31 [sina_home] INFO: catched 877 URLs, pushed 770 URLs to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '新房'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.leju.com/news/2018-04-27/11426395477035476889711.shtml#source=pc_sina_syhq&source_ext=pc_sina', 'title': '万亩桃花始盛开 七大观赏区抢占上帝视角'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://house.leju.com/bj/dianping/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '楼评'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [sina_home] INFO: catched 880 URLs, pushed 773 URLs to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.leju.com/news/2018-04-27/09356395445004630012592.shtml#source=pc_sina_syhq&source_ext=pc_sina', 'title': '五一自驾游去哪儿？北京野生动物园开启神秘之旅'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/news/#bi=tg&type=sina-pc&pos=index-fctj#source=pc_sina_syhq&source_ext=pc_sina', 'title': '推荐'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/topic/detail/52029527777476608/#bi=tg&type=sina-pc&pos=index-tjnews#source=pc_sina_syhq&source_ext=pc_sina', 'title': '北京四月楼市回暖'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/shop/7853036/#bi=tg&type=sina-pc&pos=index-tjnews#source=pc_sina_syhq&source_ext=pc_sina', 'title': '高吉平从业10年扎根朝阳'}
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '热点'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.house.sina.com.cn/news/2018-04-25/15406394812177504842615.shtml#source=pc_sina_syhq&source_ext=pc_sina', 'title': '刚需人群不可错过的三个品质楼盘'}
+2018-04-30 21:54:31 [sina_home] INFO: push to redis
+2018-04-30 21:54:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '公司'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.leju.com/2018-04-28/6395967439888498099.shtml#source=pc_sina_syhq&source_ext=pc_sina', 'title': '独家发布：2017中国上市房企ROE排行TOP50'}
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.leju.com/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '楼市'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [sina_home] INFO: catched 889 URLs, pushed 780 URLs to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.leju.com/2018-04-30/6396515371213700637.shtml#source=pc_sina_syhq&source_ext=pc_sina', 'title': '房企投资文旅地产需拿出诚意'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/#bi=tg&type=sina-pc&pos=index-fcesf#source=pc_sina_syhq&source_ext=pc_sina', 'title': '二手房'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/topic/detail/51970218330775552/#bi=tg&type=sina-pc&pos=index-esfnews#source=pc_sina_syhq&source_ext=pc_sina', 'title': '买房避开6种问题房 '}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-28/77359/#bi=tg&type=sina-pc&pos=index-esfnews#source=pc_sina_syhq&source_ext=pc_sina', 'title': '经纪人万众瞩目大奖启动'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/#source=pc_sina_syhq&source_ext=pc_sina', 'title': '家居'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/news/j/20180426/6395077355307860970.shtml?utm_source=snls&utm_medium=nrw&utm_campaign=n_9999#source=pc_sina_syhq&source_ext=pc_sina', 'title': '80后打造126平工业风'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/zt/milano2018/?utm_source=snls&utm_medium=nrw&utm_campaign=n_9998#source=pc_sina_syhq&source_ext=pc_sina', 'title': '2018年米兰国际家具展'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/topic/detail/50912764092346368/?bi=tg&type=sina-pc&pos=index-esf', 'title': '专访：胡景晖谈楼市4大热点'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-28/77359/?bi=tg&type=sina-pc&pos=index-esf', 'title': '房产经纪人也有明星效应'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-27/77307/?bi=tg&type=sina-pc&pos=index-esf', 'title': '强势崛起 丰台人民有福享！'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [sina_home] INFO: catched 899 URLs, pushed 790 URLs to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-28/77349/?bi=tg&type=sina-pc&pos=index-esf', 'title': '今年“五一”靠什么闯荡江湖？'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [sina_home] INFO: catched 900 URLs, pushed 791 URLs to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/?bi=tg&type=sina-pc&pos=index-esf', 'title': '要闻'}
+2018-04-30 21:54:32 [sina_home] INFO: push to redis
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-30/77367/?bi=tg&type=sina-pc&pos=index-esf', 'title': '房地产税法列入人大预备审议项目 意味着什么？'}
+2018-04-30 21:54:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/?bi=tg&type=sina-pc&pos=index-esf', 'title': '楼市'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-30/77368/?bi=tg&type=sina-pc&pos=index-esf', 'title': '新一线城市重新洗牌 哪些城市还会火？'}
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/?bi=tg&type=sina-pc&pos=index-esf', 'title': '话题'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/topic/detail/50969893465583616/?bi=tg&type=sina-pc&pos=index-esf', 'title': '"六个钱包买房" 只有3个钱包的2胎家庭怎么办'}
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/?bi=tg&type=sina-pc&pos=index-esf', 'title': '活动'}
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/news/2018-04-28/77359/?bi=tg&type=sina-pc&pos=index-esf', 'title': '万众瞩目 新浪乐居明星经纪人品牌计划启动！'}
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/?bi=tg&type=sina-pc&pos=index-esf', 'title': '问答'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/ask/detail/50222205711257600/?bi=tg&type=sina-pc&pos=index-esf', 'title': '\r\n河北户口可以购买天通苑的房子吗？'}
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/?bi=tg&type=sina-pc&pos=index-esf', 'title': '置业'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/topic/detail/52346318751891456/?bi=tg&type=sina-pc&pos=index-esf', 'title': '海淀区北五环清河桥2居'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/topic/detail/52318840738172928/?bi=tg&type=sina-pc&pos=index-esf', 'title': '五环内近奥森别墅区'}
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/?bi=tg&type=sina-pc&pos=index-esf', 'title': '人物'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/shop/7853036/?bi=tg&type=sina-pc&pos=index-esf', 'title': '房产“老村长”高吉平'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://bj.esf.leju.com/shop/8099788-1/?bi=tg&type=sina-pc&pos=index-esf', 'title': '遍踏西城人称活地图王亮'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [sina_home] INFO: catched 916 URLs, pushed 800 URLs to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/', 'title': '频道'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/news/?bi=tg&type=sina-pc&pos=index-esf', 'title': '每日新闻'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/group/list/?bi=tg&type=sina-pc&pos=index-esf', 'title': '找房圈子'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/ask/?bi=tg&type=sina-pc&pos=index-esf', 'title': '靠谱问答'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [sina_home] INFO: catched 920 URLs, pushed 804 URLs to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.zufang.leju.com/house/?bi=tg&type=sina-pc&pos=index-esf', 'title': '靠谱乐租'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://bj.esf.leju.com/agent/?bi=tg&type=sina-pc&pos=index-esf', 'title': '靠谱房商'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/news/j/20180428/6395812479372689887.shtml?utm_source=snls&utm_medium=nrw&utm_campaign=n_9997', 'title': '新房验收需牢记八大技巧'}
+2018-04-30 21:54:33 [sina_home] INFO: push to redis
+2018-04-30 21:54:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/news/j/20180426/6395076157439804287.shtml?utm_source=snls&utm_medium=nrw&utm_campaign=n_9997', 'title': '空间大挪移 给门后一平米无限的可能'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116749.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9995', 'title': '悠悠美式风情160平温馨舒适'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116540.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9994', 'title': '黑白经典90平质感雅致生活'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [sina_home] INFO: catched 926 URLs, pushed 810 URLs to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/zixun/20171106/6333227709107601575.shtml?utm_source=snls&utm_medium=nrw&utm_campaign=n_9992', 'title': '11.11集美券心为你！'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zhuanti.7gz.com/zt/yzzx/?utm_source=sina&utm_medium=snhp&utm_campaign=snhp_jj_link6001&utm_term=act?utm_source=sina&utm_medium=snhp&utm_campaign=snhp_jj_link6001&utm_term=act&utm_campaign=n_9984', 'title': '一站式真整装 拎包入住'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/?utm_source=snls&utm_medium=nrw&utm_campaign=n_9976', 'title': '高清'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116702.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9991', 'title': '洁白明亮温馨75平小家'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116770.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9983', 'title': '至爱酷炫106平时尚简约'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://www.qianggongzhang.com/anli/', 'title': '装修'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://anli.jiaju.sina.com.cn/bj/anli-32955.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9990', 'title': ' 珍享亚特兰大回忆'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/news/j/20180428/6395812972325044339.shtml?utm_source=snls&utm_medium=nrw&utm_campaign=n_9982', 'title': '卧室10Tips床头背景设计'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/decoration/', 'title': '攻略'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://anli.jiaju.sina.com.cn/bj/anli-32378.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9989', 'title': ' 画下梦境  乘着风去旅行'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [sina_home] INFO: catched 936 URLs, pushed 820 URLs to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/news/j/20180425/6394734966756147489.shtml?utm_source=snls&utm_medium=nrw&utm_campaign=n_9980', 'title': '最美设计立体美感分分钟打造'}
+2018-04-30 21:54:34 [sina_home] INFO: catched 937 URLs, pushed 820 URLs to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://jiaju.sina.com.cn/decoration/', 'title': '专题'}
+2018-04-30 21:54:34 [sina_home] INFO: catched 938 URLs, pushed 820 URLs to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116702.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9991', 'title': '洁白明亮温馨75平小家'}
+2018-04-30 21:54:34 [sina_home] INFO: catched 939 URLs, pushed 820 URLs to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116770.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9983', 'title': '至爱酷炫106平时尚简约'}
+2018-04-30 21:54:34 [sina_home] INFO: push to redis
+2018-04-30 21:54:34 [sina_home] INFO: catched 940 URLs, pushed 821 URLs to redis
+2018-04-30 21:54:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/?utm_source=snls&utm_medium=nrw&utm_campaign=n_9975', 'title': '美图'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/168418.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9989', 'title': '90后美貌家全靠软装'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116321.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9980', 'title': '超强185平绚丽浪漫空间'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/c1/?utm_source=snls&utm_medium=nrw&utm_campaign=n_9972', 'title': '设计'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116228.html?utm_source=snls&utm_medium=nrw&utm_campaign=n_9973', 'title': '恬静优雅109平俏婚房'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zx.jiaju.sina.com.cn/anli/116225.html\r\n?utm_source=snls&utm_medium=nrw&utm_campaign=n_9974', 'title': '好风水115平新古典温情'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://91.jiaju.sina.com.cn/', 'title': '福利'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://weidian.com/item.html?itemID=2012402283&spider_token=beb1&spider=seller.zx-shopdetail.5.1', 'title': '装修砍价99元超值'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://pub.leju.com/document/default/preview?d_id=6297729671920681809&t_id=5892969279951022436&p_id=5894622651124885532&c_id=5894622267429955586&rsync_id=6029433980078861109', 'title': '288元/㎡装修套餐 靠谱'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [sina_home] INFO: catched 949 URLs, pushed 830 URLs to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/', 'title': '西安美院一教师抄袭被学校辞退'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/', 'title': '毕业生质量排行'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-29/doc-ifzvpatq8883269.shtml', 'title': '高考时间定了'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-29/doc-ifzvpatq8903393.shtml', 'title': '围观衡水二中18岁成人礼'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-29/doc-ifzvpatq9348950.shtml', 'title': '学霸班'}
+2018-04-30 21:54:35 [sina_home] INFO: push to redis
+2018-04-30 21:54:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-28/doc-ifzvpatq6328943.shtml', 'title': '这些同名却不同校的大学你造嘛？'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/cpa/2018-04-29/doc-ifzvpatq9569069.shtml', 'title': '证书吊销不得再考法律职业资格考试'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zhiyuan.edu.sina.com.cn/query/yxxq/', 'title': '查高考往年分数线'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/a/2018-04-29/doc-ifzvpatq5441326.shtml', 'title': '从仓管员蜕变为飞行员奋斗史'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/a/2018-04-29/doc-ifzvpatq8936737.shtml', 'title': '越洋付学费一键搞定？'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [sina_home] INFO: catched 959 URLs, pushed 840 URLs to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/en/2018-04-29/doc-ifztkpip2731182.shtml', 'title': '双语阅读：哪些坏习惯导致蛀牙'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [sina_home] INFO: catched 960 URLs, pushed 841 URLs to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/en/2018-04-29/doc-ifztkpip2720982.shtml', 'title': '奥地利人用面包造啤酒'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/bschool/2018-04-29/doc-ifzvpatq6860570.shtml', 'title': '想考MBA必须做到这四件事'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/bschool/2018-04-29/doc-ifzvpatq6883535.shtml', 'title': '六大方法助力保持高专注力'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zt_d/2018shengxue/', 'title': '中小学政策汇总'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zxx/2018-04-29/doc-ifzvpatq8997736.shtml', 'title': '北京学区房要崩？'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zxx/2018-04-29/doc-ifzvpatq9122859.shtml', 'title': '幼升小人数迎高峰'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/ischool/2018-04-29/doc-ifzvpatq6774583.shtml', 'title': '国际学校幼升小面试宝典'}
+2018-04-30 21:54:36 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 966 items (at 966 items/min)
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/ischool/2018-04-29/doc-ifzvpatq6713042.shtml', 'title': '家长们如何取舍'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/kids/2018-04-29/doc-ifztkpip2427415.shtml', 'title': '五大洋英文'}
+2018-04-30 21:54:36 [sina_home] INFO: push to redis
+2018-04-30 21:54:36 [sina_home] INFO: catched 969 URLs, pushed 850 URLs to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://mp.weixin.qq.com/s?__biz=MzA4NjUwMDUyMw==&mid=2662607692&idx=1&sn=ebc5b69e5fd58d32d32c316c079f98f6&chksm=84873e88b3f0b79e772203c8a3a13c8994266329fb07180eb1cab9be99806dda6d4f3bdcbaec#rd', 'title': '听说80后一不小心又被抛弃了'}
+2018-04-30 21:54:36 [sina_home] INFO: catched 970 URLs, pushed 850 URLs to redis
+2018-04-30 21:54:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/lm/edu/', 'title': '2018中国大学生师比排行'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/edu/news/doc/2018-04-18/111568192320.html', 'title': '王俊凯演讲分享环保理念'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://open.sina.com.cn/course/id_1005', 'title': '斯坦福心理学大师讲座'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-24/doc-ifzqvvsa5919070.shtml', 'title': '考上好大学和普通大学的区别'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-26/doc-ifztkpin3676659.shtml', 'title': '三大专项计划助寒门学子高考圆梦'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-25/doc-ifzqvvsc2722182.shtml', 'title': '全国31省市大学生师比排行榜'}
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-28/doc-ifzvpatq6328943.shtml', 'title': '同名却不同校的大学！'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zt_d/zzzs/', 'title': '自招简章'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zt_d/zyjz/', 'title': '讲    座 |'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-26/doc-ifztkpin7181102.shtml', 'title': '凭什么它成了高考家长的"网红"群？'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [sina_home] INFO: catched 980 URLs, pushed 859 URLs to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-01-30/doc-ifyqzcxh9974095.shtml', 'title': '讲座汇总'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [sina_home] INFO: catched 981 URLs, pushed 860 URLs to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zhiyuan.edu.sina.com.cn/query/view/', 'title': '志愿通|'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zhiyuan.edu.sina.com.cn/query/ceping/', 'title': '你适合学啥专业'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zhiyuan.edu.sina.com.cn/query/report/', 'title': '知分选大学'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://zhiyuan.edu.sina.com.cn/query/tfks/', 'title': '同分考生去了哪儿'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/college/', 'title': '院校库|'}
+2018-04-30 21:54:37 [sina_home] INFO: push to redis
+2018-04-30 21:54:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://kaoshi.edu.sina.com.cn/college/scorelist?syear=2015', 'title': '历年大学分数线'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://kaoshi.edu.sina.com.cn/college/collegelist/view?tab=contact', 'title': '大学招办联系方式'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://kaoshi.edu.sina.com.cn/college/collegelist/view?tab=enroll', 'title': '录取规则'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/jiazhangquan/', 'title': '家长圈|'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-24/doc-ifzqvvrz8069473.shtml', 'title': '港中文2018内地招生305名'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [sina_home] INFO: catched 991 URLs, pushed 870 URLs to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/gaokao/2018-04-24/doc-ifzqvvsa4480891.shtml', 'title': '为孩子选心仪专业难'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://open.sina.com.cn/course/id_1207', 'title': '斯坦福大学创业指导课程'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://open.sina.com.cn/course/id_1027', 'title': '美女心理学家解读压力'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://open.sina.com.cn/course/id_1192', 'title': '你不知道的日本文化史'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://open.sina.com.cn/course/id_1168', 'title': '十分钟趣味心理学入门'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/l/2018-04-27/doc-ifztkpip0560220.shtml', 'title': 'VIPKID融资5亿美元估值达30亿'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/l/2018-04-21/doc-ifznefkh4129126.shtml', 'title': '三好网完成新一轮融资'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip6748074.shtml', 'title': '数据化教研驱动教培行业转型'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/l/2018-04-27/doc-ifztkpip0598837.shtml', 'title': '校宝在线发布2017财报'}
+2018-04-30 21:54:38 [sina_home] INFO: push to redis
+2018-04-30 21:54:38 [sina_home] INFO: catched 1000 URLs, pushed 879 URLs to redis
+2018-04-30 21:54:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn', 'title': '威廉王子凯特王妃小儿子姓名曝光'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [sina_home] INFO: catched 1001 URLs, pushed 880 URLs to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/photo/', 'title': '图片'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/yjq/slide_10_846_280521.html', 'title': '熊黛林产后合影'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/syj/slide_10_846_280681.html', 'title': '天使般婴儿'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/bbshai/slide_10_846_286203.html', 'title': '林志颖儿子玩耍'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/other/slide_10_846_284786.html', 'title': '两岁女娃成模特'}
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/hlbj/hjkcs/2018-04-28/doc-ifztkpip2315553.shtml', 'title': '哮喘日：哮喘非天生但和遗传相关'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/z/yebd/', 'title': '嘚吧'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/edu/jtjy/2018-04-28/doc-ifzcyxmv3640070.shtml', 'title': '应试教育孩子被毁掉'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/edu/jtjy/2018-04-26/doc-ifztkpin5257104.shtml', 'title': '《妈超3》饺子化妆上热搜'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/baobao/', 'title': '养育'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/edu/jtjy/2018-04-28/doc-ifyrvspi1029187.shtml', 'title': '大的要让小的吗'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [sina_home] INFO: catched 1012 URLs, pushed 890 URLs to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/edu/jtjy/2018-04-28/doc-ifyrswmv2177768.shtml', 'title': '教育别和人比较'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/bbjk/hyoeq/2018-04-28/doc-ifztkpip1283981.shtml', 'title': '带娃踏青注意啥'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/wemedia/', 'title': '自媒体'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/wemedia/2018-04-26/doc-ifztkpin4436281.shtml', 'title': '疫苗接种四大问题'}
+2018-04-30 21:54:39 [sina_home] INFO: push to redis
+2018-04-30 21:54:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/wemedia/2018-04-26/doc-ifztkpin5214238.shtml', 'title': '盗版书给孩子带来什么影响'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/z/nyszd/', 'title': '专栏'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/edu/2018-04-27/doc-ifztkpip3369654.shtml', 'title': '6岁娃学动画片坠楼'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/edu/2018-04-26/doc-ifztkpin7086494.shtml', 'title': '男孩失恋心碎'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [sina_home] INFO: catched 1020 URLs, pushed 898 URLs to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/edu/jtjy/2018-04-28/doc-ifzqvvrz7268504.shtml', 'title': '挫折教育慎重'}
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/photo/', 'title': 'GIF '}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/other/slide_10_846_31125.html', 'title': '谁说女孩子难哄'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [sina_home] INFO: catched 1023 URLs, pushed 900 URLs to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/other/slide_10_846_38835.html', 'title': '你们这次赢了'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/other/slide_10_846_30998.html', 'title': '别人家的汪星人'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://weibo.com/baby', 'title': '微博'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://weibo.com/1655524143/GdVfp19Af', 'title': '尊重孩子磨蹭'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://weibo.com/1655524143/GdZJSnx0e', 'title': '这个宝宝巴掌大'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://weibo.com/1655524143/Ge0ybfjBy', 'title': '懂事孝顺的宝贝'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/zt/', 'title': '专题'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/z/lisisi/', 'title': '李思思谈生二孩'}
+2018-04-30 21:54:40 [sina_home] INFO: push to redis
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/z/xiaotaohong/', 'title': '小陶虹让娃吃苦'}
+2018-04-30 21:54:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/z/xiaotaohong/', 'title': '白雪穷养儿子'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/news/list.html', 'title': '热点'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [sina_home] INFO: catched 1034 URLs, pushed 910 URLs to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/news/2018-04-28/doc-ifztkpip5921354.shtml', 'title': '动画急功近利'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/news/2018-04-28/doc-ifztkpip5926727.shtml', 'title': '娃沉迷网游责任在谁'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/ask/2018-04-28/doc-ifztkpip3401164.shtml', 'title': '孩对痛不敏感'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/news/2018-04-27/doc-ifztkpip0292485.shtml', 'title': '嗯哼吐槽妈妈是方形脸 萌翻网友'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/mxx/slide_10_846_284787.html', 'title': '巨石强森喜迎千金'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/mxx/slide_10_846_280680.html', 'title': '伊娃挺肚觅食'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [sina_home] INFO: catched 1040 URLs, pushed 916 URLs to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/other/slide_10_846_284788.html', 'title': '孩画出爸妈离婚'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.baby.sina.com.cn/mxx/slide_10_846_280618.html', 'title': '陈浩民一家戏水'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/hlbj/hjkcs/2018-04-25/doc-ifzqvvsc0024449.shtml', 'title': '谢娜复工紧张尬舞 新妈如何减压'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/mmjk/hhyq/2018-04-28/doc-ifztkpip1387786.shtml', 'title': 'B超能看男女吗'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [sina_home] INFO: catched 1044 URLs, pushed 920 URLs to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/mmjk/hhyq/2018-04-28/doc-ifztkpip1225341.shtml', 'title': '孕期谨慎喝咖啡'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/mmjk/hfmq/2018-04-28/doc-ifztkpip1372209.shtml', 'title': '剖宫产切口怎么缝'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/mmjk/hzbhy/2018-04-27/doc-ifztkpin4341806.shtml', 'title': '试管婴儿建议趁早'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/mmjk/hhyq/2018-04-27/doc-ifztkpin4403543.shtml', 'title': '孕妇便秘3招解决'}
+2018-04-30 21:54:41 [sina_home] INFO: push to redis
+2018-04-30 21:54:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/mmjk/hfmq/2018-04-27/doc-ifztkpin4418337.shtml', 'title': '迟迟不生怎么办'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/bbcjjb/hpf/2018-04-28/doc-ifztkpip1264334.shtml', 'title': '湿疹用夏枯草药浴'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/bbjk/hyoeq/2018-04-28/doc-ifztkpip1296614.shtml', 'title': '睡觉打呼是病'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/mmjk/hfmq/2018-04-28/doc-ifztkpip1255518.shtml', 'title': '产后6周心衰风险高'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/bbjk/hxse/2018-04-28/doc-ifztkpip1302679.shtml', 'title': '早产宝宝咋护理'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/hlbj/hjkcs/2018-04-26/doc-ifyuwqfa4885914.shtml', 'title': '辅食添加最佳时机'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [sina_home] INFO: catched 1054 URLs, pushed 930 URLs to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/health/hlbj/2018-04-27/doc-ifztkpin5398132.shtml', 'title': '头发稀黄缺营养？'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/wemedia/2018-04-26/doc-ifztkpin4367185.shtml', 'title': '宝宝鼻塞需要怎样缓解？'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/wemedia/2018-04-26/doc-ifztkpin4418512.shtml', 'title': '新生儿受惊的原因有哪些？'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.baby.sina.com.cn/p/baby/v/2018-04-27/091468217823.html', 'title': '儿童历史书的传播价值'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.baby.sina.com.cn/p/baby/v/2018-04-27/091068217815.html', 'title': '宝宝牙齿的正常月龄区间'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/nutrition/mstd/nmwsp/2018-04-28/doc-ifztkpip5868006.shtml', 'title': '萌萌熊可可蛋糕卷'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [sina_home] INFO: catched 1060 URLs, pushed 936 URLs to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/nutrition/mstd/nmwsp/2018-04-28/doc-ifztkpip5872261.shtml', 'title': '酸甜开胃的小雪人'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/nutrition/mstd/nmwsp/2018-04-28/doc-ifztkpip5877299.shtml', 'title': '美味溏心卤蛋'}
+2018-04-30 21:54:42 [sina_home] INFO: push to redis
+2018-04-30 21:54:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/news/2018-04-27/doc-ifztkpip0520875.shtml', 'title': '男孩拿丧葬费打赏主播'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/news/2018-04-27/doc-ifztkpip0547327.shtml', 'title': '女婴出生被遗弃'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [sina_home] INFO: catched 1064 URLs, pushed 940 URLs to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://baby.sina.com.cn/news/2018-04-27/doc-ifztkpip1053657.shtml', 'title': '女孩寻亲记'}
+2018-04-30 21:54:43 [sina_home] INFO: catched 1065 URLs, pushed 940 URLs to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ac/2018-04-30/0116/doc-ifyzeyqc1122868.shtml', 'title': '这条裙子让唐嫣的腿看起2米长'}
+2018-04-30 21:54:43 [sina_home] INFO: catched 1066 URLs, pushed 940 URLs to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/', 'title': '时装'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ac/2018-04-29/0811/doc-ifyzeyqc1060925.shtml', 'title': '蓝色和白色组cp有春日气息'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.fashion.sina.com.cn/style/man/index.shtml', 'title': '男士'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/man/2018-04-30/0120/doc-ifzvpatq5366269.shtml', 'title': '型男都在追的平价潮牌'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/luxury/', 'title': '好物'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/l/fu/2018-03-20/1815/doc-ifyscsmv6084475.shtml', 'title': '这样卖家里囤积的旧书'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/', 'title': '时装'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ac/2018-04-30/0125/doc-ifzcyxmv2572375.shtml', 'title': '小方跟走俏'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ac/2018-04-30/0128/doc-ifzcyxmv2858804.shtml', 'title': '平底鞋必败款'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ac/2018-04-30/0128/doc-ifzihnep0178020.shtml', 'title': '这些趋势不跟也罢'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.fashion.sina.com.cn/style/man/index.shtml', 'title': '男士'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/man/2018-04-30/0119/doc-ifzvpatq5308545.shtml', 'title': '耐脏又耐看的款式种草起来'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/man/2018-04-30/0120/doc-ifzvpatq5817405.shtml', 'title': '胖子有没有春天'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/beauty/', 'title': '美容'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [sina_home] INFO: catched 1080 URLs, pushed 950 URLs to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/sk/2018-04-30/0135/doc-ifzqvvsc1106786.shtml', 'title': '含黄金护肤品能变更美吗'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/sk/2018-04-30/0137/doc-ifzqvvsc1163561.shtml', 'title': '洗脸仪到底怎么用'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/photo/ ', 'title': '明星'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114814.html', 'title': '井柏然腰包出街休闲个性'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114774.html', 'title': '周冬雨印花浪漫清新'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/luxury/', 'title': '尚品'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/l/ds/2018-04-28/1032/doc-ifztkpip1150387.shtml', 'title': '上海北京一日游'}
+2018-04-30 21:54:43 [sina_home] INFO: push to redis
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/luxury/taste/wine/2018-04-30/0133/doc-ifzqvvsa6354983.shtml', 'title': '想畅游61家列级庄得先了解分布'}
+2018-04-30 21:54:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/video/', 'title': 'FUNer视频'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/fashion/fas/doc/2018-04-26/161168216358.html', 'title': '当美食遇上科技与艺术'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/fashion/b/doc/2018-04-27/172168218650.html', 'title': '瓷砖风异国情调美甲'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/try/', 'title': '试用'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/try/product/1690', 'title': '陈伟霆同款粉底大派送'}
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/try/product/1675', 'title': '重温佛手柑温暖香气'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/photo/', 'title': '明星'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114808.html', 'title': '邓伦硬派少年化繁为简'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/', 'title': '医美'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [sina_home] INFO: catched 1097 URLs, pushed 960 URLs to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/star/2018-04-28/0818/doc-ifyrqwkc6563733.shtml', 'title': '完美的人生赢家就是她'}
+2018-04-30 21:54:44 [sina_home] INFO: catched 1098 URLs, pushed 960 URLs to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/photo/', 'title': '图库'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/m/slide_24_86201_109144.html', 'title': '装扮美艳笑容清丽马伊琍'}
+2018-04-30 21:54:44 [sina_home] INFO: catched 1100 URLs, pushed 961 URLs to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/beauty/', 'title': '美容'}
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/beauty/', 'title': '范冰冰的防晒大杀器'}
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/photo/', 'title': '医美'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/yj/2018-04-28/0638/doc-ifztkpin7825744.shtml', 'title': '双眼皮术后如何消肿'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://eladies.sina.com.cn/wzx/ztzf/2018-04-28/0726/doc-ifznefkf6608957.shtml', 'title': '自体脂肪填充的注意事项'}
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/photo/', 'title': '图库'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.eladies.sina.com.cn/news/slide_3_85178_125821.html', 'title': '英女王历史上的生日照'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.eladies.sina.com.cn/news/slide_3_85178_125822.html', 'title': '萌翻！名画中的新生宝宝'}
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/', 'title': '时尚'}
+2018-04-30 21:54:44 [sina_home] INFO: push to redis
+2018-04-30 21:54:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114952.html', 'title': '唐嫣下衣失踪示范扎染夹克'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/s/ac/2018-04-27/1710/doc-ifztkpip3094255.shtml', 'title': '范冰冰同款防晒装备'}
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.fashion.sina.com.cn/style/man/index.shtml', 'title': '男士'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': ' http://fashion.sina.com.cn/l/wa/to/2018-04-24/1836/doc-ifzqvvsa6415303.shtml', 'title': '给女人买表要考虑预算？'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/man/2018-04-24/1549/doc-ifzqvvsa5371655.shtml', 'title': '鹿晗都在穿谁的设计'}
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/beauty/', 'title': '美容'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [sina_home] INFO: catched 1115 URLs, pushed 970 URLs to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/sk/2018-04-26/1607/doc-ifztkpin6198570.shtml', 'title': '拥有周冬雨刘亦菲氧气肌'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/d/ft/2018-04-26/1351/doc-ifztkpin5198213.shtml', 'title': '吃对早餐让你轻松瘦'}
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/luxury/', 'title': '尚品'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/l/ds/2018-04-27/1736/doc-ifztkpin7533995.shtml', 'title': '免签岛现在订也来得及'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/2018-04-27/1058/doc-ifztkpip0773476.shtml', 'title': '五一起办护照只跑一次'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [sina_home] INFO: catched 1120 URLs, pushed 974 URLs to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/zl/', 'title': '明星'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114542.html', 'title': '沈梦辰让你清爽一夏'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114613.html  ', 'title': '王源造型暖萌帅气'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/outbound/pages/2016-09-30/detail-ifxwkvys2403984.shtml', 'title': '墨西哥 有一抹色彩叫瓜纳华托'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/outbound/pages/2017-05-15/detail-ifycwymx2520507.shtml', 'title': '南极十面埋伏 聪明鲸屡唱空城计'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/domestic/pages/2018-04-26/detail-ifztkpin5727468.shtml', 'title': '厦门 48小时解锁旅行全新玩法'}
+2018-04-30 21:54:45 [sina_home] INFO: push to redis
+2018-04-30 21:54:45 [sina_home] INFO: catched 1126 URLs, pushed 980 URLs to redis
+2018-04-30 21:54:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/outbound/pages/2016-09-26/detail-ifxwevww1413792.shtml', 'title': '希腊沉船湾 欧洲人度假的后花园'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/itinerary/?domestic', 'title': '国内|'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/domestic/pages/2016-08-23/detail-ifxsuypf4709404.shtml', 'title': '勇闯山路十八弯 '}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/domestic/pages/2018-04-26/detail-ifztkpin5753164.shtml', 'title': '细品闻名天下的扬州早茶 '}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/lvyou/', 'title': '出境|'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/outbound/pages/2016-11-17/detail-ifxxwsix3919371.shtml', 'title': '一窥精彩的海底世界'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/outbound/pages/2017-04-28/detail-ifyeayzu6897121.shtml', 'title': '富有风情的彩色渔村 '}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/news/', 'title': '行业|'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/outbound/news/2018-04-27/detail-ifztkpip0209064.shtml', 'title': '菲律宾关闭长滩岛6个月'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/domestic/news/2018-04-28/detail-ifztkpip6451018.shtml', 'title': '五一出行指南请收好'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [sina_home] INFO: catched 1136 URLs, pushed 990 URLs to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/itinerary/', 'title': '发现|'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/video/baidang/2018-04-16/detail-ifyuwqfa2486065.shtml', 'title': '滴落在地中海的蜜糖'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/video/baidang/2018-04-26/detail-ifztkpin8170530.shtml', 'title': '巴厘岛千年不断的神奇泉水 '}
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/itinerary/', 'title': '发现|'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [sina_home] INFO: catched 1140 URLs, pushed 993 URLs to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.travel.sina.com.cn/slide_68_87701_291720.html', 'title': '意大利油画里的田园小镇'}
+2018-04-30 21:54:46 [sina_home] INFO: push to redis
+2018-04-30 21:54:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/video/baidang/2018-04-12/detail-ifyuwqez9939000.shtml', 'title': '探访闽南第一山'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/', 'title': '酒店|'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/jump.shtml?RuUMcHa ', 'title': '印度悬崖上的木屋酒店'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/jump.shtml?RuUMYIB ', 'title': '春日里的颐和安缦'}
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/', 'title': '话题|'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/jump.shtml?RnFYnpC', 'title': '#4月哪儿好玩#\n'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/jump.shtml?R8THepl', 'title': '#慢游全世界#'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [sina_home] INFO: catched 1148 URLs, pushed 1000 URLs to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://travel.sina.com.cn/jump.shtml?ROfaW8h', 'title': '#每日旅游新鲜事#'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.sina.com.cn/zt_d/street', 'title': '生于街头：发现街头摄影魅力'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.sina.com.cn/zt_d/photocamp5/', 'title': '“拍照吧少年”第五季全回顾'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.sina.com.cn/zt_d/citylights/', 'title': '寻找城市之光：为你的城市代言'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://news.sina.com.cn/zt_d/aipaiweekly/', 'title': '爱拍周选：让你看到最新鲜照片'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/activity/detail/499/', 'title': '[爱拍征集]春意盎然'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/activity/detail/490/', 'title': '[征集]      定格最美的冬日瞬间'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/activity/detail/330/', 'title': '[征集]新青年的不凡人生'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/activity/detail/470/', 'title': '[征集]大美渔村平安渔业'}
+2018-04-30 21:54:47 [sina_home] INFO: push to redis
+2018-04-30 21:54:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/activity/detail/489/', 'title': '[征集]温州海洋摄影展'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [sina_home] INFO: catched 1158 URLs, pushed 1010 URLs to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/activity_album/detail/173923/#p=1', 'title': '[纪实]影像中原豫东相亲'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/album/detail/66913/', 'title': '[风光]灵动多姿的美丽中国'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [sina_home] INFO: catched 1160 URLs, pushed 1012 URLs to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/activity_album/detail/169993/#p=1', 'title': '[人像]最后的三寸金莲'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://aipai.sina.com.cn/album/detail/64257/', 'title': '[乡土]消逝的街头市集'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.news.sina.com.cn/y/slide_1_63957_104996.html#p=1', 'title': '[纪实]凝固世间的生命百态'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.news.sina.com.cn/y/slide_1_63957_102027.html/d/1#p=1', 'title': '[肖像]中国人的表情符'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://photo.sina.com.cn/info/2018-03-21/doc-ifyskeue2746261.shtml', 'title': '[访谈]慕容拖鞋：拒绝无目的'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://photo.sina.com.cn/info/2018-03-07/doc-ifxipenp1590542.shtml', 'title': '[访谈]九口走召：我不是纯摄影'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.news.sina.com.cn/y/slide_1_63957_105089.html#p=1', 'title': '[风光]仰望星夜的光芒'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/2018-04-30/doc-ifzvpatr2177299.shtml', 'title': '考古项目发掘石棺葬335座'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [sina_home] INFO: catched 1168 URLs, pushed 1020 URLs to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/yjjj/2018-04-30/doc-ifzvpatr2464479.shtml', 'title': '阿富汗来华避难文物将被送回吗'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/cpsc/2018-04-30/doc-ifzvpatr3380653.shtml', 'title': '央行提醒市民谨慎参与钱币收藏'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/cqyw/2018-04-30/doc-ifzvpatr3353375.shtml', 'title': '搁路边50多年古董水槽被偷'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.collection.sina.com.cn/collection/hwdt/index.shtml', 'title': '海外|'}
+2018-04-30 21:54:48 [sina_home] INFO: push to redis
+2018-04-30 21:54:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/hwdt/2018-04-30/doc-ifzvpatr3399433.shtml', 'title': '博物馆花收藏画家140幅作品竟有超半数是赝品'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.collection.sina.com.cn/collection/cpsc/index.shtml', 'title': '藏品|'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/2018-04-30/doc-ifzvpatr1764061.shtml', 'title': '古城藏了1200部胶片电影'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/exhibit/2018-04-30/doc-ifzvpatr2452586.shtml', 'title': '颐和园藏乾隆文物亮相'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.collection.sina.com.cn/collection/jczs2/index.shtml', 'title': '鉴藏|'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/jczs/2018-04-30/doc-ifzvpatr2423369.shtml', 'title': '古代文物上的劳动者形象'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [sina_home] INFO: catched 1178 URLs, pushed 1030 URLs to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/plfx/2018-04-30/doc-ifzvpatr1924404.shtml', 'title': '莫奈绽放的睡莲'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.collection.sina.com.cn/collection/yjjj/index.shtml', 'title': '非遗|'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [sina_home] INFO: catched 1180 URLs, pushed 1032 URLs to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/yjjj/2018-04-30/doc-ifzvpatr1823770.shtml', 'title': '古城平遥注入非遗新活力 青少年走近千年推光漆'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/yszb/', 'title': '玉石|'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/yjjj/2018-04-30/doc-ifzvpatr3331808.shtml', 'title': '500公里外的454件易碎珠宝2天安抵北京 '}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.collection.sina.com.cn/collection/zlxx/index.shtml', 'title': '展览| '}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/exhibit/2018-04-30/doc-ifzvpatr2490017.shtml', 'title': '泰坦尼克号文物展出'}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/yjjj/2018-04-30/doc-ifzvpatr2190804.shtml', 'title': '江南最大民间博物馆开馆'}
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.collection.sina.com.cn/collection/yjjj/index.shtml', 'title': '业界| '}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/exhibit/2018-04-30/doc-ifzvpatr3307339.shtml', 'title': '唐山一铁路职工自办铁路藏品馆不乏文物级珍品'}
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://roll.collection.sina.com.cn/collection/yjjj/index.shtml', 'title': '动态| '}
+2018-04-30 21:54:49 [sina_home] INFO: push to redis
+2018-04-30 21:54:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://collection.sina.com.cn/2018-04-30/doc-ifzvpatr1793758.shtml', 'title': '国博五一前推便民措施增开北门入口提供直饮水'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [sina_home] INFO: catched 1190 URLs, pushed 1040 URLs to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/lpga/2018-01-30/doc-ifyqyuhy7612491.shtml', 'title': '女子排名：冯珊珊连12周世界第一'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/chinareport/2018-01-30/doc-ifyqyuhy7623052.shtml', 'title': '李昊桐世界排名进前五十创历史'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/pgatour/2018-01-30/doc-ifyqyuhy7502352.shtml', 'title': '戴伊农保公开赛破20月冠军荒'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/pgatour/2018-01-30/doc-ifyqyuhy7605111.shtml', 'title': '世界排名：伍兹复出飙升108位'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/sports/golf/v/doc/2018-01-30/040867920961.html', 'title': '视频-三分钟回顾李昊桐迪拜夺冠 与小麦经典名局'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/epgatour/2018-01-29/doc-ifyqyuhy7307003.shtml', 'title': '李昊桐微博感谢各方支持 梁文冲张连伟送祝福'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/epgatour/2018-01-29/doc-ifyqzcxh8812326.shtml', 'title': '欧巡P图加西亚给李昊桐穿绿夹克 大师赛冠军是他？'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/epgatour/2018-01-29/doc-ifyqzcxh9328241.shtml', 'title': '一天三喜！小球强国不止有乒乓 中国高尔夫创新纪元'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/pgatour/2018-01-30/doc-ifyrcsrv7335359.shtml', 'title': '夺冠？ 戴伊一度怀疑自己无法角逐农夫保险公开赛'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/lpga/2018-01-29/doc-ifyqyuhy7229170.shtml', 'title': '林希妤2018开门红！加洞赢女子澳巡18洞配对赛'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [sina_home] INFO: catched 1200 URLs, pushed 1050 URLs to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/epgatour/2018-01-29/doc-ifyqzcxh7305950.shtml', 'title': '前任仍是个梗！沃兹终赢大满贯 小麦复出功亏一篑'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/golf/pgatour/2018-01-28/doc-ifyqzcxh6623969.shtml', 'title': '凤凰城公开赛斯皮思领衔 窦泽成张新军首战美巡春晚'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/', 'title': '吃枣能抗癌吗'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/d/2018-04-30/doc-ifzqvvsc2728253.shtml', 'title': '看病牢记9个不'}
+2018-04-30 21:54:50 [sina_home] INFO: push to redis
+2018-04-30 21:54:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3852817.shtml', 'title': '吃夜宵5大危害'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/d/2018-04-30/doc-ifzqvvsc2715878.shtml', 'title': '夏季防4种皮肤病'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3629783.shtml', 'title': '啥人不宜吃玉米'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3645029.shtml', 'title': '5种酸奶易发胖'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3437857.shtml', 'title': '热毛巾能治病'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3824910.shtml', 'title': '夏天补脾食物'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [sina_home] INFO: catched 1210 URLs, pushed 1060 URLs to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/d/2018-04-30/doc-ifzqvvsc2851637.shtml', 'title': '醉酒睡姿决定性命'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3588991.shtml', 'title': '吃饭六误区 '}
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3852817.shtml', 'title': '长吃夜宵5大危害'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3679160.shtml', 'title': '吃啥可延缓衰老'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3692361.shtml', 'title': '这些蔬菜可以洗血管'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/d/2018-04-30/doc-ifzqvvsc2822447.shtml', 'title': '10种常见食物能防病'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3659150.shtml', 'title': '熬夜族不能少的水果'}
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3824910.shtml', 'title': '夏天要补脾就吃这些食物'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3464412.shtml', 'title': '贪睡需警惕这些疾病信号'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/d/2018-04-30/doc-ifztkpin3944179.shtml', 'title': '不吸烟为什么还得肺癌'}
+2018-04-30 21:54:51 [sina_home] INFO: push to redis
+2018-04-30 21:54:51 [sina_home] INFO: catched 1220 URLs, pushed 1068 URLs to redis
+2018-04-30 21:54:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/d/2018-02-05/doc-ifyreyzw9748077.shtml', 'title': '大医精诚:精技近乎艺 素心践于行'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3450555.shtml', 'title': '大蒜这样吃抗癌'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [sina_home] INFO: catched 1222 URLs, pushed 1070 URLs to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/hc/2018-04-30/doc-ifztkpin3554637.shtml', 'title': '红枣泡水有八大禁忌'}
+2018-04-30 21:54:52 [sina_home] INFO: catched 1223 URLs, pushed 1070 URLs to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://health.sina.com.cn/d/2018-04-30/doc-ifzqvvsc2795079.shtml', 'title': '七个习惯是肝脏杀手'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_474a14370102x97u.html', 'title': '鲜嫩醇香糟卤鸭翅'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_6e88f1ff0102xct6.html', 'title': '冰草甜橙沙拉'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_6747c5790102xv0b.html', 'title': '酵母版朗姆黑加仑司康'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_a944c0e50102xd9l.html', 'title': '炸香椿鱼'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_44c8ead50102xnr0.html?tj=1', 'title': '马尔代夫深度游'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_6acaee7c0102x7zn.html?tj=1', 'title': '巧做春饼薄如纸'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/lm/jingxuan/yangsheng/', 'title': '春季养生怎么吃'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_93b4a9ee0102xdoe.html?tj=1', 'title': '金色全麦法棍'}
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/lm/edu/', 'title': '热文'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://mp.weixin.qq.com/s?__biz=MzA4NjUwMDUyMw==&mid=2662607607&idx=1&sn=a5c8ffa4531243e8bc485451793dc370&chksm=84873f33b3f0b6255ae39a0c2ef08529c469327e576d1c8ffa2fb8fb80d1fc0c03ab8df52ce2#rd', 'title': '90%高考家长会犯的错误'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [sina_home] INFO: catched 1234 URLs, pushed 1080 URLs to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_9ec6cf980102xx2e.html', 'title': '没去过中国绝不相信的事'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_32764.html', 'title': None}
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/lm/edu/', 'title': '精选'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_7d75a1df0102xzs4.html?tj=1', 'title': '你本科太差不配考985'}
+2018-04-30 21:54:52 [sina_home] INFO: push to redis
+2018-04-30 21:54:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'https://mp.weixin.qq.com/s?__biz=MzA4NjUwMDUyMw==&mid=2662607587&idx=1&sn=b519c72f3d84cd07476f4a3bc63dd2b7&chksm=84873f27b3f0b631ec19077441aebfd930cc93b89499dd5b315a328587a8611e975e9c4f92bb#rd', 'title': '家教不好的孩子没出息？'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/photo/', 'title': '高校'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [sina_home] INFO: catched 1240 URLs, pushed 1085 URLs to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_258312.html', 'title': '海事学院日系萝莉少女'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_247571.html', 'title': '中南大学元气校花写真'}
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/photo/', 'title': '校园'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_255258.html', 'title': '寒门学子最醒目的装修'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_259196.html', 'title': '乡村教师的七点半夜校'}
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_32764.html', 'title': None}
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/photo/', 'title': '励志'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_255315.html', 'title': '黄圣依教育安迪亮红灯'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [sina_home] INFO: catched 1248 URLs, pushed 1090 URLs to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.edu.sina.com.cn/slide_11_611_63886.html', 'title': '孙俪晒小花做功课视频 '}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zl/', 'title': '推荐'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zl/edu/2018-04-19/doc-ifzihnep7994504.shtml', 'title': 'HR一句话让我自卑十年'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_694171200102xbc3.html?tj=1', 'title': '27岁研究生乱吃药去世'}
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://edu.sina.com.cn/zl/', 'title': '推荐'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_6175bf700102xnzc.html?tj=1', 'title': '美国纽约最牛地下室'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_4bdc7dbf0102yk3r.html?tj=1', 'title': '哈佛教育敢问敢说会忽悠'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn', 'title': '深度原创'}
+2018-04-30 21:54:53 [sina_home] INFO: push to redis
+2018-04-30 21:54:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/hot/2018-03-30/doc-ifystxcp3845423.shtml', 'title': '头号玩家里的VR世界'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/hd/2018-04-24/doc-ifzqvvsa7462156.shtml', 'title': '虚拟现实不单纯是游戏'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/newslist.shtml', 'title': '最新资讯'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [sina_home] INFO: catched 1259 URLs, pushed 1100 URLs to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/cp/2018-04-27/doc-ifztkpip0081135.shtml', 'title': '三星发布AR视频表情'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [sina_home] INFO: catched 1260 URLs, pushed 1101 URLs to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/cp/2018-04-27/doc-ifztkpip0169008.shtml', 'title': 'AR头显新功能?'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.cn/pc/newslist.shtml?k=2', 'title': '行业动态'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/report/2018-04-19/doc-ifzihnep7715611.shtml', 'title': '70%以上用户偏好VR'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/report/2018-04-16/doc-ifzcyxmv1747834.shtml', 'title': '英国政府发展VR/AR产业'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.cn/pc/newslist.shtml?k=10', 'title': '游戏资讯'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/yx/2018-04-23/doc-ifzqvvsa0926434.shtml', 'title': '健身《PowerBearsVR》'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/yx/2018-04-22/doc-ifznefkh8803210.shtml', 'title': '手游《One Room VR》'}
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/newslist.shtml', 'title': '全景视频'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/video/gx/2018-02-28/doc-ifyrwsqk1697226.shtml', 'title': 'VR动画《Hocus-Pocus》'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/video/gx/2018-03-23/doc-ifysnevm0219969.shtml', 'title': '走进神秘的基诺族'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [sina_home] INFO: catched 1270 URLs, pushed 1110 URLs to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': ' http://vr.sina.cn/pc/newslist.shtml?k=1', 'title': '大咖观点'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/zf/2018-04-11/doc-ifyzeyqa6321490.shtml', 'title': '访《Budget Cuts》开发者'}
+2018-04-30 21:54:54 [sina_home] INFO: push to redis
+2018-04-30 21:54:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/zf/2018-03-15/doc-ifyscsmv8986570.shtml', 'title': '《雪崩》作者分享'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.cn/pc/newslist.shtml?k=7', 'title': '热门活动'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/zt_d/sinavraward2017/', 'title': '新浪VR「变现为王」'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://vr.sina.com.cn/news/hd/2018-04-09/doc-ifyvtmxe6843983.shtml', 'title': 'Fusion全景嘉年华'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_4726dd840102xb0e.html', 'title': '12生肖5月运'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_75948c510102xoeb.html', 'title': '十天干人丁巳月运势'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/l/zx/2018-04-27/doc-ifztkpip1425475.shtml', 'title': '4.30天蝎座满月：负面情绪大爆发'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/astro/video/doc/2018-04-27/174968218701.html', 'title': '唐绮阳周运'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [sina_home] INFO: catched 1280 URLs, pushed 1120 URLs to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/y/xx/2018-04-27/doc-ifztkpip2425818.shtml', 'title': '玛法达一周运势'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/hdrl/index.d.html', 'title': '今日宜忌'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/fate_day_Aries/', 'title': '今日星座运'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_613bd5580102x5mk.html', 'title': '今日生肖运'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Aquarius/', 'title': '水瓶'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Pisces/', 'title': '双鱼'}
+2018-04-30 21:54:55 [sina_home] INFO: push to redis
+2018-04-30 21:54:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/e/ky/2018-04-26/doc-ifztkpin6728593.shtml', 'title': '12生肖5月人际关系运势'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_3e39cefc0102x2mn.html', 'title': '星吧12星座5月运势'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Gemini/', 'title': '双子'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Cancer/', 'title': '巨蟹'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [sina_home] INFO: catched 1290 URLs, pushed 1130 URLs to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_3e39cefc0102x2pu.html', 'title': '12星座一周运'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/e/ct/2018-04-28/doc-ifzvpatq6106800.shtml', 'title': '3个坏习惯让你一生发不了财'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/leo/', 'title': '狮子'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Virgo/', 'title': '处女'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/v/ss/2018-04-27/doc-ifztkpip1112502.shtml', 'title': '12星座五一爱情吉日吉时'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/e/ky/2018-04-28/doc-ifzvpatq4361288.shtml', 'title': '12生肖的最幸运色'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Aries/', 'title': '白羊'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Taurus/', 'title': '金牛'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/v/ss/2018-04-28/doc-ifzvpatq4450414.shtml', 'title': '朋友圈里12星座在看啥'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/e/2018-04-28/doc-ifztkpip7191242.shtml', 'title': '男人长这样事业运旺'}
+2018-04-30 21:54:56 [sina_home] INFO: push to redis
+2018-04-30 21:54:56 [sina_home] INFO: catched 1300 URLs, pushed 1140 URLs to redis
+2018-04-30 21:54:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Libra/', 'title': '天秤'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Scorpio/', 'title': '天蝎'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_66572fa60102xq8p.html', 'title': '命理:你是隐形穷命吗'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/t/2018-04-28/doc-ifztkpip1694472.shtml', 'title': '测你会因为啥而成功'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Sagittarius/', 'title': '射手'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/focus/Capricorn/', 'title': '魔羯'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/zt_d/breakup', 'title': '12星座分手关键词'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_6090e8000102y2fo.html', 'title': '什么叫“屋大人凶”'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://product.astro.sina.com.cn/wish/', 'title': '许愿'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://product.astro.sina.com.cn/swe/', 'title': '星盘'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [sina_home] INFO: catched 1310 URLs, pushed 1150 URLs to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://product.astro.sina.com.cn/?top=1080', 'title': '2018整年运'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://product.astro.sina.com.cn/?top=1076', 'title': '紫微事业详批'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://astro.sina.com.cn/zt_d/2018', 'title': '12星座2018年运势'}
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/basketball/nba/2018-04-30/doc-ifzvpatr2949233.shtml', 'title': '詹姆斯真倾骑所有'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/basketball/nba/2018-04-30/doc-ifzvpatr2964719.shtml', 'title': '多少詹蜜看哭了'}
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/basketball/nba/2018-04-30/doc-ifzvpatr2981571.shtml', 'title': '差点输裁判手里'}
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/basketball/nba/2018-04-30/doc-ifzvpatr3035161.shtml', 'title': '1图送给抢七之王'}
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/g/pl/2018-04-29/doc-ifzvpatr2551830.shtml', 'title': '弗格森献礼送别温格 穆帅这次甘当配角'}
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/g/pl/2018-04-30/doc-ifzvpatr2758498.shtml', 'title': '弗格森穆帅温格同框 他们叫英超王族'}
+2018-04-30 21:54:57 [sina_home] INFO: push to redis
+2018-04-30 21:54:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr3014725.shtml', 'title': '梅西深情拥抱伊涅斯塔 庆祝时躲在最后'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [sina_home] INFO: catched 1320 URLs, pushed 1155 URLs to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_4b2cb00e0102x1ui.html?tj=edu?tj=1', 'title': '大学排行榜实用指南：分层次报考'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_5f9d87c80102wqe8.html?tj=1', 'title': '整过容的不要：艺考这要求过分吗？'}
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://gif.sina.com.cn/', 'title': '猫咪扇了狗子一巴掌，狗子疯了'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://tech.sina.com.cn/d/f/2018-04-28/doc-ifztkpip6208945.shtml', 'title': '那个埋葬在月球上的男人 今天90岁生日'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://tech.sina.com.cn/it/2018-04-28/doc-ifztkpip5885050.shtml', 'title': 'NASA将与欧空局联合采集火星样本'}
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/man/2018-04-30/0115/doc-ifzvpatq6412655.shtml', 'title': '彭于晏戴什么眼镜都好看'}
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/ha/2018-04-30/0116/doc-ifztkpip0854485.shtml', 'title': '蔡徐坤染黑发当700万粉丝福利'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/we/2018-04-25/1444/doc-ifznefkh8989224.shtml ', 'title': '五一出游如何制霸朋友圈？靠这些！'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [sina_home] INFO: catched 1328 URLs, pushed 1160 URLs to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/l/ts/rs/2018-04-27/1737/doc-ifzqvvrz9512346.shtml', 'title': '15天换次菜单 24节气主题餐厅反复刷'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/2018-04-04/1350/doc-ifysuuya4530048.shtml', 'title': '百万人气狐狸小公举红到出书'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/fashion/fas/doc/2018-04-27/120268218187.html', 'title': '珠宝与美人不能说的秘密'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/zt_d/sdfjms/', 'title': '走进四大佛教名山 '}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/intro/basic/2018-04-27/doc-ifztkpin8127800.shtml', 'title': '五一入宝山别空回'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/ffksj/2018-04-28/doc-ifzqvvsc1890613.shtml', 'title': '佛法的生命价值'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/ffksj/2018-04-28/doc-ifztkpip7207935.shtml', 'title': '顺其自然是最好活法'}
+2018-04-30 21:54:58 [sina_home] INFO: push to redis
+2018-04-30 21:54:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fo.sina.com.cn/', 'title': '图集'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fo.sina.com.cn/slide_65_67296_34084.html', 'title': '准提菩萨像'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fo.sina.com.cn/slide_65_89611_280811.html', 'title': '妙相庄严：国博佛像'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [sina_home] INFO: catched 1338 URLs, pushed 1170 URLs to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/basic/', 'title': '入门'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/intro/lecture/2018-04-27/doc-ifzqvvsc1580197.shtml', 'title': '何为佛教五停心观'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [sina_home] INFO: catched 1340 URLs, pushed 1172 URLs to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://slide.fo.sina.com.cn/slide_65_89608_276650.html', 'title': '修学佛法次第'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/ffksj/', 'title': '世间'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/intro/lecture/2018-04-26/doc-ifztkpin6310451.shtml', 'title': '如何成为自由的人'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/ffksj/2018-04-27/doc-ifztkpin8050803.shtml', 'title': '人生最大难题'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/blog/', 'title': '博客'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_4cddc72f0102wxnj.html', 'title': '清静道场大理无为寺'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://blog.sina.com.cn/s/blog_697ccf950102xoea.html', 'title': '轮回的真相'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/xuefo/', 'title': '学佛'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [sina_home] INFO: catched 1348 URLs, pushed 1180 URLs to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/xuefo/2018-04-27/doc-ifztkpin8032757.shtml', 'title': '重拾美丽的人生 '}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/xuefo/2018-04-28/doc-ifztkpip3494453.shtml', 'title': '转逆境为增上缘'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/veg/', 'title': '素食'}
+2018-04-30 21:54:59 [sina_home] INFO: push to redis
+2018-04-30 21:54:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/veg/cp/2018-04-27/doc-ifzqvvsa4027038.shtml', 'title': '芋头豇豆 '}
+2018-04-30 21:55:00 [sina_home] INFO: push to redis
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/veg/cp/2018-04-28/doc-ifzqvvsa4491424.shtml', 'title': '黄米养生饭'}
+2018-04-30 21:55:00 [sina_home] INFO: push to redis
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fo.sina.com.cn/veg/cp/2018-04-26/doc-ifzqvvsa3963207.shtml', 'title': '炒茶树菇'}
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/style/man/2018-04-30/0115/doc-ifzvpatq6412655.shtml', 'title': '彭于晏戴什么眼镜都好看'}
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/b/ha/2018-04-30/0116/doc-ifztkpip0854485.shtml', 'title': '蔡徐坤染黑发当700万粉丝福利'}
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/we/2018-04-25/1444/doc-ifznefkh8989224.shtml ', 'title': '五一出游如何制霸朋友圈？靠这些！'}
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/l/ts/rs/2018-04-27/1737/doc-ifzqvvrz9512346.shtml', 'title': '15天换次菜单 24节气主题餐厅反复刷'}
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://fashion.sina.com.cn/2018-04-04/1350/doc-ifysuuya4530048.shtml', 'title': '百万人气狐狸小公举红到出书'}
+2018-04-30 21:55:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/>
+{'link': 'http://video.sina.com.cn/p/fashion/fas/doc/2018-04-27/120268218187.html', 'title': '珠宝与美人不能说的秘密'}
+2018-04-30 21:55:36 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 1359 items (at 393 items/min)
+2018-04-30 21:56:36 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 1359 items (at 0 items/min)
+2018-04-30 21:57:36 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 1359 items (at 0 items/min)
+2018-04-30 21:58:36 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 1359 items (at 0 items/min)
+2018-04-30 21:59:36 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 1359 items (at 0 items/min)
+2018-04-30 22:00:36 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 1359 items (at 0 items/min)
