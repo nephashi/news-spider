@@ -2,7 +2,9 @@
 mongo --host 127.0.0.1:27017
 show dbs
 show collections
-db.collection.find({})
+db.collection.find({}) #查询集合全部内容
+db.news.remove({}) #清空集合
+db.news.find({}).count() #聚合集合元素数
 
 坑！！
 mongodb默认绑定本地，要打开远程访问：

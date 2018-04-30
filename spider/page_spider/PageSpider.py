@@ -6,11 +6,14 @@ import common_utils.time_util as tu
 class PageSpider(scrapy.Spider):
     name = "page"
     download_delay = 0
+    handle_httpstatus_list = [404, 500]
 
     def __init__(self):
         super(PageSpider, self).__init__()
         self.__redis_puller = None
 
+    def get_redis_puller(self):
+        return self.__redis_puller
 
     def set_redis_puller(self, redis_puller):
         self.__redis_puller = redis_puller
@@ -22,6 +25,8 @@ class PageSpider(scrapy.Spider):
                         callback=self.parse,
                         meta={'dont_merge_cookies': True},
                         dont_filter=True)
+        else:
+            self.logger.info("url queue empty, finish.")
 
     def parse_content(self, response):
         line_break = su.get_line_break()
@@ -34,7 +39,7 @@ class PageSpider(scrapy.Spider):
                 titles.append(title)
         title = ""
         for t in titles:
-            if (len(t) > title):
+            if (t != None and len(t) > len(title)):
                 title = t
 
         #抓所有p，连起来认为是内容
@@ -55,9 +60,9 @@ class PageSpider(scrapy.Spider):
         return dict
 
     def parse(self, response):
-        dict = self.parse_content(response)
-
-        yield dict
+        if (response.status == 200):
+            dict = self.parse_content(response)
+            yield dict
 
         url = self.__redis_puller.get_url()
         if (url != None):
@@ -65,3 +70,5 @@ class PageSpider(scrapy.Spider):
                                  callback=self.parse,
                                  meta={'dont_merge_cookies': True},
                                  dont_filter=True)
+        else:
+            self.logger.info("url queue empty, finish.")

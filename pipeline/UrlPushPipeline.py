@@ -8,6 +8,8 @@ class UrlPushPipeline(object):
         self.__redis_password = redis_password
         self.__redis_port = redis_port
         self.__redis_queue_key = redis_queue_key
+        self.__url_count = 0
+        self.__redis_push_count = 0
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -23,11 +25,17 @@ class UrlPushPipeline(object):
                             password = self.__redis_password,
                             port = self.__redis_port,
                             queue_key = self.__redis_queue_key)
-        self.__rup = RedisUrlPusher(rqd)
+        self.__rup = RedisUrlPusher(rqd, spider.logger)
 
     def close_spider(self, spider):
         del self.__rup
 
     def process_item(self, item, spider):
-        self.__rup.url_push(item)
+        if_push = self.__rup.url_push(item)
+        if (if_push == True):
+            spider.logger.info("push to redis")
+            self.__redis_push_count += 1
+        self.__url_count += 1
+        if (self.__url_count % 20 == 0 or self.__redis_push_count % 10 == 0):
+            spider.logger.info("catched " + str(self.__url_count) + " URLs, pushed " + str(self.__redis_push_count) + " URLs to redis")
         return item

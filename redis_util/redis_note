@@ -6,3 +6,4 @@ redis-cli --raw
 
 查看队列内容：LRANGE key index1 index2 (lrange queue 0 5)
 删除键：DEL keyname
+队列长度：llen queuename
