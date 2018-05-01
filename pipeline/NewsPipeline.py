@@ -41,7 +41,6 @@ class NewsPipeline(object):
                                   db_name=self.__mgdb_db_name)
 
     def close_spider(self, spider):
-        spider.logger.info("push" + self.__rup)
         del self.__rup
         del self.__mnd
 

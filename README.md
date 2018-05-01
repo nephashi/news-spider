@@ -11,13 +11,28 @@
 python3.5.2
 
 scrapy
+```
+sudo apt-get install libffi-dev
+sudo apt-get install libssl-dev
+pip3 install scrapy
+```
 
 redis
+```
+pip3 install Redis
+```
 
 mongoengine
+```
+pip3 install mongoengine
+```
 
 ## Usage
 执行launcher下面的脚本即可
 
+关于实现和扩充的细节，参考doc文档
+
 ## Issue
+下一步扩充url爬虫的数量，爬取更多门户页。
+
 在一个脚本里多次执行scrapy启动器会出现问题，暂时通过使用系统shell启动脚本绕过这个问题。

@@ -24,7 +24,8 @@ class SinaHomeSpider(scrapy.Spider):
                     + '>li>a[href]'):
                 news_dic = {
                     'title': news.css('::text').extract_first(),
-                    'link': news.css('::attr(href)').extract_first()
+                    'link': news.css('::attr(href)').extract_first(),
+                    'source': self.name
                 }
                 yield news_dic
 

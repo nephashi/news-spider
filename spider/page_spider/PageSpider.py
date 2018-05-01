@@ -31,6 +31,12 @@ class PageSpider(scrapy.Spider):
     def parse_content(self, response):
         line_break = su.get_line_break()
 
+        url_item = self.__redis_puller.get_last_pulled_item()
+        if (url_item != None):
+            source = url_item['source']
+        else:
+            source = "unknown"
+
         #抓所有h1，最长的认为是题目
         titles = []
         for title_pom in response.css('h1'):
@@ -54,6 +60,7 @@ class PageSpider(scrapy.Spider):
             'title': title,
             'link': response.url,
             'content': content,
+            'source': source,
             'date': date_now,
             'unix_timestamp': tu.date2timestamp(date_now)
         }

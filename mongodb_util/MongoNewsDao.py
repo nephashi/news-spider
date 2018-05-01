@@ -15,6 +15,7 @@ class MongoNewsDao(object):
             'title': mongo_news.title,
             'link': mongo_news.link,
             'content': mongo_news.content,
+            'source': mongo_news.source,
             'date': mongo_news.date,
             'unix_timestamp': mongo_news.unix_timestamp
         }

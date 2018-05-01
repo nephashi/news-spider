@@ -4,7 +4,8 @@
 当前的url字典结构：
 news_dic = {
                'title': news.css('::text').extract_first(),
-               'link': news.css('::attr(href)').extract_first()
+               'link': news.css('::attr(href)').extract_first(),
+               'source': spider.name
            }
 
 当前新闻数据结构是一个字典：
@@ -12,6 +13,14 @@ dict = {
             'title': titles,
             'link': response.url,
             'content': content,
+            'source': source, #这里的source是爬到这个url的爬虫名
             'date': date_now, #"%Y-%m-%d"
             'unix_timestamp': tu.date2timestamp(date_now)
         }
+
+关于爬虫的实现：
+先从各大门户首页爬链接，再跟据这些链接去爬新闻页。
+由于具体新闻页太多，无法一一设计爬虫，因此采用同一的模式进行粗糙处理。
+而各大门户的首页爬虫作为新闻页url的来源需要进行定制。这个定制的爬虫需要在parse方法中生成符合url字典结构的字典，
+同时在最后递归的生成访问该门户页的请求，以等待下次分析。其他的事情该项目会进行调度。
+具体实现参考spider.url_spider.SinaHomeSpider.py

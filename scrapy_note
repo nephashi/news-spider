@@ -1,3 +1,9 @@
+安装：
+讲道理pip3 install scrapy就行了，但是这个框架从来不讲道理
+在AWS的ubuntu下需要手动安装依赖：
+sudo apt-get install libffi-dev
+sudo apt-get install libssl-dev
+
 多次调用scrapy启动器，会产生twisted.internet.error.ReactorNotRestartable错误。
 可以参考下面的文章。
 https://wiseodd.github.io/techblog/2016/06/10/scrapy-long-running/
