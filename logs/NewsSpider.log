@@ -1,11 +1,11 @@
-2018-05-01 12:07:54 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapybot)
-2018-05-01 12:07:54 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:18:55) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
-2018-05-01 12:07:54 [scrapy.crawler] INFO: Overridden settings: {'FEED_EXPORT_ENCODING': 'utf-8', 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)', 'DOWNLOAD_DELAY': '1', 'LOG_FILE': '../logs/NewsSpider.log'}
-2018-05-01 12:07:54 [scrapy.middleware] INFO: Enabled extensions:
-['scrapy.extensions.corestats.CoreStats',
- 'scrapy.extensions.logstats.LogStats',
- 'scrapy.extensions.telnet.TelnetConsole']
-2018-05-01 12:07:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2018-05-01 18:52:37 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapybot)
+2018-05-01 18:52:37 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:18:55) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-05-01 18:52:37 [scrapy.crawler] INFO: Overridden settings: {'DOWNLOAD_DELAY': '1', 'LOG_FILE': '../logs/NewsSpider.log', 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)', 'FEED_EXPORT_ENCODING': 'utf-8'}
+2018-05-01 18:52:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-05-01 18:52:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['middleware.FailureMiddleware.FailureMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -18,792 +18,307 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2018-05-01 12:07:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+2018-05-01 18:52:37 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2018-05-01 12:07:55 [scrapy.middleware] INFO: Enabled item pipelines:
+2018-05-01 18:52:37 [scrapy.middleware] INFO: Enabled item pipelines:
 ['pipeline.NewsPipeline.NewsPipeline']
-2018-05-01 12:07:55 [scrapy.core.engine] INFO: Spider opened
-2018-05-01 12:07:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2018-05-01 12:07:55 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
-2018-05-01 12:08:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_263664.html> (referer: None)
-2018-05-01 12:08:06 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_263664.html'}
-2018-05-01 12:08:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_263666.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_263664.html)
-2018-05-01 12:08:06 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_263666.html'}
-2018-05-01 12:08:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_256806.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_263666.html)
-2018-05-01 12:08:07 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_256806.html'}
-2018-05-01 12:08:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_263675.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_256806.html)
-2018-05-01 12:08:07 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_263675.html'}
-2018-05-01 12:08:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/w/slide_1_86523_263674.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_263675.html)
-2018-05-01 12:08:07 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/w/slide_1_86523_263674.html'}
-2018-05-01 12:08:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/s/slide_1_86058_263719.html> (referer: http://slide.news.sina.com.cn/w/slide_1_86523_263674.html)
-2018-05-01 12:08:07 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/s/slide_1_86058_263719.html'}
-2018-05-01 12:08:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_86058_263718.html> (referer: http://slide.news.sina.com.cn/s/slide_1_86058_263719.html)
-2018-05-01 12:08:07 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_86058_263718.html'}
-2018-05-01 12:08:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.fashion.sina.com.cn/s/slide_24_84625_114897.html> (referer: http://slide.news.sina.com.cn/slide_1_86058_263718.html)
-2018-05-01 12:08:08 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114897.html'}
-2018-05-01 12:08:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.fashion.sina.com.cn/slide_24_84625_114942.html> (referer: http://slide.fashion.sina.com.cn/s/slide_24_84625_114897.html)
-2018-05-01 12:08:08 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.fashion.sina.com.cn/slide_24_84625_114942.html'}
-2018-05-01 12:08:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5408925.shtml> (referer: http://slide.fashion.sina.com.cn/slide_24_84625_114942.html)
-2018-05-01 12:08:08 [page] INFO: save in mongodb: 小龙女要找爸爸为何不再被那么多网友同情
-2018-05-01 12:08:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5408925.shtml>
-None
-2018-05-01 12:08:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5478088.shtml> (referer: http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5408925.shtml)
-2018-05-01 12:08:09 [page] INFO: save in mongodb: 琼瑶得到平鑫涛就要接受伤害别人受的诋毁
-2018-05-01 12:08:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5478088.shtml>
-None
-2018-05-01 12:08:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/zl/basketball/2018-04-30/zldoc-ifzvpatr4934225.shtml> (referer: http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5478088.shtml)
-2018-05-01 12:08:09 [page] INFO: save in mongodb: 两个詹姆斯的40+，骑士与火箭的不同命运
-2018-05-01 12:08:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/zl/basketball/2018-04-30/zldoc-ifzvpatr4934225.shtml>
-None
-2018-05-01 12:08:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4882978.shtml> (referer: http://sports.sina.com.cn/zl/basketball/2018-04-30/zldoc-ifzvpatr4934225.shtml)
-2018-05-01 12:08:09 [page] INFO: save in mongodb: 鲁能上半时为什么踢得不好？
-2018-05-01 12:08:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4882978.shtml>
-None
-2018-05-01 12:08:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/zl/china/2018-04-28/zl-ifzvpatq4979844.shtml> (referer: http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4882978.shtml)
-2018-05-01 12:08:10 [page] INFO: save in mongodb: 下一步应全面取消调休
-2018-05-01 12:08:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/zl/china/2018-04-28/zl-ifzvpatq4979844.shtml>
-None
-2018-05-01 12:08:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tech.sina.com.cn/csj/2018-04-28/doc-ifztkpip6669129.shtml> (referer: http://finance.sina.com.cn/zl/china/2018-04-28/zl-ifzvpatq4979844.shtml)
-2018-05-01 12:08:10 [page] INFO: save in mongodb: 给阿迪年造百万双鞋！协作机器人为何成为新风口
-2018-05-01 12:08:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tech.sina.com.cn/csj/2018-04-28/doc-ifztkpip6669129.shtml>
-None
-2018-05-01 12:08:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/we/2018-04-24/1050/doc-ifznefkf8440630.shtml> (referer: http://tech.sina.com.cn/csj/2018-04-28/doc-ifztkpip6669129.shtml)
-2018-05-01 12:08:10 [page] INFO: save in mongodb: 又到了仙女的季节 仙女本命单品该怎么穿？
-2018-05-01 12:08:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/we/2018-04-24/1050/doc-ifznefkf8440630.shtml>
-None
-2018-05-01 12:08:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/lm/edu/> (referer: http://fashion.sina.com.cn/we/2018-04-24/1050/doc-ifznefkf8440630.shtml)
-2018-05-01 12:08:10 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '国内教育界轰轰烈烈学习美式所谓“素质教育”……\xa0\r\n有互联网公司的地方就有程序员……\xa0\r\n多地教育部门为迎来新学期的中小学生送上“减负大礼包”……\xa0\r\n近3年，各地都有艺考腐败案件屡屡被查处……\xa0\r\n作者昵称\r\n文章链接\r\nBlog地址\r\n文章大类\r\n新浪BLOG意见反馈留言板\r\nCopyright © 1996 - 2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://blog.sina.com.cn/lm/edu/'}
-2018-05-01 12:08:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/china/gncj/2018-05-01/doc-ifzvpatr7465306.shtml> (referer: http://blog.sina.com.cn/lm/edu/)
-2018-05-01 12:08:11 [page] INFO: save in mongodb: 任志强预言或成现实:更多资金入楼市新一轮暴涨要来?
-2018-05-01 12:08:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/china/gncj/2018-05-01/doc-ifzvpatr7465306.shtml>
-None
-2018-05-01 12:08:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_86058_263558.html> (referer: http://finance.sina.com.cn/china/gncj/2018-05-01/doc-ifzvpatr7465306.shtml)
-2018-05-01 12:08:11 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_86058_263558.html'}
-2018-05-01 12:08:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_86058_263533.html> (referer: http://slide.news.sina.com.cn/slide_1_86058_263558.html)
-2018-05-01 12:08:11 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_86058_263533.html'}
-2018-05-01 12:08:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/nba/> (referer: http://slide.news.sina.com.cn/slide_1_86058_263533.html)
-2018-05-01 12:08:11 [page] INFO: save in mongodb: 新浪体育
-2018-05-01 12:08:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/nba/>
-None
-2018-05-01 12:08:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7608243.shtml> (referer: http://sports.sina.com.cn/nba/)
-2018-05-01 12:08:12 [page] INFO: save in mongodb: 詹皇一人挑一队继续！ 街上拉10个人也进总决?
-2018-05-01 12:08:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7608243.shtml>
-None
-2018-05-01 12:08:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-04-30/150568224119.html> (referer: http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7608243.shtml)
-2018-05-01 12:08:23 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u30004月29日，Sunshine组合在微博就组合成员Abby退出《创造101》节目比赛一事作出声明。声明表示Abby于去年10月确诊患有抑郁症，而在组合另外两名成员Cindy、Dora在节目中遭到淘汰之后，其病情有加重趋势。Sunshine组合为不影响节目录制而提出退赛申请，同时，该组合也表示Abby已暂停演艺工作，专心于康复治疗。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-04-30/150568224119.html'}
-2018-05-01 12:08:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-04-30/150168224109.html> (referer: http://video.sina.com.cn/p/ent/doc/2018-04-30/150568224119.html)
-2018-05-01 12:08:23 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000张翰出道十年发长文，回忆演艺生涯很感慨：这辈子最大的荣幸就是能从事演员这份工作。同时透露在新剧《温暖的弦》里，希望用占南弦这一角色继续和观众沟通交流，而剧外的自己也一直不断挑战自我，用实力为观众演绎不同的人生。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-04-30/150168224109.html'}
-2018-05-01 12:08:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257042310> (referer: http://video.sina.com.cn/p/ent/doc/2018-04-30/150168224109.html)
-2018-05-01 12:08:23 [page] INFO: news droped since too short content.
-2018-05-01 12:08:23 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
-2018-05-01 12:08:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257042128> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
-2018-05-01 12:08:24 [page] INFO: news droped since too short content.
-2018-05-01 12:08:24 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
-2018-05-01 12:08:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257046871> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
-2018-05-01 12:08:24 [page] INFO: news droped since too short content.
-2018-05-01 12:08:24 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
-2018-05-01 12:08:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257042391> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
-2018-05-01 12:08:24 [page] INFO: news droped since too short content.
-2018-05-01 12:08:24 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
-2018-05-01 12:08:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257024816> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
-2018-05-01 12:08:24 [page] INFO: news droped since too short content.
-2018-05-01 12:08:24 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
-2018-05-01 12:08:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257045491> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
-2018-05-01 12:08:24 [page] INFO: news droped since too short content.
-2018-05-01 12:08:24 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
-2018-05-01 12:08:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257043350> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
-2018-05-01 12:08:25 [page] INFO: news droped since too short content.
-2018-05-01 12:08:25 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
-2018-05-01 12:08:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-04-30/145968224107.html> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
-2018-05-01 12:08:25 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u30004月29日，不少网友晒出在迪士尼偶遇邓超孙俪的照片，只见照片中孙俪穿黑衣配灰色短裤，头戴遮阳帽墨镜遮面，邓超则穿着一袭黑衣，一只手臂上因为受伤戴着前臂吊带，夫妻俩带着儿子等等和女儿小花妹妹，一家四口同游迪士尼乐园。网友还捕捉到了孙俪喂邓超吃冰淇淋的画面，而夫妻俩人一起走时，邓超用未受伤的手臂搂着孙俪，非常恩爱。此外，在被众多网友认出后，邓超还跟大家握手打招呼，非常亲切。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-04-30/145968224107.html'}
-2018-05-01 12:08:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-04-30/151868224133.html> (referer: http://video.sina.com.cn/p/ent/doc/2018-04-30/145968224107.html)
-2018-05-01 12:08:25 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u30004月29日，李宇春 2018“流行”巡回演唱会上海站热辣开唱，这也是李宇春时隔多年后再度在上海举办个人演唱会。此番李宇春不仅演唱了《下个路口见》、《蜀绣》等经典歌曲，更浪漫献唱《我喜欢上你时的内心活动》。上海站现场，李宇春惊喜致电粉丝高甜互动，音乐嗨翻全场。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-04-30/151868224133.html'}
-2018-05-01 12:08:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/sports/laliga/v/doc/2018-04-30/101768223816.html> (referer: http://video.sina.com.cn/p/ent/doc/2018-04-30/151868224133.html)
-2018-05-01 12:08:25 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000[巴萨官方视频庆祝西甲10年7冠]从2008-09赛季算起，巴萨在10个赛季中共夺得了7次西甲冠军，其间只有皇马拿到过2次，而马竞也拿过1次。在西甲历史上，夺冠次数最多的俱乐部仍然是皇马，共33次。而巴萨已经来到了25次。如果从21世纪算起，巴萨（9次）比皇马多出3次。#西甲视频#\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/sports/laliga/v/doc/2018-04-30/101768223816.html'}
-2018-05-01 12:08:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/sports/t/v/doc/2018-04-30/123468223964.html> (referer: http://video.sina.com.cn/p/sports/laliga/v/doc/2018-04-30/101768223816.html)
-2018-05-01 12:08:25 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n【纳达尔再创纪录】ATP巴塞罗那赛纳达尔以6-2/6-1横扫首进决赛的希腊新星西西帕斯，十一次打进决赛全部夺冠，成为公开年代首位在两项赛事都登顶11次的男球员，继续男单世界第一。纳豆目前在红土已经连下46盘，继续刷新着自己的纪录，这也是他生涯第55个红土冠军、总第77冠。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/sports/t/v/doc/2018-04-30/123468223964.html'}
-2018-05-01 12:08:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254731994> (referer: http://video.sina.com.cn/p/sports/t/v/doc/2018-04-30/123468223964.html)
-2018-05-01 12:08:26 [page] INFO: news droped since too short content.
-2018-05-01 12:08:26 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
-2018-05-01 12:08:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1#253796264> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
-2018-05-01 12:08:26 [page] INFO: news droped since too short content.
-2018-05-01 12:08:26 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1'}
-2018-05-01 12:08:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254742373> (referer: http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1)
-2018-05-01 12:08:26 [page] INFO: news droped since too short content.
-2018-05-01 12:08:26 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
-2018-05-01 12:08:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254742237> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
-2018-05-01 12:08:26 [page] INFO: news droped since too short content.
-2018-05-01 12:08:26 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
-2018-05-01 12:08:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254731464> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
-2018-05-01 12:08:26 [page] INFO: news droped since too short content.
-2018-05-01 12:08:26 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
-2018-05-01 12:08:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254742595> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
-2018-05-01 12:08:27 [page] INFO: news droped since too short content.
-2018-05-01 12:08:27 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
-2018-05-01 12:08:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180120/?opsubject_id=top1#253306548> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
-2018-05-01 12:08:27 [page] INFO: news droped since too short content.
-2018-05-01 12:08:27 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180120/?opsubject_id=top1'}
-2018-05-01 12:08:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1#253815178> (referer: http://video.sina.com.cn/news/spj/topvideoes20180120/?opsubject_id=top1)
-2018-05-01 12:08:27 [page] INFO: news droped since too short content.
-2018-05-01 12:08:27 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1'}
-2018-05-01 12:08:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/GwN0fW-NQb0r-FF984lHUFdr8Bk~XmQJfrPbXQ__.htm> (referer: http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1)
-2018-05-01 12:08:28 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n秒拍\r\n穷人和富人的思维区别 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/GwN0fW-NQb0r-FF984lHUFdr8Bk~XmQJfrPbXQ__.htm'}
-2018-05-01 12:08:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.miaopai.com/show/TVN3bTj3pwpzj5WaKenVOnu93ZGI68zRa0kyDA__.htm> (referer: http://www.miaopai.com/show/GwN0fW-NQb0r-FF984lHUFdr8Bk~XmQJfrPbXQ__.htm)
-2018-05-01 12:08:29 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n人人视频app\r\n为什么女生总是遇到错的人，专家称:女性要更主动 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'https://www.miaopai.com/show/TVN3bTj3pwpzj5WaKenVOnu93ZGI68zRa0kyDA__.htm'}
-2018-05-01 12:08:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/fn91mUkvC7~GjKUE1yigKJEWVpkLgRrypYgqjg__.htm> (referer: None)
-2018-05-01 12:08:30 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n全球娱乐趣事\r\n一条《流星花园》土味合集，道明寺少爷真的是太蠢萌了吧！ \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/fn91mUkvC7~GjKUE1yigKJEWVpkLgRrypYgqjg__.htm'}
-2018-05-01 12:08:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/Xr8pQfoB5jxSwgGYIv5ant0nFuMBkzIWeWMOVg__.htm> (referer: http://www.miaopai.com/show/fn91mUkvC7~GjKUE1yigKJEWVpkLgRrypYgqjg__.htm)
-2018-05-01 12:08:31 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n秒拍\r\n心理专家李玫瑾:孩子做作业很拖拉怎么办？ \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/Xr8pQfoB5jxSwgGYIv5ant0nFuMBkzIWeWMOVg__.htm'}
-2018-05-01 12:08:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.miaopai.com/show/XtlqqEg79dP21JAYwK0pq4-FTzfwhYt-nEROKA__.htm> (referer: http://www.miaopai.com/show/Xr8pQfoB5jxSwgGYIv5ant0nFuMBkzIWeWMOVg__.htm)
-2018-05-01 12:08:31 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n新京报我们视频\r\n一睹国际风筝比赛长啥样:蜘蛛、变色龙满天飞 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'https://www.miaopai.com/show/XtlqqEg79dP21JAYwK0pq4-FTzfwhYt-nEROKA__.htm'}
-2018-05-01 12:08:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.miaopai.com/show/HVd59M2i6fpKpl0i12HOe2-rwPqIiJRzhY5-CQ__.htm> (referer: https://www.miaopai.com/show/XtlqqEg79dP21JAYwK0pq4-FTzfwhYt-nEROKA__.htm)
-2018-05-01 12:08:32 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n微辣Video\r\n这婚能结吗？多年女友竟是自己姑姑 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'https://www.miaopai.com/show/HVd59M2i6fpKpl0i12HOe2-rwPqIiJRzhY5-CQ__.htm'}
-2018-05-01 12:08:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/LZj-Y~LWa0739Yo9xx8CH2g5fpx66LCy.htm> (referer: None)
-2018-05-01 12:08:33 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n找靓机二手机\r\n人死后的24小时，身体会发生哪些变化？ \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/LZj-Y~LWa0739Yo9xx8CH2g5fpx66LCy.htm'}
-2018-05-01 12:08:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/qyxXEBEarBjeXshmSo2ngjcsJMAthIm~jB0I1Q__.htm> (referer: http://www.miaopai.com/show/LZj-Y~LWa0739Yo9xx8CH2g5fpx66LCy.htm)
-2018-05-01 12:08:34 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '社交账号登录\r\n趣味多花园\r\n湖南女子成“世界第一女巨人”，18岁长到2.48米，姚明都得仰视 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/qyxXEBEarBjeXshmSo2ngjcsJMAthIm~jB0I1Q__.htm'}
-2018-05-01 12:08:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-21/121768100341.html?opsubject_id=enttopnews> (referer: http://www.miaopai.com/show/qyxXEBEarBjeXshmSo2ngjcsJMAthIm~jB0I1Q__.htm)
-2018-05-01 12:08:34 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯\xa0近日，新浪娱乐对话范丞丞，刚走进采访间时的他，还略显拘谨，自带清冷气质。而在随后的采访中，范丞丞整个人都松懈下来，总是笑眼眯眯的，和外表清冷的样子判若两人。他直言想要超过姐姐范冰冰，挣更多钱的孝敬妈妈。（陈植/摄像）\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-21/121768100341.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-22/154668103373.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-21/121768100341.html?opsubject_id=enttopnews)
-2018-05-01 12:08:34 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 《涨姿势周刊》街舞知识大科普！讲解老师来自《这就是街舞》学员杨文昊、韩宇、王子奇、淡淡 。舞种的标志性动作？不同舞者特征？battle有哪些手势？如何用舞蹈示爱？（昊昊严肃说不要冲女性跳PoP，直接要微信）末尾彩蛋，看各位老师即兴solo驾驭《套路》《说散就散》。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-22/154668103373.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-23/102368105356.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-22/154668103373.html?opsubject_id=enttopnews)
-2018-05-01 12:08:34 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 《妈妈是超人3》黄圣依家儿子安迪才5岁半，但已经知道月球上有空间站、星星、外星人了！脑洞超级大。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-23/102368105356.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-19/101168094311.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-23/102368105356.html?opsubject_id=enttopnews)
-2018-05-01 12:08:35 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯\xa0当耳熟能详的“大河向东流”融入古典的乐器之中，再搭配上小源队长和张杰特有的魅力音色，燃爆现场的说唱版《好汉歌》还不单曲循环走一个？\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-19/101168094311.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/095568086064.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-19/101168094311.html?opsubject_id=enttopnews)
-2018-05-01 12:08:35 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 在《爱的时差》最后一期节目中，宁静秒变娇羞少女，为“年下男”陈玉轩奔赴机场，大胆对其表示好感，甚至直接上前献吻，当街狂撒狗粮。对于此次在节目中的相遇，宁静坦言对陈玉轩的好感逐步增加：“我现在对他有120%的喜欢。”宁静真诚对陈玉轩表示虽然两人之间互有好感，但短暂的相处令她坦言希望多留一些时间准备，并大胆试问：“你愿意等我吗？”\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/095568086064.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-13/161468081202.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/095568086064.html?opsubject_id=enttopnews)
-2018-05-01 12:08:35 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 3月13日，东方卫视春季开放大会上首曝《极限挑战》第四季的片花。三精三傻原班人马再度集结，四月即将回归！黄渤在乡间小路肆意奔跑，张艺兴与小羊共舞，孙红雷也被抓到嗑瓜子了，黄磊、罗志祥、王迅则全程欢笑停不下来。超欢乐。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-13/161468081202.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-03-12/113168078042.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-13/161468081202.html?opsubject_id=enttopnews)
-2018-05-01 12:08:35 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n新浪娱乐讯 《偶像练习生》节目里的反差萌表现，李荣浩表示我对我的脸有误会，剪辑的也挺好的，就是完全毁了我呵呵呵……\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-03-12/113168078042.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/145568086541.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/doc/2018-03-12/113168078042.html?opsubject_id=enttopnews)
-2018-05-01 12:08:35 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 《最强大脑》王昱珩每日焦虑失眠，陪选手练习似“老父亲”。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/145568086541.html?opsubject_id=enttopnews'}
-2018-05-01 12:08:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%B0%E5%BA%A6%E6%89%80%E6%9C%89%E6%9D%91%E5%BA%84%E9%80%9A%E7%94%B5> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/145568086541.html?opsubject_id=enttopnews)
-2018-05-01 12:08:47 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%B0%E5%BA%A6%E6%89%80%E6%9C%89%E6%9D%91%E5%BA%84%E9%80%9A%E7%94%B5'}
-2018-05-01 12:08:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E4%B8%AD%E5%9B%BD%E5%A4%9A%E7%B1%B3%E5%B0%BC%E5%8A%A0%E5%BB%BA%E4%BA%A4> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%B0%E5%BA%A6%E6%89%80%E6%9C%89%E6%9D%91%E5%BA%84%E9%80%9A%E7%94%B5)
-2018-05-01 12:08:47 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E4%B8%AD%E5%9B%BD%E5%A4%9A%E7%B1%B3%E5%B0%BC%E5%8A%A0%E5%BB%BA%E4%BA%A4'}
-2018-05-01 12:08:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E9%BB%98%E5%85%8B%E5%B0%94%E5%AF%B9%E7%BE%8E%E6%92%82%E7%8B%A0%E8%AF%9D> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E4%B8%AD%E5%9B%BD%E5%A4%9A%E7%B1%B3%E5%B0%BC%E5%8A%A0%E5%BB%BA%E4%BA%A4)
-2018-05-01 12:08:47 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E9%BB%98%E5%85%8B%E5%B0%94%E5%AF%B9%E7%BE%8E%E6%92%82%E7%8B%A0%E8%AF%9D'}
-2018-05-01 12:08:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E4%B8%96%E4%B9%92%E8%8B%B1%E6%A0%BC%E5%85%B0%E8%83%9C%E6%97%A5%E6%9C%AC> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E9%BB%98%E5%85%8B%E5%B0%94%E5%AF%B9%E7%BE%8E%E6%92%82%E7%8B%A0%E8%AF%9D)
-2018-05-01 12:08:48 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E4%B8%96%E4%B9%92%E8%8B%B1%E6%A0%BC%E5%85%B0%E8%83%9C%E6%97%A5%E6%9C%AC'}
-2018-05-01 12:08:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=20%E5%B9%B4%E7%AB%9E%E9%80%900.1%E7%A7%92> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E4%B8%96%E4%B9%92%E8%8B%B1%E6%A0%BC%E5%85%B0%E8%83%9C%E6%97%A5%E6%9C%AC)
-2018-05-01 12:08:48 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=20%E5%B9%B4%E7%AB%9E%E9%80%900.1%E7%A7%92'}
-2018-05-01 12:08:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E9%98%BF%E5%AF%8C%E6%B1%97%E9%A6%96%E9%83%BD%E7%88%86%E7%82%B8> (referer: http://www.sina.com.cn/mid/search.shtml?q=20%E5%B9%B4%E7%AB%9E%E9%80%900.1%E7%A7%92)
-2018-05-01 12:08:48 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E9%98%BF%E5%AF%8C%E6%B1%97%E9%A6%96%E9%83%BD%E7%88%86%E7%82%B8'}
-2018-05-01 12:08:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=FF%E6%A0%B7%E8%BD%A6%E8%BF%90%E6%8A%B5%E5%8C%97%E4%BA%AC> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E9%98%BF%E5%AF%8C%E6%B1%97%E9%A6%96%E9%83%BD%E7%88%86%E7%82%B8)
-2018-05-01 12:08:48 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=FF%E6%A0%B7%E8%BD%A6%E8%BF%90%E6%8A%B5%E5%8C%97%E4%BA%AC'}
-2018-05-01 12:08:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E6%B1%AA%E5%B0%8F%E8%8F%B2%E6%8E%A2%E7%8F%AD%E5%A4%A7S> (referer: http://www.sina.com.cn/mid/search.shtml?q=FF%E6%A0%B7%E8%BD%A6%E8%BF%90%E6%8A%B5%E5%8C%97%E4%BA%AC)
-2018-05-01 12:08:49 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E6%B1%AA%E5%B0%8F%E8%8F%B2%E6%8E%A2%E7%8F%AD%E5%A4%A7S'}
-2018-05-01 12:08:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E9%82%A3%E4%B8%8D%E5%8B%92%E6%96%AF%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E6%B1%AA%E5%B0%8F%E8%8F%B2%E6%8E%A2%E7%8F%AD%E5%A4%A7S)
-2018-05-01 12:08:49 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E9%82%A3%E4%B8%8D%E5%8B%92%E6%96%AF%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8'}
-2018-05-01 12:08:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%88%A9%E6%AF%94%E4%BA%9A%E8%BF%90%E8%BE%93%E6%9C%BA%E5%9D%A0%E6%AF%81> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E9%82%A3%E4%B8%8D%E5%8B%92%E6%96%AF%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8)
-2018-05-01 12:08:49 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%88%A9%E6%AF%94%E4%BA%9A%E8%BF%90%E8%BE%93%E6%9C%BA%E5%9D%A0%E6%AF%81'}
-2018-05-01 12:08:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E7%8E%8B%E6%AF%85%E5%B0%86%E8%AE%BF%E9%97%AE%E6%9C%9D%E9%B2%9C> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%88%A9%E6%AF%94%E4%BA%9A%E8%BF%90%E8%BE%93%E6%9C%BA%E5%9D%A0%E6%AF%81)
-2018-05-01 12:08:50 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E7%8E%8B%E6%AF%85%E5%B0%86%E8%AE%BF%E9%97%AE%E6%9C%9D%E9%B2%9C'}
-2018-05-01 12:08:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E7%94%B5%E8%A7%86%E9%97%AE%E6%94%BF%E5%BC%95%E5%8F%91%E7%83%AD%E8%AE%AE> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E7%8E%8B%E6%AF%85%E5%B0%86%E8%AE%BF%E9%97%AE%E6%9C%9D%E9%B2%9C)
-2018-05-01 12:08:50 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E7%94%B5%E8%A7%86%E9%97%AE%E6%94%BF%E5%BC%95%E5%8F%91%E7%83%AD%E8%AE%AE'}
-2018-05-01 12:08:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E8%AE%B0%E8%80%85%E8%B5%9B%E5%90%8E%E9%87%87%E8%AE%BF%E9%A9%AC%E9%BE%99> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E7%94%B5%E8%A7%86%E9%97%AE%E6%94%BF%E5%BC%95%E5%8F%91%E7%83%AD%E8%AE%AE)
-2018-05-01 12:08:50 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E8%AE%B0%E8%80%85%E8%B5%9B%E5%90%8E%E9%87%87%E8%AE%BF%E9%A9%AC%E9%BE%99'}
-2018-05-01 12:08:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E7%94%B5%E5%BD%B1%E5%B1%80%E5%9B%9E%E5%BA%94%E9%80%80%E7%A5%A8> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E8%AE%B0%E8%80%85%E8%B5%9B%E5%90%8E%E9%87%87%E8%AE%BF%E9%A9%AC%E9%BE%99)
-2018-05-01 12:08:51 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E7%94%B5%E5%BD%B1%E5%B1%80%E5%9B%9E%E5%BA%94%E9%80%80%E7%A5%A8'}
-2018-05-01 12:08:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%9B%BD%E4%B9%92%E7%94%B7%E9%98%9F3-0%E6%8D%B7%E5%85%8B> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E7%94%B5%E5%BD%B1%E5%B1%80%E5%9B%9E%E5%BA%94%E9%80%80%E7%A5%A8)
-2018-05-01 12:08:51 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%9B%BD%E4%B9%92%E7%94%B7%E9%98%9F3-0%E6%8D%B7%E5%85%8B'}
-2018-05-01 12:08:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%88%98%E8%8B%A5%E8%8B%B1%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%9B%9E%E5%BA%94> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%9B%BD%E4%B9%92%E7%94%B7%E9%98%9F3-0%E6%8D%B7%E5%85%8B)
-2018-05-01 12:08:52 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%88%98%E8%8B%A5%E8%8B%B1%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%9B%9E%E5%BA%94'}
-2018-05-01 12:08:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://db.auto.sina.com.cn/photo/g122726-2.html> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%88%98%E8%8B%A5%E8%8B%B1%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%9B%9E%E5%BA%94)
-2018-05-01 12:08:52 [page] INFO: news droped since too short content.
-2018-05-01 12:08:52 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
-{'source': 'sina_home', 'title': '', 'content': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://db.auto.sina.com.cn/photo/g122726-2.html'}
-2018-05-01 12:08:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://db.auto.sina.com.cn/photo/c122772-99-2.html> (referer: http://db.auto.sina.com.cn/photo/g122726-2.html)
-2018-05-01 12:08:52 [page] INFO: save in mongodb: 红旗E·境GT
-2018-05-01 12:08:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://db.auto.sina.com.cn/photo/c122772-99-2.html>
-None
-2018-05-01 12:08:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/ask/2018-04-16/doc-ifzcyxmv4173864.shtml> (referer: http://db.auto.sina.com.cn/photo/c122772-99-2.html)
-2018-05-01 12:08:52 [page] INFO: save in mongodb: 拔牙尤其拔智齿务必首先确保这几件事
-2018-05-01 12:08:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/mid/ask/2018-04-16/doc-ifzcyxmv4173864.shtml>
-None
-2018-05-01 12:08:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/xl/2018-05-01/doc-ifzvpatr7911098.shtml> (referer: http://www.sina.com.cn/mid/ask/2018-04-16/doc-ifzcyxmv4173864.shtml)
-2018-05-01 12:08:53 [page] INFO: save in mongodb: 笃勤者习近平
-2018-05-01 12:08:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/xl/2018-05-01/doc-ifzvpatr7911098.shtml>
-None
-2018-05-01 12:08:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/xl/2018-04-30/doc-ifzvpatr5793983.shtml> (referer: http://news.sina.com.cn/c/xl/2018-05-01/doc-ifzvpatr7911098.shtml)
-2018-05-01 12:08:53 [page] INFO: save in mongodb: 习近平给中国劳动关系学院劳模本科班学员的回信
-2018-05-01 12:08:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/xl/2018-04-30/doc-ifzvpatr5793983.shtml>
-None
-2018-05-01 12:08:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/o/2018-04-30/doc-ifzvpatr6084560.shtml> (referer: http://news.sina.com.cn/c/xl/2018-04-30/doc-ifzvpatr5793983.shtml)
-2018-05-01 12:08:53 [page] INFO: save in mongodb: 习近平：让诚实劳动 勤勉工作蔚然成风
-2018-05-01 12:08:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/o/2018-04-30/doc-ifzvpatr6084560.shtml>
-None
-2018-05-01 12:08:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/xl/2018-04-30/doc-ifzvpatr5936473.shtml> (referer: http://news.sina.com.cn/o/2018-04-30/doc-ifzvpatr6084560.shtml)
-2018-05-01 12:08:54 [page] INFO: save in mongodb: 习近平总书记考察湖北回访记：情系人民 心牵创新
-2018-05-01 12:08:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/xl/2018-04-30/doc-ifzvpatr5936473.shtml>
-None
-2018-05-01 12:08:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr5874333.shtml> (referer: http://news.sina.com.cn/c/xl/2018-04-30/doc-ifzvpatr5936473.shtml)
-2018-05-01 12:08:54 [page] INFO: save in mongodb: 传承百年 马克思关于劳动的八大金句
-2018-05-01 12:08:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr5874333.shtml>
-None
-2018-05-01 12:08:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr6306484.shtml> (referer: http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr5874333.shtml)
-2018-05-01 12:08:54 [page] INFO: save in mongodb: 院长名家谈：马克思的精神遗产是什么？
-2018-05-01 12:08:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr6306484.shtml>
-None
-2018-05-01 12:08:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr6188268.shtml> (referer: http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr6306484.shtml)
-2018-05-01 12:08:54 [page] INFO: save in mongodb: 人民日报五一社论：用劳动书写我们的新时代
-2018-05-01 12:08:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr6188268.shtml>
-None
-2018-05-01 12:08:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/2018-05-01/doc-ifzvpatr7882182.shtml> (referer: http://news.sina.com.cn/c/2018-04-30/doc-ifzvpatr6188268.shtml)
-2018-05-01 12:08:55 [scrapy.extensions.logstats] INFO: Crawled 86 pages (at 86 pages/min), scraped 19 items (at 19 items/min)
-2018-05-01 12:08:55 [page] INFO: save in mongodb: 中国人的故事：新时代劳动者最美
-2018-05-01 12:08:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/2018-05-01/doc-ifzvpatr7882182.shtml>
-None
-2018-05-01 12:08:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/o/2018-05-01/doc-ifzvpatr6664516.shtml> (referer: http://news.sina.com.cn/s/2018-05-01/doc-ifzvpatr7882182.shtml)
-2018-05-01 12:08:55 [page] INFO: save in mongodb: 五一特别关注：劳动者的这些权益你都享受了吗？
-2018-05-01 12:08:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/o/2018-05-01/doc-ifzvpatr6664516.shtml>
-None
-2018-05-01 12:08:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/2018-05-01/doc-ifzvpatr7300800.shtml> (referer: http://news.sina.com.cn/o/2018-05-01/doc-ifzvpatr6664516.shtml)
-2018-05-01 12:08:55 [page] INFO: save in mongodb: 多米尼加宣布与台湾“断交”
-2018-05-01 12:08:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/2018-05-01/doc-ifzvpatr7300800.shtml>
-None
-2018-05-01 12:08:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr7750418.shtml> (referer: http://news.sina.com.cn/w/2018-05-01/doc-ifzvpatr7300800.shtml)
-2018-05-01 12:08:56 [page] INFO: save in mongodb: 刚赠悍马就“断交” 台官员怒称：多米尼加不重要
-2018-05-01 12:08:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr7750418.shtml>
-None
-2018-05-01 12:08:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr6293922.shtml> (referer: http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr7750418.shtml)
-2018-05-01 12:08:56 [page] INFO: save in mongodb: 中国会为俄造航母吗？美媒:对中国好处显而易见
-2018-05-01 12:08:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr6293922.shtml>
-None
-2018-05-01 12:08:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/sy/2018-04-30/doc-ifzvpatr6174364.shtml> (referer: http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr6293922.shtml)
-2018-05-01 12:08:56 [page] INFO: save in mongodb: 侠客岛：美国要在南海造岛？
-2018-05-01 12:08:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/sy/2018-04-30/doc-ifzvpatr6174364.shtml>
-None
-2018-05-01 12:08:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr7101369.shtml> (referer: http://news.sina.com.cn/w/sy/2018-04-30/doc-ifzvpatr6174364.shtml)
-2018-05-01 12:08:56 [page] INFO: save in mongodb: 天津海关截获美国进口转基因苜蓿草 重约250吨
-2018-05-01 12:08:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr7101369.shtml>
-None
-2018-05-01 12:08:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/2018-05-01/doc-ifzvpatr7393381.shtml> (referer: http://news.sina.com.cn/c/2018-05-01/doc-ifzvpatr7101369.shtml)
-2018-05-01 12:08:57 [page] INFO: save in mongodb: 外媒：特金会选在朝韩边界非军事区 文在寅或参加
-2018-05-01 12:08:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/2018-05-01/doc-ifzvpatr7393381.shtml>
-None
-2018-05-01 12:08:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/2018-04-30/doc-ifzvpatr6457762.shtml> (referer: http://news.sina.com.cn/w/2018-05-01/doc-ifzvpatr7393381.shtml)
-2018-05-01 12:08:57 [page] INFO: save in mongodb: 女生读研的后果是输掉整个人生？网友为这事吵翻
-2018-05-01 12:08:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/2018-04-30/doc-ifzvpatr6457762.shtml>
-None
-2018-05-01 12:09:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tousu.sina.com.cn/> (referer: http://news.sina.com.cn/s/2018-04-30/doc-ifzvpatr6457762.shtml)
-2018-05-01 12:09:08 [page] INFO: save in mongodb: 电信公司先是随意增加最低消费，随后又强行回收号码，再后要让预存6000才归还号码
-2018-05-01 12:09:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tousu.sina.com.cn/>
-None
-2018-05-01 12:09:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/2018-05-01/doc-ifzvpatr7239755.shtml> (referer: http://tousu.sina.com.cn/)
-2018-05-01 12:09:09 [page] INFO: save in mongodb: 没买车的恭喜了 5月1日起国家政策将有大变化
-2018-05-01 12:09:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/2018-05-01/doc-ifzvpatr7239755.shtml>
-None
-2018-05-01 12:09:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/zxt/#256983627> (referer: http://news.sina.com.cn/s/2018-05-01/doc-ifzvpatr7239755.shtml)
-2018-05-01 12:09:09 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '\n\t\t\t\t视频中上海一商场里出现了一台超不寻常的娃娃机，因为主角不是玩偶而是一只只活蹦乱跳的活龙虾。... \n\t\t\t\r\n04月29日 21:28\r\n\n\t\t\t\t当威猛的美洲豹遇上看似呆萌的水濑，谁才是胜者？巴西河边一直美洲豹在河边休憩时竟被一只突然浮出水面的水濑吓了一跳，随后立即... \n\t\t\t\r\n04月29日 15:22\r\n\n\t\t\t\t\u3000\u3000澳大利亚某海滩边发生罕见一幕，一只海豹突然闯入正在游玩的人群当中，原来是在追逐捕食一只小鱼... \n\t\t\t\r\n04月28日 09:26\r\n\n\t\t\t\t4月15日，美国密歇根州伊普西兰蒂一处电线发生短路。一名网友在加气站附近拍下了短路的画面，只见多节电线爆出由红变蓝的火光，还... \n\t\t\t\r\n04月26日 17:28\r\n\n\t\t\t\t\u3000\u3000萨那消息：也门安全部门22日说，也门西北部哈杰省一个婚礼现场22日遭沙特阿拉伯领导的多国联军空袭，造成至少40人伤亡。... \n\t\t\t\r\n04月28日 09:35\r\n\n\t\t\t\t3岁小女孩迷路走失近15个小时，家中17岁的狗狗Max虽然已经丧失了部分听觉和视觉，仍然通过气味在家附近的山坡上找到了小主人，并... \n\t\t\t\r\n04月27日 19:51\r\n\n\t\t\t\t近日，英国米德尔斯堡一名歹徒手持一把长约30cm的尖刀威胁站在柜台里的女店主，然而女店主竟毫不慌张，从身后拿出一根塑料杆子就... \n\t\t\t\r\n04月26日 21:21\r\n一周视频排行\r\n加载失败，请\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://news.sina.com.cn/zxt/'}
-2018-05-01 12:09:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://zj.sina.com.cn/news/s/2018-04-28/detail-ifztkpip6053977.shtml> (referer: http://news.sina.com.cn/zxt/)
-2018-05-01 12:09:09 [page] INFO: save in mongodb: 杭州最热门摇号楼盘出炉 16个人抢一套房(图)
-2018-05-01 12:09:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://zj.sina.com.cn/news/s/2018-04-28/detail-ifztkpip6053977.shtml>
-None
-2018-05-01 12:09:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/manage/crz/2018-05-01/doc-ifzvpatr7922107.shtml> (referer: http://zj.sina.com.cn/news/s/2018-04-28/detail-ifztkpip6053977.shtml)
-2018-05-01 12:09:09 [page] INFO: save in mongodb: 五一特写：光环背后大佬们有多拼？不拼当不了企业家
-2018-05-01 12:09:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/manage/crz/2018-05-01/doc-ifzvpatr7922107.shtml>
-None
-2018-05-01 12:09:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/china/2018-05-01/doc-ifzvpatr7201843.shtml> (referer: http://finance.sina.com.cn/manage/crz/2018-05-01/doc-ifzvpatr7922107.shtml)
-2018-05-01 12:09:10 [page] INFO: save in mongodb: 美国访华贸易代表团名单：财政部长和商务部长领衔
-2018-05-01 12:09:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/china/2018-05-01/doc-ifzvpatr7201843.shtml>
-None
-2018-05-01 12:09:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/china/2018-05-01/doc-ifzvpatr7145468.shtml> (referer: http://finance.sina.com.cn/china/2018-05-01/doc-ifzvpatr7201843.shtml)
-2018-05-01 12:09:10 [page] INFO: save in mongodb: 环境部向20市发督办函要求公开督办问题清单否则问责
-2018-05-01 12:09:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/china/2018-05-01/doc-ifzvpatr7145468.shtml>
-None
-2018-05-01 12:09:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/stock/> (referer: http://finance.sina.com.cn/china/2018-05-01/doc-ifzvpatr7145468.shtml)
-2018-05-01 12:09:10 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '财经首页\r\n客户端\r\n行业\r\n涨幅榜\r\n涨幅榜\r\n涨跌幅\r\n涨跌幅\r\n亚洲股市\r\n欧洲股市\r\n成份股\r\n成份股\r\n成份股\r\n黄金ETF\r\n布伦特原油\r\n机构看市\r\n查看更多\r\nA股正式入摩渐进，蓝筹、权重股杀跌难度会越来越大，也是股市支撑因素。[\r\n[\r\n交易提示\r\n操盘必读\r\n最新公告\r\n滚动\r\n证券报\r\n早晚报\r\n实时大单\r\n涨幅排行\r\n股市雷达\r\n涨速排行\r\n行业涨幅\r\n概念涨幅\r\n龙虎榜\r\n融资融券\r\n限售解禁\r\n大宗交易\r\n内部交易\r\n基金重仓\r\n业绩报表\r\n业绩预告\r\n业绩快报\r\n财务对比\r\n市盈排行\r\n业绩预测\r\n千股千评\r\n条件选股\r\nAH比价\r\n资金流向\r\n环球股指\r\n股价预测\r\n[\r\n(sinaads = window.sinaads || []).push({});\r\n[\r\n“消失”的27亿元 生物燃料第一股龙力生物巨亏\r\n资产负债率高达98.2% 一汽夏利何去何从引关注\r\n被指内控出问题 贝因美去年亏损超10亿被“ST”\r\n年报财务数据异常 泰豪科技被问询\r\n建联盟造平台 东方明珠加码电竞产业\r\n宜通世纪发生中毒事件 已有2人死亡\r\n新湖中宝投资不走寻常路 潜伏多家“独角兽”\r\n国药一致：鸿茅药酒不是本公司生产产品\r\n评中国平安的大跌:风宜长物放眼量 股价下跌或\r\n优秀业绩全靠单一产品支撑 格力在多元化之路上\r\n格力电器董秘谈不分红:没想到反响那么大 已经\r\n宝能系一周内两次出货 两资管计划减持万科1.3\r\nST龙力35亿巨亏疑云:暴增近3万倍的营业外支出\r\n太平鸟收购宁波中百内幕：关联账户组团提前买\r\n老司机海虹控股:2亿营收撑360亿市值 大股东套\r\n辉丰股份：副总因涉嫌污染环境案被监视居住\r\n口子窖高档酒毛利率下滑 董事长质押9亿股变相\r\n太平鸟购宁波中百内幕:关联账户提前买百万股未\r\n巨亏138亿:乐视网当定A股亏损王 审计机构拒发\r\n新能源补贴退坡:中通客车业绩惨降一夜回到五年\r\n中石化一季度日赚2.1亿元 勘探开发板块大幅减\r\n更多公司要闻\r\n[\r\n中国平安一季度净利增长11.5% 年化总投资收益\r\n格力电器11年来首次不分红 股价放量大跌\r\n恺英网络募投故事挂羊头卖狗肉 北信瑞丰等2基\r\n三安光电5个月市值蒸发450亿 年内获政府补贴款\r\n格力中期分红难阻市值失血 监管紧盯铁公鸡难遁\r\n互联网+战略碰壁 青青稞酒子公司四年亏1.8亿成\r\n标的净利难达标 智慧松德溢价5倍购两公司预期\r\n北京银行去年净利189亿元 同比增长5.35%\r\n三维丝创始人重掌权 子公司业绩承诺未达标再引\r\n洋河股份连续9年高现金分红 累计金额高达184亿\r\n新潮能源历时四年转型成功 2017年净利大增超3\r\n沙钢股份任性停牌585天 专家建议投资者可向法\r\n康达尔股权之争无果 股东大会掐架表决或致年报\r\n顺丰控股五折推股权激励 金手链撒向1200余人\r\n私有化内讧引发连锁反应 未名医药年报披露搁浅\r\n天音控股拟在海南发展彩票 董事长称不欠东风\r\n旭升股份去年营收逾7亿元 特斯拉贡献过半\r\n德展健康再度完成业绩承诺 主打产品望获一致性\r\n百花村子公司营收调减引争议 董事质疑审计报告\r\n工行：已基本完成全球网络布局\r\n煤炭贸易商哄抬煤价 华能集团实施限价政策“反\r\n返回\r\n戴若•顾比：上证指数酝酿双底趋势反转\r\n支付宝全球布局 蚂蚁金服估值超9000亿\r\n局部虽企稳 A股弱势格局未变\r\n外资净流入A股超370亿元 A股现多重积\r\n收评：惊魂4分钟 华锋股份从涨停到收跌3\r\n收评：中国平安澄清董事长变更谣言 股价盘\r\n收评：伊利股份放量跌停 全天成交额超60\r\n节后股市三大猜想及应对策略\r\n收评:沪指翻红涨0.23%创指涨1.37\r\n快讯：沪指翻红涨0.18%创指大涨1.4\r\n午评：创指涨0.8%沪指跌0.74% 绩\r\n快讯：创业板上涨超1% 半导体板块领跌\r\n节后反弹高度取决于下跌深度\r\n如何看待3587点以来的调整？\r\n五月A股前瞻：“震荡月”的机会和风险\r\n中金公司一季度潜伏多个海南概念股\r\nQ1A股光伏企业净赚近50亿元 毛隆基股\r\n新国货国际化之路 国瓷永丰源的探索\r\n年报分红送转榜:高派现股家数创新高\r\n白云山金戈高速增长助力连续涨停\r\n证金一季度增持14只券商股 但最高持股比\r\n平安好医生超额认购653倍超阅文创历史\r\n一图揭秘上市公司18宗“最”：谁最有钱 \r\n医药板块持续强劲 长亮科技涨幅达34.2\r\n伴随着资本市场改革开放进程的加快，境内资本市场投资者机构化发展趋势不断凸显，海内外投资...\r\n冯矿伟\r\n宋-驰\r\n秦洪\r\n刀锋\r\n宇辉\r\n隐者333\r\nwu2198\r\n刀锋\r\n魏宁海\r\n冯矿伟\r\n从蓝筹指数上证50和银行指数在本周的走势上，可以看到银行指数在本周没有低于上周的表现...\r\nai财有道\r\n南山听风\r\nai财有道\r\n穆满起\r\n王雪伟\r\n股海牧童\r\n黄斌汉\r\n板哥看市\r\n轩阳论市\r\n金鼎\r\n揭幕者\r\n独股十剑\r\n草根武哥\r\n余克\r\n盘之感\r\n大满贯股\r\nai财有道\r\n概念爱好者\r\n赢在龙头\r\n盘之感\r\n揭幕者\r\n天天涨停\r\n揭幕者\r\n盘之感\r\n黄家茶社\r\n赢在龙头\r\n沙漠雄鹰\r\n老牛论市\r\n狄琼霏\r\n霹雳股神\r\n股海战神\r\n波段-老阳\r\n老牛论市\r\n狄琼霏\r\n霹雳股神\r\n股海战神\r\n京沪主流保险机构投资经理表示，近期重点布局消费板块，在灵活控制仓位的基础上适当关注超跌反弹的机会。\r\n60亿私募睿策投资 主动清仓为哪般\r\n这类机构3000亿已入市投资 最新重仓股曝光(表)\r\n养老钱新动作:3066亿开始投资 已潜入这11家上市公司\r\n明星私募最新动向浮出水面 一季度新进与加仓这些股\r\n国家队增持超200亿 证金公司一季度看上平安等10股\r\n成泉资本精准潜伏思路曝光 下一个目标是军工板块\r\n人社部：3066.5亿元养老金已到账并开始投资\r\n中期业绩预增 47股被基金抢先布局\r\n超六成公司一季报业绩增长 国家队新进逾20家公司\r\n医药生物去年净利增长逾20% 基金密集增仓\r\n据统计，已经公布2017年年报或业绩快报的集成电路行业公司，逾六成2017年实现盈利并业绩同比增长。\r\n布伦特原油跌幅扩大至2% 逼近73美元/桶关口\r\n徐彪解读年报：主板业绩增速下滑 成长行业业绩转好\r\n美银：下调港股比亚迪评级至“中性” 目标价59.3元\r\n超六成公司一季报业绩增长 81股中期业绩预增超50%\r\n全国电影票房创记录 8只影视股一季报净利实现翻番\r\n资管新规明确 保险资管市场地位\r\n午间重磅公告：一公司HPV疫苗在27个省中标\r\n中兴华为之后 中国手机在美国市场还有活路吗\r\n首季国企成绩斐然 钢铁等行业利润大增\r\n国货当自强 这一次轮到芯片了\r\n一系列的行动早已经表明，我国资本市场对外开放的大门已经越来越大，步伐越来越快，“国际范”越来越丰满。\r\n美国调查华为 或因担忧5G竞争落后中国\r\n高盛：美联储几乎肯定会6月加息 紧缩高峰恐高于预测\r\n天风宏观：资管新规核心要义不变 但整体略有缓和\r\n安信策略资管新规点评：平稳防风险 促市场反弹\r\n高业绩承诺地雷集中爆发 证监会正制定相关管理办法\r\n特朗普对华施压动机：美中对系统开放截然不同的态度\r\n海通宏观姜超：工业利润回落 库存继续回补\r\n“国际范儿”日渐丰满 资本市场将更具竞争力\r\n破除违约债券交易障碍 探索建立合理交易机制\r\n商务部：抓紧研究河北自贸区总体方案\r\n通过2017年年报及2018年一季报股东榜的“十张脸孔”的变化，可以探寻主力资金出没的轨迹，减小踩雷概率。\r\n华泰证券：资管新规最终稿对银行形成利好\r\n林园：市场点位低估看好未来走势 三类医药股被低估\r\n荀玉根解读一季报:主板增速放缓 结构龙头业绩更靓丽\r\n解读一季报：关注困境反转＋业绩加速的公司\r\n五月A股前瞻：“震荡月”的机会和风险\r\n天风:佛系青年催生孤独经济 孤独人口的五大消费特征\r\n贸易战是两国供给侧改革较量 遑论美启全球产能置换\r\n管清友:这8款投资陷阱 总有一款适合中国人\r\n资管新规：救存款、降利率、推股市\r\n外商投资证券公司新政新在哪：改5项要求 定6个条件\r\n投资评级选股>>\r\n次新股能否彻底反转即将揭晓\r\n底未完成时间窗口又重现\r\n现阶段主力以不变应万变\r\n两市弱势振荡 泛军工集体大涨\r\n周二最具爆发力六大热点板块（名单）\r\n双底形态再度成型 成交萎缩机构分歧明显\r\n现在该重点关注那些板块\r\n事件型热点发力 指数震荡拉锯\r\n中国海军建军节在即 首艘国产航母或将海试\r\n全球芯片销售额连增19个月 关注国产化机会\r\n江山欧派：一季度业绩降51.02% 江山欧派跌停\r\n金风科技在手订单再创历史新高\r\n国民技术：短期涨幅较大调整开始 需待公安立案结果利好出来\r\n三一短期有望突破前高\r\n首款国产太赫兹成像芯片发布 大恒科技封涨停\r\n亚玛顿：2017年业绩变脸 由预盈转为亏损超2000万\r\n绿盟科技：收入稳健增长 业绩有望迎来拐点\r\n大族激光：二季度或超预期三季度更值得期待\r\n最新公告揭露重大利好 七只股今日或上涨\r\n吉电股份：中朝水力发电公司调研旗下电厂\r\n新手炒股快速入门\r\n教你快速了解股市\r\n大众投资者入门书\r\n风雨小散路\r\n巴菲特投资真经\r\n索罗斯投资三板斧\r\n高管操纵股市黑幕\r\n股市钱规则\r\n政府与市场之间\r\n主力控盘法\r\n揭开股市的怪圈\r\n股市大突破\r\n庄家心理操纵术\r\n股经\r\n陆一良心说股事\r\n主力操盘潜规则\r\n私募是怎样炼成的\r\n解套第一课\r\n终身有钱花\r\n第三次世界大萧条\r\n还原金融真相\r\n高端博弈：操纵\r\n股市财富秘诀\r\n金融道\r\n行情中心\r\n股市雷达\r\n沪深300\r\n港股行情\r\n外汇行情\r\n国债期货\r\n新浪股吧\r\n新浪证券官方微博\r\n龙虎榜\r\n内部交易\r\n业绩报表\r\n市盈排行\r\n股价提醒\r\n股票计算器\r\n数据诊股\r\n强势股\r\n中国证券报\r\n证券时报网\r\n中国经营报\r\n证券时报\r\n经济观察报\r\n第一财经\r\n银河证券\r\n长江证券\r\n国泰君安\r\n东北证券\r\n中原证券\r\n沪深股票、基金、债券、港股、美股、国内期货、外汇、黄金等行情，除有特别标明外，均为实时行情；其他行情至少延时15分钟。新浪财经免费提供的行情数据以及其他资料均来自合作方，仅作为用户获取信息之目的，并不构成投资建议。新浪财经以及其合作机构不为本页面提供的信息错误、残缺、延时或因依靠此信息所采取的任何行动负责。市场有风险，投资需谨慎。\r\n客户服务热线：4006900000 欢迎批评指正\r\n常见问题解答\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司\u3000\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://finance.sina.com.cn/stock/'}
-2018-05-01 12:09:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/zt_d/gjs/> (referer: http://finance.sina.com.cn/stock/)
-2018-05-01 12:09:11 [page] INFO: save in mongodb: 港交所发布新经济股新规 4.30日起生效
-2018-05-01 12:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/zt_d/gjs/>
-None
-2018-05-01 12:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.leju.com/> (referer: http://finance.sina.com.cn/zt_d/gjs/)
-2018-05-01 12:09:11 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '马光远：新一线城市的排名靠谱吗？\r\n海南自贸区 房地产泡沫将被扼制\r\n法问丨借名买房，房子到底是谁的？\r\n在人工智能将代替一切的未来，唯有专业内容的创造力无可替代，寻找靠谱泛地产圈中人\r\n我们从房地产出发，以大民生、大财经的视角，关注这个微时代的世界。\r\n绿地控股：掉队又掉“价”\r\n【地产札记】什么决定房价？\r\n巨变：政府将不再垄断住宅用地供应\r\nCOPYRIGHT © 2017 LEJU HOLDING LIMITED, All RIGHTS RESERVED\r\n京ICP证080057号\r\n广播电视节目制作经营许可证(京)字第05591号\r\n北京怡生乐居信息服务有限公司  北京市海淀区北四环西路58号理想国际大厦806-810室\r\n乐居房产、家居产品用户服务、产品咨询购买、技术支持客服服务热线：新房、二手房：400-606-6969 \u2003家居、抢工长：400-010-2323\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://news.leju.com/'}
-2018-05-01 12:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.leju.com/2018-05-01/6396727553935326544.shtml> (referer: http://news.leju.com/)
-2018-05-01 12:09:11 [page] INFO: save in mongodb: 法问丨借名买房，房子到底是谁的？
-2018-05-01 12:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.leju.com/2018-05-01/6396727553935326544.shtml>
-None
-2018-05-01 12:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tech.sina.com.cn/i/2018-05-01/doc-ifzvpatr6663742.shtml> (referer: http://news.leju.com/2018-05-01/6396727553935326544.shtml)
-2018-05-01 12:09:11 [page] INFO: save in mongodb: 一批新规今起实施：泄露快递用户隐私最高罚10万
-2018-05-01 12:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tech.sina.com.cn/i/2018-05-01/doc-ifzvpatr6663742.shtml>
-None
-2018-05-01 12:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tech.sina.com.cn/t/2018-05-01/doc-ifzvpatr7168300.shtml> (referer: http://tech.sina.com.cn/i/2018-05-01/doc-ifzvpatr6663742.shtml)
-2018-05-01 12:09:12 [page] INFO: save in mongodb: iPhone终于降价啦！苹果商城维护带来的“福音”
-2018-05-01 12:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tech.sina.com.cn/t/2018-05-01/doc-ifzvpatr7168300.shtml>
-None
-2018-05-01 12:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tech.sina.com.cn/d/2018-04-30/doc-ifzvpatr2764648.shtml> (referer: http://tech.sina.com.cn/t/2018-05-01/doc-ifzvpatr7168300.shtml)
-2018-05-01 12:09:12 [page] INFO: save in mongodb: 开门红！“蓝色起源”公司新年第一次发射圆满成功
-2018-05-01 12:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tech.sina.com.cn/d/2018-04-30/doc-ifzvpatr2764648.shtml>
-None
-2018-05-01 12:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://live.sina.com.cn/zt/l/v/tech/blueorigin/> (referer: http://tech.sina.com.cn/d/2018-04-30/doc-ifzvpatr2764648.shtml)
-2018-05-01 12:09:12 [page] INFO: save in mongodb: 蓝色起源今晚发射火箭：目标直指太空旅游
-2018-05-01 12:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://live.sina.com.cn/zt/l/v/tech/blueorigin/>
-None
-2018-05-01 12:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://auto.sina.com.cn/beijingchezhan/> (referer: http://live.sina.com.cn/zt/l/v/tech/blueorigin/)
-2018-05-01 12:09:13 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://auto.sina.com.cn/beijingchezhan/'}
-2018-05-01 12:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://auto.sina.com.cn/news/hy/2018-04-24/detail-ifzqvvsa3367650.shtml> (referer: http://auto.sina.com.cn/beijingchezhan/)
-2018-05-01 12:09:13 [page] INFO: save in mongodb: 源力觉醒 恰逢其时 新浪e站重磅上线
-2018-05-01 12:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://auto.sina.com.cn/news/hy/2018-04-24/detail-ifzqvvsa3367650.shtml>
-None
-2018-05-01 12:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/s/tr/2018-05-01/0702/doc-ifzqvvsc2549734.shtml> (referer: http://auto.sina.com.cn/news/hy/2018-04-24/detail-ifzqvvsa3367650.shtml)
-2018-05-01 12:09:13 [page] INFO: save in mongodb: 《北京女子图鉴》更像一部惨烈的大牌进化史
-2018-05-01 12:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/s/tr/2018-05-01/0702/doc-ifzqvvsc2549734.shtml>
-None
-2018-05-01 12:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/s/ac/2018-05-01/0702/doc-ifzihnep0223524.shtml> (referer: http://fashion.sina.com.cn/s/tr/2018-05-01/0702/doc-ifzqvvsc2549734.shtml)
-2018-05-01 12:09:13 [page] INFO: save in mongodb: 连Kendall Jenner都爱的穆勒鞋 你确定不了解一下
-2018-05-01 12:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/s/ac/2018-05-01/0702/doc-ifzihnep0223524.shtml>
-None
-2018-05-01 12:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/style/man/2018-05-01/0705/doc-ifzvpatq5731347.shtml> (referer: http://fashion.sina.com.cn/s/ac/2018-05-01/0702/doc-ifzihnep0223524.shtml)
-2018-05-01 12:09:14 [page] INFO: save in mongodb: 不是所有潮人都穿得好 这些穿搭错误你犯了没
-2018-05-01 12:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/style/man/2018-05-01/0705/doc-ifzvpatq5731347.shtml>
-None
-2018-05-01 12:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/style/man/2018-05-01/0707/doc-ifzvpatq6512684.shtml> (referer: http://fashion.sina.com.cn/style/man/2018-05-01/0705/doc-ifzvpatq5731347.shtml)
-2018-05-01 12:09:14 [page] INFO: save in mongodb: 穿背带怎么了？有人说我绅士 也有人说我娘炮
-2018-05-01 12:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/style/man/2018-05-01/0707/doc-ifzvpatq6512684.shtml>
-None
-2018-05-01 12:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/b/mk/2018-05-01/0709/doc-ifyuwqez8215023.shtml> (referer: http://fashion.sina.com.cn/style/man/2018-05-01/0707/doc-ifzvpatq6512684.shtml)
-2018-05-01 12:09:14 [page] INFO: save in mongodb: 想要杨幂江疏影同款妆容 你得有她们那两把刷子
-2018-05-01 12:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/b/mk/2018-05-01/0709/doc-ifyuwqez8215023.shtml>
-None
-2018-05-01 12:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/zt_d/mayday2018/> (referer: http://fashion.sina.com.cn/b/mk/2018-05-01/0709/doc-ifyuwqez8215023.shtml)
-2018-05-01 12:09:14 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t五一小长假来临，最潮、最酷、最好玩的假期玩乐指南和超实用攻略让你假期不虚度，一起来悦玩悦HIGH吧。\t\t\t\t\t\t\t\t\t\t\t\r\n新浪意见反馈留言板 欢迎批评指正\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://fashion.sina.com.cn/zt_d/mayday2018/'}
-2018-05-01 12:09:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/nd/2017-10-08/doc-ifymrqmq1362261.shtml> (referer: http://fashion.sina.com.cn/zt_d/mayday2018/)
-2018-05-01 12:09:15 [page] INFO: save in mongodb: 互联网新规今施行:互联网群组“谁建群谁负责”
-2018-05-01 12:09:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/nd/2017-10-08/doc-ifymrqmq1362261.shtml>
-None
-2018-05-01 12:09:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymrcmm8357430.shtml> (referer: http://news.sina.com.cn/c/nd/2017-10-08/doc-ifymrqmq1362261.shtml)
-2018-05-01 12:09:15 [page] INFO: save in mongodb: 土耳其34名前军人因企图暗杀总统被判终身监禁
-2018-05-01 12:09:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymrcmm8357430.shtml>
-None
-2018-05-01 12:09:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/c/gat/2017-10-04/doc-ifymmiwm5429008.shtml> (referer: http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymrcmm8357430.shtml)
-2018-05-01 12:09:15 [page] INFO: save in mongodb: 蔡英文官邸旁可建豪宅遭讽:豪宅居高方便刺杀
-2018-05-01 12:09:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/c/gat/2017-10-04/doc-ifymmiwm5429008.shtml>
-None
-2018-05-01 12:09:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5475157.shtml> (referer: http://news.sina.com.cn/c/gat/2017-10-04/doc-ifymmiwm5429008.shtml)
-2018-05-01 12:09:16 [page] INFO: save in mongodb: 故宫首设旅游综合执法站 游客可在此咨询投诉
-2018-05-01 12:09:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5475157.shtml>
-None
-2018-05-01 12:09:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/o/2017-10-04/doc-ifymmiwm4879317.shtml> (referer: http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5475157.shtml)
-2018-05-01 12:09:16 [page] INFO: save in mongodb: 章莹颖案嫌犯以绑架致死罪被起诉 或面临死刑
-2018-05-01 12:09:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/o/2017-10-04/doc-ifymmiwm4879317.shtml>
-None
-2018-05-01 12:09:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5176963.shtml> (referer: http://news.sina.com.cn/o/2017-10-04/doc-ifymmiwm4879317.shtml)
-2018-05-01 12:09:16 [page] INFO: save in mongodb: 这可能是人类史上最大银行抢劫案 就这样泡汤了
-2018-05-01 12:09:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5176963.shtml>
-None
-2018-05-01 12:09:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymrcmm8367539.shtml> (referer: http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5176963.shtml)
-2018-05-01 12:09:16 [page] INFO: save in mongodb: 保安为晕倒学生垫付多半月工资:捍卫有文化青年
-2018-05-01 12:09:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymrcmm8367539.shtml>
-None
-2018-05-01 12:09:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5477320.shtml> (referer: http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymrcmm8367539.shtml)
-2018-05-01 12:09:17 [page] INFO: save in mongodb: 国庆北京首贼大兴落网 身藏6部手机数张银行卡
-2018-05-01 12:09:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5477320.shtml>
-None
-2018-05-01 12:09:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/roll/2018-04-29/doc-ifzvpatq8019948.shtml> (referer: http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5477320.shtml)
-2018-05-01 12:09:17 [page] INFO: save in mongodb: 新旧动能转化形势下 中国民营企业如何突破转型盲区
-2018-05-01 12:09:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/roll/2018-04-29/doc-ifzvpatq8019948.shtml>
-None
-2018-05-01 12:09:17 [page] INFO: catch Exception: Unsupported URL scheme '': no handler available for that scheme
-2018-05-01 12:09:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/zt_d/54wttchalmstad/> (referer: None)
-2018-05-01 12:09:18 [page] INFO: save in mongodb: 第54届世乒赛团体赛
-2018-05-01 12:09:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/zt_d/54wttchalmstad/>
-None
-2018-05-01 12:09:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/others/pingpang/2018-05-01/doc-ifzvpatr6906903.shtml> (referer: http://sports.sina.com.cn/zt_d/54wttchalmstad/)
-2018-05-01 12:09:18 [page] INFO: save in mongodb: 世乒赛男乒横扫巴西3连胜 中国最强阵容三个3-0
-2018-05-01 12:09:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/others/pingpang/2018-05-01/doc-ifzvpatr6906903.shtml>
-None
-2018-05-01 12:09:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip6915561.shtml> (referer: http://sports.sina.com.cn/others/pingpang/2018-05-01/doc-ifzvpatr6906903.shtml)
-2018-05-01 12:09:18 [page] INFO: save in mongodb: 刘昊然童年合影曝光 天安门前憨笑可爱极了
-2018-05-01 12:09:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip6915561.shtml>
-None
-2018-05-01 12:09:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip7162735.shtml> (referer: http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip6915561.shtml)
-2018-05-01 12:09:18 [page] INFO: save in mongodb: 甜馨认真练习钢琴 扎马尾笑容甜美可爱加分
-2018-05-01 12:09:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip7162735.shtml>
-None
-2018-05-01 12:09:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip6885028.shtml> (referer: http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip7162735.shtml)
-2018-05-01 12:09:19 [page] INFO: save in mongodb: 张歆艺袁弘秀恩爱互买美食 面包啤酒络腮胡抢镜
-2018-05-01 12:09:19 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip6885028.shtml>
-None
-2018-05-01 12:09:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.ent.sina.com.cn/star/k/slide_4_704_276220.html> (referer: http://ent.sina.com.cn/s/m/2018-04-28/doc-ifztkpip6885028.shtml)
-2018-05-01 12:09:19 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.ent.sina.com.cn/star/k/slide_4_704_276220.html'}
-2018-05-01 12:09:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tech.sina.com.cn/i/2018-04-29/doc-ifzvpatq8861922.shtml> (referer: http://slide.ent.sina.com.cn/star/k/slide_4_704_276220.html)
-2018-05-01 12:09:19 [page] INFO: save in mongodb: 安联财险引入京东 总经理已空位9个月
-2018-05-01 12:09:19 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tech.sina.com.cn/i/2018-04-29/doc-ifzvpatq8861922.shtml>
-None
-2018-05-01 12:09:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://db.auto.sina.com.cn/photo/c93311-99-2.html> (referer: http://tech.sina.com.cn/i/2018-04-29/doc-ifzvpatq8861922.shtml)
-2018-05-01 12:09:20 [page] INFO: save in mongodb: 天籁
-2018-05-01 12:09:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://db.auto.sina.com.cn/photo/c93311-99-2.html>
-None
-2018-05-01 12:09:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://db.auto.sina.com.cn/photo/c93304-2-2.html> (referer: http://db.auto.sina.com.cn/photo/c93311-99-2.html)
-2018-05-01 12:09:20 [page] INFO: save in mongodb: 君威
-2018-05-01 12:09:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://db.auto.sina.com.cn/photo/c93304-2-2.html>
-None
-2018-05-01 12:09:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/s/ce/2018-01-23/1233/doc-ifyquptv8857424.shtml> (referer: http://db.auto.sina.com.cn/photo/c93304-2-2.html)
-2018-05-01 12:09:20 [page] INFO: save in mongodb: 关晓彤和Kaia撞衫又撞腿 长腿星人都爱这么穿？
-2018-05-01 12:09:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/s/ce/2018-01-23/1233/doc-ifyquptv8857424.shtml>
-None
-2018-05-01 12:09:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/d/ta/2018-02-16/0153/doc-ifyreyvz9230192.shtml> (referer: http://fashion.sina.com.cn/s/ce/2018-01-23/1233/doc-ifyquptv8857424.shtml)
-2018-05-01 12:09:20 [page] INFO: save in mongodb: 李宇春用“35美腿”霸屏 还刷新了大长腿的新境界
-2018-05-01 12:09:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/d/ta/2018-02-16/0153/doc-ifyreyvz9230192.shtml>
-None
-2018-05-01 12:09:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://eladies.sina.com.cn/feel/xinli/2018-01-25/0723/doc-ifyquptv9126956.shtml> (referer: http://fashion.sina.com.cn/d/ta/2018-02-16/0153/doc-ifyreyvz9230192.shtml)
-2018-05-01 12:09:32 [page] INFO: save in mongodb: 一段感情中，男生最看中的是什么
-2018-05-01 12:09:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://eladies.sina.com.cn/feel/xinli/2018-01-25/0723/doc-ifyquptv9126956.shtml>
-None
-2018-05-01 12:09:32 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://eladies.sina.com.cn/feel/xinli/2018-01-25/0722/doc-ifyqwiqk0463751.shtml%20> (referer: http://eladies.sina.com.cn/feel/xinli/2018-01-25/0723/doc-ifyquptv9126956.shtml)
-2018-05-01 12:09:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip6028441.shtml> (referer: http://eladies.sina.com.cn/feel/xinli/2018-01-25/0722/doc-ifyqwiqk0463751.shtml%20)
-2018-05-01 12:09:32 [page] INFO: save in mongodb: 大学生做校园代理卖假“中华烟” 被处罚金70万元
-2018-05-01 12:09:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip6028441.shtml>
-None
-2018-05-01 12:09:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5924962.shtml> (referer: http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip6028441.shtml)
-2018-05-01 12:09:33 [page] INFO: save in mongodb: 83岁老人旁听古汉语课 每日往返两小时
-2018-05-01 12:09:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5924962.shtml>
-None
-2018-05-01 12:09:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://baby.sina.com.cn/news/2018-04-28/doc-ifztkpip5887382.shtml> (referer: http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5924962.shtml)
-2018-05-01 12:09:33 [page] INFO: save in mongodb: 威廉王子凯特王妃小儿子姓名确定 贵族头衔曝光
-2018-05-01 12:09:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://baby.sina.com.cn/news/2018-04-28/doc-ifztkpip5887382.shtml>
-None
-2018-05-01 12:09:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.baby.sina.com.cn/bbshai/slide_10_846_286344.html> (referer: http://baby.sina.com.cn/news/2018-04-28/doc-ifztkpip5887382.shtml)
-2018-05-01 12:09:33 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.baby.sina.com.cn/bbshai/slide_10_846_286344.html'}
-2018-05-01 12:09:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4674732.shtml> (referer: http://slide.baby.sina.com.cn/bbshai/slide_10_846_286344.html)
-2018-05-01 12:09:34 [page] INFO: save in mongodb: 常熬夜有五大危害
-2018-05-01 12:09:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4674732.shtml>
-None
-2018-05-01 12:09:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4668123.shtml> (referer: http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4674732.shtml)
-2018-05-01 12:09:34 [page] INFO: save in mongodb: 生姜两种用法能补肾
-2018-05-01 12:09:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4668123.shtml>
-None
-2018-05-01 12:09:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://astro.sina.com.cn/zt_d/2018sx/> (referer: http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4668123.shtml)
-2018-05-01 12:09:34 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t时序轮转，2018戊戌年即将来临。你的生肖在2018年将经历怎样的运势变化呢？\t\t\t\t\t\t\t\t\t\t\t\r\n午马\r\n寅虎\r\n卯兔\r\n申猴\r\n巳蛇\r\n子鼠\r\n亥猪\r\n戌狗\r\n辰龙\r\n未羊\r\n丑牛\r\n酉鸡\r\n新浪意见反馈留言板 欢迎批评指正\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://astro.sina.com.cn/zt_d/2018sx/'}
-2018-05-01 12:09:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://astro.sina.com.cn/zt_d/2018/> (referer: http://astro.sina.com.cn/zt_d/2018sx/)
-2018-05-01 12:09:34 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2018年星象异动，注定是个多事之秋。你的星座在2018年将经历怎样的运势变化呢？\t\t\t\t\t\t\t\t\t\t\t\r\n白羊座\r\n金牛座\r\n双子座\r\n巨蟹座\r\n狮子座\r\n处女座\r\n天秤座\r\n天蝎座\r\n射手座\r\n魔羯座\r\n水瓶座\r\n双鱼座\r\n新浪意见反馈留言板 欢迎批评指正\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 版权所有\r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://astro.sina.com.cn/zt_d/2018/'}
-2018-05-01 12:09:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_64d61f9a0102xwy3.html> (referer: http://astro.sina.com.cn/zt_d/2018/)
-2018-05-01 12:09:34 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_64d61f9a0102xwy3.html>
-None
-2018-05-01 12:09:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_694171200102x4se.html> (referer: http://blog.sina.com.cn/s/blog_64d61f9a0102xwy3.html)
-2018-05-01 12:09:35 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_694171200102x4se.html>
-None
-2018-05-01 12:09:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_52f9f7530102xk3q.html> (referer: http://blog.sina.com.cn/s/blog_694171200102x4se.html)
-2018-05-01 12:09:35 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_52f9f7530102xk3q.html>
-None
-2018-05-01 12:09:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_4a302c450102xl93.html> (referer: http://blog.sina.com.cn/s/blog_52f9f7530102xk3q.html)
-2018-05-01 12:09:35 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_4a302c450102xl93.html>
-None
-2018-05-01 12:09:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_48d79c200102xc62.html> (referer: http://blog.sina.com.cn/s/blog_4a302c450102xl93.html)
-2018-05-01 12:09:36 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_48d79c200102xc62.html>
-None
-2018-05-01 12:09:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_a35b81e80102x74n.html> (referer: http://blog.sina.com.cn/s/blog_48d79c200102xc62.html)
-2018-05-01 12:09:36 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_a35b81e80102x74n.html>
-None
-2018-05-01 12:09:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_141b4f6de0102x3f3.html> (referer: http://blog.sina.com.cn/s/blog_a35b81e80102x74n.html)
-2018-05-01 12:09:36 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_141b4f6de0102x3f3.html>
-None
-2018-05-01 12:09:36 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://blog.sina.com.cn/s/blog_4e5d62450102zvz9.html> (referer: http://blog.sina.com.cn/s/blog_141b4f6de0102x3f3.html)
-2018-05-01 12:09:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_63ecb87b0102xfbj.html> (referer: http://blog.sina.com.cn/s/blog_4e5d62450102zvz9.html)
-2018-05-01 12:09:37 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_63ecb87b0102xfbj.html>
-None
-2018-05-01 12:09:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/o/2017-10-04/doc-ifymkwwk8402944.shtml> (referer: http://blog.sina.com.cn/s/blog_63ecb87b0102xfbj.html)
-2018-05-01 12:09:37 [page] INFO: save in mongodb: 台官员称若解放军攻台可撑超2周 网友:哪来自信
-2018-05-01 12:09:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/o/2017-10-04/doc-ifymkwwk8402944.shtml>
-None
-2018-05-01 12:09:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymrcmm8351947.shtml> (referer: http://news.sina.com.cn/o/2017-10-04/doc-ifymkwwk8402944.shtml)
-2018-05-01 12:09:37 [page] INFO: save in mongodb: 利比亚法院审判IS成员时遭袭 4名安全人员死亡
-2018-05-01 12:09:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymrcmm8351947.shtml>
-None
-2018-05-01 12:09:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymmiwm5396687.shtml> (referer: http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymrcmm8351947.shtml)
-2018-05-01 12:09:38 [page] INFO: save in mongodb: 俄官员:IS等组织组建黑客部队 世界面临威胁
-2018-05-01 12:09:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymmiwm5396687.shtml>
-None
-2018-05-01 12:09:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5474297.shtml> (referer: http://news.sina.com.cn/w/zx/2017-10-04/doc-ifymmiwm5396687.shtml)
-2018-05-01 12:09:38 [page] INFO: save in mongodb: 影视剧资源现网售利益链 售卖用“暗语”防屏蔽
-2018-05-01 12:09:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5474297.shtml>
-None
-2018-05-01 12:09:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/o/2017-10-05/doc-ifymmiwm5480699.shtml> (referer: http://news.sina.com.cn/s/wh/2017-10-05/doc-ifymmiwm5474297.shtml)
-2018-05-01 12:09:38 [page] INFO: save in mongodb: 英国首相：重塑英国梦 承诺未来要保障社会公平
-2018-05-01 12:09:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/o/2017-10-05/doc-ifymmiwm5480699.shtml>
-None
-2018-05-01 12:09:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymrcmm8375602.shtml> (referer: http://news.sina.com.cn/o/2017-10-05/doc-ifymmiwm5480699.shtml)
-2018-05-01 12:09:38 [page] INFO: save in mongodb: 联合国秘书长呼吁国际社会帮助遭飓风袭击地区
-2018-05-01 12:09:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymrcmm8375602.shtml>
-None
-2018-05-01 12:09:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymmiwm5489602.shtml> (referer: http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymrcmm8375602.shtml)
-2018-05-01 12:09:39 [page] INFO: save in mongodb: 叙利亚哈马省IS武装清除完毕 军方：重要进展
-2018-05-01 12:09:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymmiwm5489602.shtml>
-None
-2018-05-01 12:09:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymmiwm5492566.shtml> (referer: http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymmiwm5489602.shtml)
-2018-05-01 12:09:39 [page] INFO: save in mongodb: MH370最终搜寻报告:花1.6亿美元 仅找到3块残片
-2018-05-01 12:09:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymmiwm5492566.shtml>
-None
-2018-05-01 12:09:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/chanjing/cyxw/2018-04-19/doc-ifzihneq1333359.shtml> (referer: http://news.sina.com.cn/w/zx/2017-10-05/doc-ifymmiwm5492566.shtml)
-2018-05-01 12:09:39 [page] INFO: save in mongodb: 工行证实：个人住房贷款借款人最高年龄已延至70周岁
-2018-05-01 12:09:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/chanjing/cyxw/2018-04-19/doc-ifzihneq1333359.shtml>
-None
-2018-05-01 12:09:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/roll/2018-04-22/doc-ifznefkh4648320.shtml> (referer: http://finance.sina.com.cn/chanjing/cyxw/2018-04-19/doc-ifzihneq1333359.shtml)
-2018-05-01 12:09:40 [page] INFO: save in mongodb: 中兴遭美“封杀”之问:我们需要什么样的“中国芯”
-2018-05-01 12:09:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/roll/2018-04-22/doc-ifznefkh4648320.shtml>
-None
-2018-05-01 12:09:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr3187234.shtml> (referer: http://finance.sina.com.cn/roll/2018-04-22/doc-ifznefkh4648320.shtml)
-2018-05-01 12:09:40 [page] INFO: save in mongodb: 巴萨西甲夺冠获150万奖金 若拿欧冠本能得500万
-2018-05-01 12:09:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr3187234.shtml>
-None
-2018-05-01 12:09:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr6529075.shtml> (referer: http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr3187234.shtml)
-2018-05-01 12:09:40 [page] INFO: save in mongodb: 知错就改!巴萨重制夺冠T恤 加小马哥等3人名字
-2018-05-01 12:09:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr6529075.shtml>
-None
-2018-05-01 12:09:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/g/pl/2018-05-01/doc-ifzvpatr7314631.shtml> (referer: http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr6529075.shtml)
-2018-05-01 12:09:40 [page] INFO: save in mongodb: 瓜帅：要砸10亿买人 不能像穆帅切尔西夺冠后崩盘
-2018-05-01 12:09:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/g/pl/2018-05-01/doc-ifzvpatr7314631.shtml>
-None
-2018-05-01 12:09:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/g/pl/2018-05-01/doc-ifzvpatr7533317.shtml> (referer: http://sports.sina.com.cn/g/pl/2018-05-01/doc-ifzvpatr7314631.shtml)
-2018-05-01 12:09:41 [page] INFO: save in mongodb: 观点：瓜帅曼城≠英国史上最佳队 1点不如99曼联
-2018-05-01 12:09:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/g/pl/2018-05-01/doc-ifzvpatr7533317.shtml>
-None
-2018-05-01 12:09:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/s/m/2018-04-28/doc-ifzvpatq4399925.shtml> (referer: http://sports.sina.com.cn/g/pl/2018-05-01/doc-ifzvpatr7533317.shtml)
-2018-05-01 12:09:41 [page] INFO: save in mongodb: 杨幂捐款再现罗生门？独家求证三方还原事件
-2018-05-01 12:09:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/s/m/2018-04-28/doc-ifzvpatq4399925.shtml>
-None
-2018-05-01 12:09:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/tv/zy/2018-04-28/doc-ifztkpip6055863.shtml> (referer: http://ent.sina.com.cn/s/m/2018-04-28/doc-ifzvpatq4399925.shtml)
-2018-05-01 12:09:41 [page] INFO: save in mongodb: 张杰为怀孕的谢娜写情信曝光：每天都像刚谈恋爱
-2018-05-01 12:09:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/tv/zy/2018-04-28/doc-ifztkpip6055863.shtml>
-None
-2018-05-01 12:09:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/m/c/2018-04-28/doc-ifzvpatq7750340.shtml> (referer: http://ent.sina.com.cn/tv/zy/2018-04-28/doc-ifztkpip6055863.shtml)
-2018-05-01 12:09:42 [page] INFO: save in mongodb: 先买票再退票？曝《后来》片方不当操作惹怒院线
-2018-05-01 12:09:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/m/c/2018-04-28/doc-ifzvpatq7750340.shtml>
-None
-2018-05-01 12:09:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/m/c/2018-04-29/doc-ifzvpatr1790363.shtml> (referer: http://ent.sina.com.cn/m/c/2018-04-28/doc-ifzvpatq7750340.shtml)
-2018-05-01 12:09:42 [page] INFO: save in mongodb: 票房问题频出？曝陈伟霆新片票房20分钟蒸发500万
-2018-05-01 12:09:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/m/c/2018-04-29/doc-ifzvpatr1790363.shtml>
-None
-2018-05-01 12:09:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://auto.sina.com.cn/newcar/d/2017-06-20/detail-ifyhfnqa4479516.shtml> (referer: http://ent.sina.com.cn/m/c/2018-04-29/doc-ifzvpatr1790363.shtml)
-2018-05-01 12:09:42 [page] INFO: save in mongodb: 曝全新福克斯内饰谍照 配全液晶仪表
-2018-05-01 12:09:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://auto.sina.com.cn/newcar/d/2017-06-20/detail-ifyhfnqa4479516.shtml>
-None
-2018-05-01 12:09:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://auto.sina.com.cn/newcar/j/2017-06-19/detail-ifyhfnqa4461420.shtml> (referer: http://auto.sina.com.cn/newcar/d/2017-06-20/detail-ifyhfnqa4479516.shtml)
-2018-05-01 12:09:42 [page] INFO: save in mongodb: 欧蓝德EX劲界重新召回 中国涉及54672辆
-2018-05-01 12:09:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://auto.sina.com.cn/newcar/j/2017-06-19/detail-ifyhfnqa4461420.shtml>
-None
-2018-05-01 12:09:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tech.sina.com.cn/it/2018-04-29/doc-ifzvpatq8719366.shtml> (referer: http://auto.sina.com.cn/newcar/j/2017-06-19/detail-ifyhfnqa4461420.shtml)
-2018-05-01 12:09:43 [page] INFO: save in mongodb: 知名老赖贾跃亭堂而皇之广州拿地？国土部门被疑失职
-2018-05-01 12:09:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tech.sina.com.cn/it/2018-04-29/doc-ifzvpatq8719366.shtml>
-None
-2018-05-01 12:09:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_7d75a1df0102xt7t.html> (referer: http://tech.sina.com.cn/it/2018-04-29/doc-ifzvpatq8719366.shtml)
-2018-05-01 12:09:43 [page] INFO: save in mongodb: 真正聪明的人，为什么很少去参加饭局
-2018-05-01 12:09:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_7d75a1df0102xt7t.html>
-None
-2018-05-01 12:09:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_476745f60102x5z2.html> (referer: http://blog.sina.com.cn/s/blog_7d75a1df0102xt7t.html)
-2018-05-01 12:09:43 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_476745f60102x5z2.html>
-None
-2018-05-01 12:09:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/s/ce/2018-01-24/1704/doc-ifyqwiqk2193381.shtml> (referer: http://blog.sina.com.cn/s/blog_476745f60102x5z2.html)
-2018-05-01 12:09:44 [page] INFO: save in mongodb: 宋茜潮装现身上海机场 黑色机车外套帅气十足
-2018-05-01 12:09:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/s/ce/2018-01-24/1704/doc-ifyqwiqk2193381.shtml>
-None
-2018-05-01 12:09:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/b/sk/2018-01-22/1730/doc-ifyquptv8657345.shtml> (referer: http://fashion.sina.com.cn/s/ce/2018-01-24/1704/doc-ifyqwiqk2193381.shtml)
-2018-05-01 12:09:44 [page] INFO: save in mongodb: 睡得少还能容光焕发？没事儿一片面膜搞定
-2018-05-01 12:09:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/b/sk/2018-01-22/1730/doc-ifyquptv8657345.shtml>
-None
-2018-05-01 12:09:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/d/ft/2018-01-22/1706/doc-ifyquptv8649725.shtml> (referer: http://fashion.sina.com.cn/b/sk/2018-01-22/1730/doc-ifyquptv8657345.shtml)
-2018-05-01 12:09:44 [page] INFO: save in mongodb: 健身教练告诉你的25个减肥小建议 坚持就能瘦
-2018-05-01 12:09:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/d/ft/2018-01-22/1706/doc-ifyquptv8649725.shtml>
-None
-2018-05-01 12:09:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://eladies.sina.com.cn/feel/xinli/2018-01-25/0724/doc-ifyhmpew3283220.shtml> (referer: http://fashion.sina.com.cn/d/ft/2018-01-22/1706/doc-ifyquptv8649725.shtml)
-2018-05-01 12:09:44 [page] INFO: save in mongodb: 女人是不是只有瘦，才能得到世界的善意
-2018-05-01 12:09:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://eladies.sina.com.cn/feel/xinli/2018-01-25/0724/doc-ifyhmpew3283220.shtml>
-None
-2018-05-01 12:09:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://eladies.sina.com.cn/feel/xinli/2018-01-25/0724/doc-ifyqwiqk0505737.shtml> (referer: http://eladies.sina.com.cn/feel/xinli/2018-01-25/0724/doc-ifyhmpew3283220.shtml)
-2018-05-01 12:09:45 [page] INFO: save in mongodb: 爱情：别让你心爱的TA过了保鲜期
-2018-05-01 12:09:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://eladies.sina.com.cn/feel/xinli/2018-01-25/0724/doc-ifyqwiqk0505737.shtml>
-None
-2018-05-01 12:09:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://eladies.sina.com.cn/feel/xinli/2018-01-25/0725/doc-ifyqwiqk0517397.shtml> (referer: http://eladies.sina.com.cn/feel/xinli/2018-01-25/0724/doc-ifyqwiqk0505737.shtml)
-2018-05-01 12:09:45 [page] INFO: save in mongodb: 女生表白好不好 鼓起勇气更要无畏眼光
-2018-05-01 12:09:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://eladies.sina.com.cn/feel/xinli/2018-01-25/0725/doc-ifyqwiqk0517397.shtml>
-None
-2018-05-01 12:09:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.astro.sina.com.cn/> (referer: http://eladies.sina.com.cn/feel/xinli/2018-01-25/0725/doc-ifyqwiqk0517397.shtml)
-2018-05-01 12:09:45 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '未登录\r\n立刻登录，参加免费测试！\r\n戳右上角，在浏览器中打开~\r\n意见反馈留言板\r\n新浪简介\r\nCopyright \r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://product.astro.sina.com.cn/'}
-2018-05-01 12:09:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.astro.sina.com.cn/?top=1047> (referer: http://product.astro.sina.com.cn/)
-2018-05-01 12:09:45 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '未登录\r\n立刻登录，参加免费测试！\r\n戳右上角，在浏览器中打开~\r\n意见反馈留言板\r\n新浪简介\r\nCopyright \r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://product.astro.sina.com.cn/?top=1047'}
-2018-05-01 12:09:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.astro.sina.com.cn/?top=1050> (referer: http://product.astro.sina.com.cn/?top=1047)
-2018-05-01 12:09:46 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '未登录\r\n立刻登录，参加免费测试！\r\n戳右上角，在浏览器中打开~\r\n意见反馈留言板\r\n新浪简介\r\nCopyright \r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://product.astro.sina.com.cn/?top=1050'}
-2018-05-01 12:09:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.astro.sina.com.cn/?top=1053> (referer: http://product.astro.sina.com.cn/?top=1050)
-2018-05-01 12:09:46 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '未登录\r\n立刻登录，参加免费测试！\r\n戳右上角，在浏览器中打开~\r\n意见反馈留言板\r\n新浪简介\r\nCopyright \r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://product.astro.sina.com.cn/?top=1053'}
-2018-05-01 12:09:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5934381.shtml> (referer: http://product.astro.sina.com.cn/?top=1053)
-2018-05-01 12:09:46 [page] INFO: save in mongodb: 学生“漫画体检讨书” 忍不住“皮”了一下
-2018-05-01 12:09:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5934381.shtml>
-None
-2018-05-01 12:09:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5908422.shtml> (referer: http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5934381.shtml)
-2018-05-01 12:09:47 [page] INFO: save in mongodb: 学历落户仅凭"两证" 13小时落户成抢人"王牌"
-2018-05-01 12:09:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5908422.shtml>
-None
-2018-05-01 12:09:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://baby.sina.com.cn/health/hlbj/hjkcs/2018-04-28/doc-ifztkpip2315553.shtml> (referer: http://edu.sina.com.cn/l/2018-04-28/doc-ifztkpip5908422.shtml)
-2018-05-01 12:09:47 [page] INFO: save in mongodb: 世界哮喘日：哮喘不是天生的 但和遗传密切相关
-2018-05-01 12:09:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://baby.sina.com.cn/health/hlbj/hjkcs/2018-04-28/doc-ifztkpip2315553.shtml>
-None
-2018-05-01 12:09:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.baby.sina.com.cn/mxx/slide_10_846_276927.html> (referer: http://baby.sina.com.cn/health/hlbj/hjkcs/2018-04-28/doc-ifztkpip2315553.shtml)
-2018-05-01 12:09:47 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.baby.sina.com.cn/mxx/slide_10_846_276927.html'}
-2018-05-01 12:09:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://health.sina.com.cn/d/2018-05-01/doc-ifzcyxmv4654310.shtml> (referer: http://slide.baby.sina.com.cn/mxx/slide_10_846_276927.html)
-2018-05-01 12:09:47 [page] INFO: save in mongodb: 晨起哪种大便是癌症信号
-2018-05-01 12:09:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://health.sina.com.cn/d/2018-05-01/doc-ifzcyxmv4654310.shtml>
-None
-2018-05-01 12:09:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4674501.shtml> (referer: http://health.sina.com.cn/d/2018-05-01/doc-ifzcyxmv4654310.shtml)
-2018-05-01 12:09:48 [page] INFO: save in mongodb: 这样养血管人不老
-2018-05-01 12:09:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4674501.shtml>
-None
-2018-05-01 12:09:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4667110.shtml> (referer: http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4674501.shtml)
-2018-05-01 12:09:48 [page] INFO: save in mongodb: 土豆长芽了还能吃吗
-2018-05-01 12:09:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4667110.shtml>
-None
-2018-05-01 12:09:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/hot/2018-04-26/doc-ifztkpin5138762.shtml> (referer: http://health.sina.com.cn/hc/2018-05-01/doc-ifzcyxmv4667110.shtml)
-2018-05-01 12:09:48 [page] INFO: save in mongodb: 专家解读：2018年北京义务教育入学政策八大关注点
-2018-05-01 12:09:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/mid/hot/2018-04-26/doc-ifztkpin5138762.shtml>
-None
-2018-05-01 12:09:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/hot/2018-04-26/doc-ifztkpin3531847.shtml> (referer: http://www.sina.com.cn/mid/hot/2018-04-26/doc-ifztkpin5138762.shtml)
-2018-05-01 12:09:48 [page] INFO: save in mongodb: “大篷车移民”抵达美墨边境 特朗普扬言派军防守
-2018-05-01 12:09:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.sina.com.cn/mid/hot/2018-04-26/doc-ifztkpin3531847.shtml>
-None
-2018-05-01 12:09:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7174882.shtml> (referer: http://www.sina.com.cn/mid/hot/2018-04-26/doc-ifztkpin3531847.shtml)
-2018-05-01 12:09:49 [page] INFO: save in mongodb: 库里竟diss乔丹！ 生涯最强关键球肯定推人了
-2018-05-01 12:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7174882.shtml>
-None
-2018-05-01 12:09:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7784800.shtml> (referer: http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7174882.shtml)
-2018-05-01 12:09:49 [page] INFO: save in mongodb: 29+8+6+7三分！欧文回来后真的还能打首发吗
-2018-05-01 12:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7784800.shtml>
-None
-2018-05-01 12:09:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/g/laliga/2018-05-01/doc-ifzvpatr6723226.shtml> (referer: http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7784800.shtml)
-2018-05-01 12:09:49 [page] INFO: save in mongodb: 巴萨庆典梅西绿色帽子抢镜！中国网友看完炸锅了
-2018-05-01 12:09:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/g/laliga/2018-05-01/doc-ifzvpatr6723226.shtml>
-None
-2018-05-01 12:09:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr6576052.shtml> (referer: http://sports.sina.com.cn/g/laliga/2018-05-01/doc-ifzvpatr6723226.shtml)
-2018-05-01 12:09:50 [page] INFO: save in mongodb: 迟到的祝福！皇马官方发推祝贺巴萨拿双冠王
-2018-05-01 12:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr6576052.shtml>
-None
-2018-05-01 12:09:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/china/j/2018-04-30/doc-ifzvpatr6462143.shtml> (referer: http://sports.sina.com.cn/g/laliga/2018-04-30/doc-ifzvpatr6576052.shtml)
-2018-05-01 12:09:50 [page] INFO: save in mongodb: 曝世界名哨收巨额报价或赴中超 皇马战拜仁主裁
-2018-05-01 12:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/china/j/2018-04-30/doc-ifzvpatr6462143.shtml>
-None
-2018-05-01 12:09:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/l/2018-04-30/doc-ifzvpatr5275993.shtml> (referer: http://sports.sina.com.cn/china/j/2018-04-30/doc-ifzvpatr6462143.shtml)
-2018-05-01 12:09:50 [page] INFO: save in mongodb: 中超夺冠赔率：上港输球悬念再生 鲁能遭低看
-2018-05-01 12:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/l/2018-04-30/doc-ifzvpatr5275993.shtml>
-None
-2018-05-01 12:09:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/cba/2018-05-01/doc-ifzvpatr7312828.shtml> (referer: http://sports.sina.com.cn/l/2018-04-30/doc-ifzvpatr5275993.shtml)
-2018-05-01 12:09:50 [page] INFO: save in mongodb: 六年了！老马再次回应李春江狠话：广东更脏
-2018-05-01 12:09:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/cba/2018-05-01/doc-ifzvpatr7312828.shtml>
-None
-2018-05-01 12:09:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/cba/2018-05-01/doc-ifzvpatr7206561.shtml> (referer: http://sports.sina.com.cn/cba/2018-05-01/doc-ifzvpatr7312828.shtml)
-2018-05-01 12:09:51 [page] INFO: save in mongodb: 刘晓宇将赴美治疗脚伤 联系曾为科比疗伤名医
-2018-05-01 12:09:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/cba/2018-05-01/doc-ifzvpatr7206561.shtml>
-None
-2018-05-01 12:09:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/others/snooker/2018-05-01/doc-ifzvpatr7541113.shtml> (referer: http://sports.sina.com.cn/cba/2018-05-01/doc-ifzvpatr7206561.shtml)
-2018-05-01 12:09:51 [page] INFO: save in mongodb: 世台联：丁俊晖成夺冠热门 很少有人持反对意见
-2018-05-01 12:09:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/others/snooker/2018-05-01/doc-ifzvpatr7541113.shtml>
-None
-2018-05-01 12:09:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/others/snooker/2018-05-01/doc-ifzvpatr7417373.shtml> (referer: http://sports.sina.com.cn/others/snooker/2018-05-01/doc-ifzvpatr7541113.shtml)
-2018-05-01 12:09:51 [page] INFO: save in mongodb: 对手谈丁俊晖：他来自另一个世界 我宁愿是观众
-2018-05-01 12:09:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/others/snooker/2018-05-01/doc-ifzvpatr7417373.shtml>
-None
-2018-05-01 12:09:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/zl/> (referer: http://sports.sina.com.cn/others/snooker/2018-05-01/doc-ifzvpatr7417373.shtml)
-2018-05-01 12:09:51 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '04-30 14:49\r\n标签:\r\n04-30 14:54\r\n标签:\r\n04-30 14:45\r\n标签:\r\n04-30 14:40\r\n标签:\r\n04-28 10:19\r\n标签:\r\n04-28 10:14\r\n标签:\r\n04-28 10:02\r\n标签:\r\n04-26 11:06\r\n标签:\r\n04-26 09:46\r\n标签:\r\n04-25 10:57\r\n标签:\r\n04-25 10:46\r\n标签:\r\n04-25 10:43\r\n标签:\r\n04-25 10:36\r\n标签:\r\n04-25 10:29\r\n标签:\r\n04-24 09:57\r\n标签:\r\n新浪简介\r\nCopyright \r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://sports.sina.com.cn/zl/'}
-2018-05-01 12:09:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4914548.shtml> (referer: http://sports.sina.com.cn/zl/)
-2018-05-01 12:09:52 [page] INFO: save in mongodb: 伊涅斯塔，中超是否适合你？
-2018-05-01 12:09:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4914548.shtml>
-None
-2018-05-01 12:09:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/lm/sports/> (referer: http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4914548.shtml)
-2018-05-01 12:09:52 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
-{'source': 'sina_home', 'title': '', 'content': '黄健翔\r\n颜强\r\n董路\r\n杨毅\r\n苏群\r\n米卢\r\n汪大昭\r\n刘建宏\r\n郎平\r\n董午志\r\n曲国胜\r\n张志威\r\n铁杆米兰\r\n醉卧浮生\r\n婉约云儿\r\n朱元宝\r\n柳号\r\n清风\r\n表妹受伤 鹈鹕4宫格漫画\r\nNHL赛场清凉扫冰女郎\r\n体坛高富帅的娇妻美伴\r\nNFL迈阿密宝贝海选\r\n02年实德3比2绝杀四川\r\n大连超越全新战袍\r\n大连足球史上今天\r\n恩比德当爹又当妈\r\n图说加图索的米兰记忆\r\n2014年终体育博客大盘点\r\n新浪博客搬家服务\r\n[技巧]\r\n易建联\r\n纪\u3000金\r\n新浪BLOG意见反馈留言板\r\nCopyright © 1996 - 2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://blog.sina.com.cn/lm/sports/'}
-2018-05-01 12:09:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/s/blog_536585320102xk5g.html> (referer: http://blog.sina.com.cn/lm/sports/)
-2018-05-01 12:09:52 [page] INFO: save in mongodb: 加载中...
-2018-05-01 12:09:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://blog.sina.com.cn/s/blog_536585320102xk5g.html>
-None
+2018-05-01 18:52:37 [scrapy.core.engine] INFO: Spider opened
+2018-05-01 18:52:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-01 18:52:37 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-05-01 18:52:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_263664.html> (referer: None)
+2018-05-01 18:52:38 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_263664.html'}
+2018-05-01 18:52:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_263666.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_263664.html)
+2018-05-01 18:52:38 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_263666.html'}
+2018-05-01 18:52:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_256806.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_263666.html)
+2018-05-01 18:52:38 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_256806.html'}
+2018-05-01 18:52:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_2841_263675.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_256806.html)
+2018-05-01 18:52:38 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_2841_263675.html'}
+2018-05-01 18:52:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/w/slide_1_86523_263674.html> (referer: http://slide.news.sina.com.cn/slide_1_2841_263675.html)
+2018-05-01 18:52:38 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/w/slide_1_86523_263674.html'}
+2018-05-01 18:52:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/s/slide_1_86058_263719.html> (referer: http://slide.news.sina.com.cn/w/slide_1_86523_263674.html)
+2018-05-01 18:52:39 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/s/slide_1_86058_263719.html'}
+2018-05-01 18:52:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_86058_263718.html> (referer: http://slide.news.sina.com.cn/s/slide_1_86058_263719.html)
+2018-05-01 18:52:39 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_86058_263718.html'}
+2018-05-01 18:52:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.fashion.sina.com.cn/s/slide_24_84625_114897.html> (referer: http://slide.news.sina.com.cn/slide_1_86058_263718.html)
+2018-05-01 18:52:50 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.fashion.sina.com.cn/s/slide_24_84625_114897.html'}
+2018-05-01 18:52:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.fashion.sina.com.cn/slide_24_84625_114942.html> (referer: http://slide.fashion.sina.com.cn/s/slide_24_84625_114897.html)
+2018-05-01 18:52:50 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.fashion.sina.com.cn/slide_24_84625_114942.html'}
+2018-05-01 18:52:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5408925.shtml> (referer: http://slide.fashion.sina.com.cn/slide_24_84625_114942.html)
+2018-05-01 18:52:51 [page] INFO: save in mongodb: 小龙女要找爸爸为何不再被那么多网友同情
+2018-05-01 18:52:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5408925.shtml>
+None
+2018-05-01 18:52:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5478088.shtml> (referer: http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5408925.shtml)
+2018-05-01 18:52:51 [page] INFO: save in mongodb: 琼瑶得到平鑫涛就要接受伤害别人受的诋毁
+2018-05-01 18:52:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5478088.shtml>
+None
+2018-05-01 18:52:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/zl/basketball/2018-04-30/zldoc-ifzvpatr4934225.shtml> (referer: http://ent.sina.com.cn/zl/bagua/2018-04-28/doc-ifzvpatq5478088.shtml)
+2018-05-01 18:52:52 [page] INFO: save in mongodb: 两个詹姆斯的40+，骑士与火箭的不同命运
+2018-05-01 18:52:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/zl/basketball/2018-04-30/zldoc-ifzvpatr4934225.shtml>
+None
+2018-05-01 18:52:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4882978.shtml> (referer: http://sports.sina.com.cn/zl/basketball/2018-04-30/zldoc-ifzvpatr4934225.shtml)
+2018-05-01 18:52:52 [page] INFO: save in mongodb: 鲁能上半时为什么踢得不好？
+2018-05-01 18:52:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4882978.shtml>
+None
+2018-05-01 18:52:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/zl/china/2018-04-28/zl-ifzvpatq4979844.shtml> (referer: http://sports.sina.com.cn/zl/football/2018-04-30/zldoc-ifzvpatr4882978.shtml)
+2018-05-01 18:52:52 [page] INFO: save in mongodb: 下一步应全面取消调休
+2018-05-01 18:52:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/zl/china/2018-04-28/zl-ifzvpatq4979844.shtml>
+None
+2018-05-01 18:52:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tech.sina.com.cn/csj/2018-04-28/doc-ifztkpip6669129.shtml> (referer: http://finance.sina.com.cn/zl/china/2018-04-28/zl-ifzvpatq4979844.shtml)
+2018-05-01 18:52:53 [page] INFO: save in mongodb: 给阿迪年造百万双鞋！协作机器人为何成为新风口
+2018-05-01 18:52:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tech.sina.com.cn/csj/2018-04-28/doc-ifztkpip6669129.shtml>
+None
+2018-05-01 18:52:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://fashion.sina.com.cn/we/2018-04-24/1050/doc-ifznefkf8440630.shtml> (referer: http://tech.sina.com.cn/csj/2018-04-28/doc-ifztkpip6669129.shtml)
+2018-05-01 18:52:53 [page] INFO: save in mongodb: 又到了仙女的季节 仙女本命单品该怎么穿？
+2018-05-01 18:52:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://fashion.sina.com.cn/we/2018-04-24/1050/doc-ifznefkf8440630.shtml>
+None
+2018-05-01 18:52:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://blog.sina.com.cn/lm/edu/> (referer: http://fashion.sina.com.cn/we/2018-04-24/1050/doc-ifznefkf8440630.shtml)
+2018-05-01 18:52:53 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '国内教育界轰轰烈烈学习美式所谓“素质教育”……\xa0\r\n有互联网公司的地方就有程序员……\xa0\r\n多地教育部门为迎来新学期的中小学生送上“减负大礼包”……\xa0\r\n近3年，各地都有艺考腐败案件屡屡被查处……\xa0\r\n作者昵称\r\n文章链接\r\nBlog地址\r\n文章大类\r\n新浪BLOG意见反馈留言板\r\nCopyright © 1996 - 2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://blog.sina.com.cn/lm/edu/'}
+2018-05-01 18:52:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://finance.sina.com.cn/china/gncj/2018-05-01/doc-ifzvpatr7465306.shtml> (referer: http://blog.sina.com.cn/lm/edu/)
+2018-05-01 18:52:53 [page] INFO: save in mongodb: 任志强预言或成现实:更多资金入楼市新一轮暴涨要来?
+2018-05-01 18:52:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://finance.sina.com.cn/china/gncj/2018-05-01/doc-ifzvpatr7465306.shtml>
+None
+2018-05-01 18:52:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_86058_263558.html> (referer: http://finance.sina.com.cn/china/gncj/2018-05-01/doc-ifzvpatr7465306.shtml)
+2018-05-01 18:52:54 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_86058_263558.html'}
+2018-05-01 18:52:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://slide.news.sina.com.cn/slide_1_86058_263533.html> (referer: http://slide.news.sina.com.cn/slide_1_86058_263558.html)
+2018-05-01 18:52:54 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '已收藏!\r\n您可通过新浪首页\r\n知道了\r\n新闻中心意见反馈留言板\r\n新浪简介\r\nCopyright © 1996-2018 SINA Corporation, All Rights Reserved\r\n新浪公司 \r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://slide.news.sina.com.cn/slide_1_86058_263533.html'}
+2018-05-01 18:52:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/nba/> (referer: http://slide.news.sina.com.cn/slide_1_86058_263533.html)
+2018-05-01 18:52:54 [page] INFO: save in mongodb: 新浪体育
+2018-05-01 18:52:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/nba/>
+None
+2018-05-01 18:52:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7608243.shtml> (referer: http://sports.sina.com.cn/nba/)
+2018-05-01 18:52:54 [page] INFO: save in mongodb: 詹皇一人挑一队继续！ 街上拉10个人也进总决?
+2018-05-01 18:52:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7608243.shtml>
+None
+2018-05-01 18:52:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-05-01/155968225822.html> (referer: http://sports.sina.com.cn/basketball/nba/2018-05-01/doc-ifzvpatr7608243.shtml)
+2018-05-01 18:52:55 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000日前，李易峰生日会落下帷幕，暖心的峰峰宣布将生日会票房收入全部捐赠给“春蕾计划”\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-05-01/155968225822.html'}
+2018-05-01 18:52:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-05-01/151668225774.html> (referer: http://video.sina.com.cn/p/ent/doc/2018-05-01/155968225822.html)
+2018-05-01 18:52:55 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u30004月30日，黄子韬在上海举办演唱会，画超浓眼线玩转各种装扮。现场黄子韬携《这就是街舞》的队员大秀街舞 ，展不俗唱功，气氛超燃。唱歌演戏多方面发展的黄子韬坦言，因为在演戏和唱歌的状态中间切换很困难，因在演唱会上忘词向歌迷道歉。此外，戚薇李承铉夫妇也来到现场观看。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-05-01/151668225774.html'}
+2018-05-01 18:52:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257042310> (referer: http://video.sina.com.cn/p/ent/doc/2018-05-01/151668225774.html)
+2018-05-01 18:52:55 [page] INFO: news droped since too short content.
+2018-05-01 18:52:55 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
+2018-05-01 18:52:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257042128> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
+2018-05-01 18:52:55 [page] INFO: news droped since too short content.
+2018-05-01 18:52:55 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
+2018-05-01 18:52:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257046871> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
+2018-05-01 18:52:55 [page] INFO: news droped since too short content.
+2018-05-01 18:52:55 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
+2018-05-01 18:52:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257042391> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
+2018-05-01 18:52:56 [page] INFO: news droped since too short content.
+2018-05-01 18:52:56 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
+2018-05-01 18:52:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257024816> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
+2018-05-01 18:52:56 [page] INFO: news droped since too short content.
+2018-05-01 18:52:56 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
+2018-05-01 18:52:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257045491> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
+2018-05-01 18:52:56 [page] INFO: news droped since too short content.
+2018-05-01 18:52:56 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
+2018-05-01 18:52:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1#257043350> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
+2018-05-01 18:52:56 [page] INFO: news droped since too short content.
+2018-05-01 18:52:56 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1'}
+2018-05-01 18:52:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-05-01/151668225766.html> (referer: http://video.sina.com.cn/news/spj/topvideoes20180501/?opsubject_id=top1)
+2018-05-01 18:52:57 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000中国女排前队长惠若琪和丈夫杨臻博30日在北京华彬庄园举行了盛大婚礼，女排主教练郎平也赶到现场道贺，并送上了真切的祝福。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-05-01/151668225766.html'}
+2018-05-01 18:52:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-05-01/152268225780.html> (referer: http://video.sina.com.cn/p/ent/doc/2018-05-01/151668225766.html)
+2018-05-01 18:52:57 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u30004月30日，Selina穿休闲装参加“阳光即刻救援数位互动展”开幕记者会，和烧伤患者亲密合影人美心善。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-05-01/152268225780.html'}
+2018-05-01 18:52:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/sports/laliga/v/doc/2018-04-30/101768223816.html> (referer: http://video.sina.com.cn/p/ent/doc/2018-05-01/152268225780.html)
+2018-05-01 18:52:57 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000[巴萨官方视频庆祝西甲10年7冠]从2008-09赛季算起，巴萨在10个赛季中共夺得了7次西甲冠军，其间只有皇马拿到过2次，而马竞也拿过1次。在西甲历史上，夺冠次数最多的俱乐部仍然是皇马，共33次。而巴萨已经来到了25次。如果从21世纪算起，巴萨（9次）比皇马多出3次。#西甲视频#\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/sports/laliga/v/doc/2018-04-30/101768223816.html'}
+2018-05-01 18:52:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/sports/t/v/doc/2018-04-30/123468223964.html> (referer: http://video.sina.com.cn/p/sports/laliga/v/doc/2018-04-30/101768223816.html)
+2018-05-01 18:52:57 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n【纳达尔再创纪录】ATP巴塞罗那赛纳达尔以6-2/6-1横扫首进决赛的希腊新星西西帕斯，十一次打进决赛全部夺冠，成为公开年代首位在两项赛事都登顶11次的男球员，继续男单世界第一。纳豆目前在红土已经连下46盘，继续刷新着自己的纪录，这也是他生涯第55个红土冠军、总第77冠。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/sports/t/v/doc/2018-04-30/123468223964.html'}
+2018-05-01 18:52:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254731994> (referer: http://video.sina.com.cn/p/sports/t/v/doc/2018-04-30/123468223964.html)
+2018-05-01 18:52:57 [page] INFO: news droped since too short content.
+2018-05-01 18:52:57 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
+2018-05-01 18:52:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1#253796264> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
+2018-05-01 18:52:58 [page] INFO: news droped since too short content.
+2018-05-01 18:52:58 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1'}
+2018-05-01 18:52:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254742373> (referer: http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1)
+2018-05-01 18:52:58 [page] INFO: news droped since too short content.
+2018-05-01 18:52:58 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
+2018-05-01 18:52:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254742237> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
+2018-05-01 18:52:58 [page] INFO: news droped since too short content.
+2018-05-01 18:52:58 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
+2018-05-01 18:52:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254731464> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
+2018-05-01 18:52:58 [page] INFO: news droped since too short content.
+2018-05-01 18:52:58 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
+2018-05-01 18:52:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1#254742595> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
+2018-05-01 18:52:58 [page] INFO: news droped since too short content.
+2018-05-01 18:52:58 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1'}
+2018-05-01 18:52:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180120/?opsubject_id=top1#253306548> (referer: http://video.sina.com.cn/news/spj/topvideoes20180306/?opsubject_id=top1)
+2018-05-01 18:52:59 [page] INFO: news droped since too short content.
+2018-05-01 18:52:59 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180120/?opsubject_id=top1'}
+2018-05-01 18:52:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1#253815178> (referer: http://video.sina.com.cn/news/spj/topvideoes20180120/?opsubject_id=top1)
+2018-05-01 18:52:59 [page] INFO: news droped since too short content.
+2018-05-01 18:52:59 [scrapy.core.scraper] WARNING: Dropped: news droped since too short content.
+{'source': 'sina_home', 'content': '', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1'}
+2018-05-01 18:53:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/GwN0fW-NQb0r-FF984lHUFdr8Bk~XmQJfrPbXQ__.htm> (referer: http://video.sina.com.cn/news/spj/topvideoes20180129/?opsubject_id=top1)
+2018-05-01 18:53:10 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n秒拍\r\n穷人和富人的思维区别 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/GwN0fW-NQb0r-FF984lHUFdr8Bk~XmQJfrPbXQ__.htm'}
+2018-05-01 18:53:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.miaopai.com/show/TVN3bTj3pwpzj5WaKenVOnu93ZGI68zRa0kyDA__.htm> (referer: http://www.miaopai.com/show/GwN0fW-NQb0r-FF984lHUFdr8Bk~XmQJfrPbXQ__.htm)
+2018-05-01 18:53:12 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n人人视频app\r\n为什么女生总是遇到错的人，专家称:女性要更主动 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'https://www.miaopai.com/show/TVN3bTj3pwpzj5WaKenVOnu93ZGI68zRa0kyDA__.htm'}
+2018-05-01 18:53:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/fn91mUkvC7~GjKUE1yigKJEWVpkLgRrypYgqjg__.htm> (referer: None)
+2018-05-01 18:53:12 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n全球娱乐趣事\r\n一条《流星花园》土味合集，道明寺少爷真的是太蠢萌了吧！ \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/fn91mUkvC7~GjKUE1yigKJEWVpkLgRrypYgqjg__.htm'}
+2018-05-01 18:53:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/Xr8pQfoB5jxSwgGYIv5ant0nFuMBkzIWeWMOVg__.htm> (referer: http://www.miaopai.com/show/fn91mUkvC7~GjKUE1yigKJEWVpkLgRrypYgqjg__.htm)
+2018-05-01 18:53:13 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n秒拍\r\n心理专家李玫瑾:孩子做作业很拖拉怎么办？ \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/Xr8pQfoB5jxSwgGYIv5ant0nFuMBkzIWeWMOVg__.htm'}
+2018-05-01 18:53:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.miaopai.com/show/XtlqqEg79dP21JAYwK0pq4-FTzfwhYt-nEROKA__.htm> (referer: http://www.miaopai.com/show/Xr8pQfoB5jxSwgGYIv5ant0nFuMBkzIWeWMOVg__.htm)
+2018-05-01 18:53:14 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n新京报我们视频\r\n一睹国际风筝比赛长啥样:蜘蛛、变色龙满天飞 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'https://www.miaopai.com/show/XtlqqEg79dP21JAYwK0pq4-FTzfwhYt-nEROKA__.htm'}
+2018-05-01 18:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.miaopai.com/show/HVd59M2i6fpKpl0i12HOe2-rwPqIiJRzhY5-CQ__.htm> (referer: https://www.miaopai.com/show/XtlqqEg79dP21JAYwK0pq4-FTzfwhYt-nEROKA__.htm)
+2018-05-01 18:53:15 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n微辣Video\r\n这婚能结吗？多年女友竟是自己姑姑 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'https://www.miaopai.com/show/HVd59M2i6fpKpl0i12HOe2-rwPqIiJRzhY5-CQ__.htm'}
+2018-05-01 18:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/LZj-Y~LWa0739Yo9xx8CH2g5fpx66LCy.htm> (referer: None)
+2018-05-01 18:53:15 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n找靓机二手机\r\n人死后的24小时，身体会发生哪些变化？ \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/LZj-Y~LWa0739Yo9xx8CH2g5fpx66LCy.htm'}
+2018-05-01 18:53:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.miaopai.com/show/qyxXEBEarBjeXshmSo2ngjcsJMAthIm~jB0I1Q__.htm> (referer: http://www.miaopai.com/show/LZj-Y~LWa0739Yo9xx8CH2g5fpx66LCy.htm)
+2018-05-01 18:53:16 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '社交账号登录\r\n趣味多花园\r\n湖南女子成“世界第一女巨人”，18岁长到2.48米，姚明都得仰视 \r\n正在播放...\r\n扫一扫\xa0\xa0\xa0\xa0立即下载\r\n京ICP备12022740号-6 京公网安备11010502026918 炫一下（北京）科技有限公司 Copright MiaoPai All rights reserved.\r\n京网文[2016]5437-705号\r\n北京市朝阳区望京浦项中心31层 010-64828268\r\n网上有害信息举报专区\r\n京公网安备 11010502030231号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.miaopai.com/show/qyxXEBEarBjeXshmSo2ngjcsJMAthIm~jB0I1Q__.htm'}
+2018-05-01 18:53:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-21/121768100341.html?opsubject_id=enttopnews> (referer: http://www.miaopai.com/show/qyxXEBEarBjeXshmSo2ngjcsJMAthIm~jB0I1Q__.htm)
+2018-05-01 18:53:16 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯\xa0近日，新浪娱乐对话范丞丞，刚走进采访间时的他，还略显拘谨，自带清冷气质。而在随后的采访中，范丞丞整个人都松懈下来，总是笑眼眯眯的，和外表清冷的样子判若两人。他直言想要超过姐姐范冰冰，挣更多钱的孝敬妈妈。（陈植/摄像）\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-21/121768100341.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-22/154668103373.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-21/121768100341.html?opsubject_id=enttopnews)
+2018-05-01 18:53:17 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 《涨姿势周刊》街舞知识大科普！讲解老师来自《这就是街舞》学员杨文昊、韩宇、王子奇、淡淡 。舞种的标志性动作？不同舞者特征？battle有哪些手势？如何用舞蹈示爱？（昊昊严肃说不要冲女性跳PoP，直接要微信）末尾彩蛋，看各位老师即兴solo驾驭《套路》《说散就散》。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-22/154668103373.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-23/102368105356.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-22/154668103373.html?opsubject_id=enttopnews)
+2018-05-01 18:53:17 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 《妈妈是超人3》黄圣依家儿子安迪才5岁半，但已经知道月球上有空间站、星星、外星人了！脑洞超级大。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-23/102368105356.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-19/101168094311.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-23/102368105356.html?opsubject_id=enttopnews)
+2018-05-01 18:53:17 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯\xa0当耳熟能详的“大河向东流”融入古典的乐器之中，再搭配上小源队长和张杰特有的魅力音色，燃爆现场的说唱版《好汉歌》还不单曲循环走一个？\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-19/101168094311.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/095568086064.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-19/101168094311.html?opsubject_id=enttopnews)
+2018-05-01 18:53:17 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 在《爱的时差》最后一期节目中，宁静秒变娇羞少女，为“年下男”陈玉轩奔赴机场，大胆对其表示好感，甚至直接上前献吻，当街狂撒狗粮。对于此次在节目中的相遇，宁静坦言对陈玉轩的好感逐步增加：“我现在对他有120%的喜欢。”宁静真诚对陈玉轩表示虽然两人之间互有好感，但短暂的相处令她坦言希望多留一些时间准备，并大胆试问：“你愿意等我吗？”\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/095568086064.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-13/161468081202.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/095568086064.html?opsubject_id=enttopnews)
+2018-05-01 18:53:18 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 3月13日，东方卫视春季开放大会上首曝《极限挑战》第四季的片花。三精三傻原班人马再度集结，四月即将回归！黄渤在乡间小路肆意奔跑，张艺兴与小羊共舞，孙红雷也被抓到嗑瓜子了，黄磊、罗志祥、王迅则全程欢笑停不下来。超欢乐。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-13/161468081202.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/doc/2018-03-12/113168078042.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-13/161468081202.html?opsubject_id=enttopnews)
+2018-05-01 18:53:18 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n新浪娱乐讯 《偶像练习生》节目里的反差萌表现，李荣浩表示我对我的脸有误会，剪辑的也挺好的，就是完全毁了我呵呵呵……\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/doc/2018-03-12/113168078042.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/145568086541.html?opsubject_id=enttopnews> (referer: http://video.sina.com.cn/p/ent/doc/2018-03-12/113168078042.html?opsubject_id=enttopnews)
+2018-05-01 18:53:18 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': '正在加载...请稍等~\r\n分享视频地址：\r\n本页面地址：\r\n播放器swf地址：\r\nhtml地址：\r\n频道：\r\n\u3000\u3000新浪娱乐讯 《最强大脑》王昱珩每日焦虑失眠，陪选手练习似“老父亲”。\r\n桌面客户端\r\n新浪视频App\r\nCopyright\xa0©\xa01996-2017\xa0SINA\xa0Corporation,\xa0All\xa0Rights\xa0Reserved\xa0\xa0\xa0\xa0新浪公司\xa0版权所有\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/145568086541.html?opsubject_id=enttopnews'}
+2018-05-01 18:53:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%B0%8F%E9%BE%99%E8%99%BE%E9%AB%98%E4%BB%B7%E5%85%A5%E5%B8%82> (referer: http://video.sina.com.cn/p/ent/z/v/doc/2018-03-15/145568086541.html?opsubject_id=enttopnews)
+2018-05-01 18:53:29 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%B0%8F%E9%BE%99%E8%99%BE%E9%AB%98%E4%BB%B7%E5%85%A5%E5%B8%82'}
+2018-05-01 18:53:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E9%83%AD%E6%95%AC%E6%98%8E%E7%A7%92%E5%88%A0%E6%96%B0%E5%89%A7%E7%85%A7> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%B0%8F%E9%BE%99%E8%99%BE%E9%AB%98%E4%BB%B7%E5%85%A5%E5%B8%82)
+2018-05-01 18:53:29 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E9%83%AD%E6%95%AC%E6%98%8E%E7%A7%92%E5%88%A0%E6%96%B0%E5%89%A7%E7%85%A7'}
+2018-05-01 18:53:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%97%E6%B5%B7%E5%BC%80%E5%A7%8B%E4%BC%8F%E5%AD%A3%E4%BC%91%E6%B8%94> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E9%83%AD%E6%95%AC%E6%98%8E%E7%A7%92%E5%88%A0%E6%96%B0%E5%89%A7%E7%85%A7)
+2018-05-01 18:53:30 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%97%E6%B5%B7%E5%BC%80%E5%A7%8B%E4%BC%8F%E5%AD%A3%E4%BC%91%E6%B8%94'}
+2018-05-01 18:53:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%99%92%E5%A6%88%E5%A6%88%E7%85%A7%E7%89%87> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%97%E6%B5%B7%E5%BC%80%E5%A7%8B%E4%BC%8F%E5%AD%A3%E4%BC%91%E6%B8%94)
+2018-05-01 18:53:30 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%99%92%E5%A6%88%E5%A6%88%E7%85%A7%E7%89%87'}
+2018-05-01 18:53:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E6%B5%B7%E5%8D%97%E5%85%A5%E5%A2%83%E6%97%85%E6%B8%B8%E5%85%8D%E7%AD%BE> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%99%92%E5%A6%88%E5%A6%88%E7%85%A7%E7%89%87)
+2018-05-01 18:53:30 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E6%B5%B7%E5%8D%97%E5%85%A5%E5%A2%83%E6%97%85%E6%B8%B8%E5%85%8D%E7%AD%BE'}
+2018-05-01 18:53:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E8%93%9D%E8%89%B2%E8%B5%B7%E6%BA%90%E5%8F%91%E5%B0%84%E7%81%AB%E7%AE%AD> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E6%B5%B7%E5%8D%97%E5%85%A5%E5%A2%83%E6%97%85%E6%B8%B8%E5%85%8D%E7%AD%BE)
+2018-05-01 18:53:30 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E8%93%9D%E8%89%B2%E8%B5%B7%E6%BA%90%E5%8F%91%E5%B0%84%E7%81%AB%E7%AE%AD'}
+2018-05-01 18:53:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%B0%E5%BA%A6%E6%B1%BD%E8%BD%A6%E8%B7%8C%E5%85%A5%E5%86%B2%E6%B2%9F> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E8%93%9D%E8%89%B2%E8%B5%B7%E6%BA%90%E5%8F%91%E5%B0%84%E7%81%AB%E7%AE%AD)
+2018-05-01 18:53:30 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%B0%E5%BA%A6%E6%B1%BD%E8%BD%A6%E8%B7%8C%E5%85%A5%E5%86%B2%E6%B2%9F'}
+2018-05-01 18:53:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E6%96%B0%E7%96%86%E6%98%8C%E5%90%89%E5%B8%82%E5%9C%B0%E9%9C%87> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%8D%B0%E5%BA%A6%E6%B1%BD%E8%BD%A6%E8%B7%8C%E5%85%A5%E5%86%B2%E6%B2%9F)
+2018-05-01 18:53:31 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E6%96%B0%E7%96%86%E6%98%8C%E5%90%89%E5%B8%82%E5%9C%B0%E9%9C%87'}
+2018-05-01 18:53:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%B1%B1%E4%B8%9C%E6%8F%90%E9%AB%98%E5%B7%A5%E8%B5%84%E6%A0%87%E5%87%86> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E6%96%B0%E7%96%86%E6%98%8C%E5%90%89%E5%B8%82%E5%9C%B0%E9%9C%87)
+2018-05-01 18:53:31 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%B1%B1%E4%B8%9C%E6%8F%90%E9%AB%98%E5%B7%A5%E8%B5%84%E6%A0%87%E5%87%86'}
+2018-05-01 18:53:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E6%AF%8F%E5%88%86%E9%92%9F6500%E7%BE%8E%E5%85%83> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%B1%B1%E4%B8%9C%E6%8F%90%E9%AB%98%E5%B7%A5%E8%B5%84%E6%A0%87%E5%87%86)
+2018-05-01 18:53:31 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E6%AF%8F%E5%88%86%E9%92%9F6500%E7%BE%8E%E5%85%83'}
+2018-05-01 18:53:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E5%BF%AB%E9%80%92%E6%96%B0%E8%A7%84%E6%AD%A3%E5%BC%8F%E5%AE%9E%E6%96%BD> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E6%AF%8F%E5%88%86%E9%92%9F6500%E7%BE%8E%E5%85%83)
+2018-05-01 18:53:31 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E5%BF%AB%E9%80%92%E6%96%B0%E8%A7%84%E6%AD%A3%E5%BC%8F%E5%AE%9E%E6%96%BD'}
+2018-05-01 18:53:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E4%BB%8E%E4%BD%93%E5%86%85%E6%89%AF%E5%87%BA%E7%BA%B1%E5%B8%83> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E5%BF%AB%E9%80%92%E6%96%B0%E8%A7%84%E6%AD%A3%E5%BC%8F%E5%AE%9E%E6%96%BD)
+2018-05-01 18:53:31 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E4%BB%8E%E4%BD%93%E5%86%85%E6%89%AF%E5%87%BA%E7%BA%B1%E5%B8%83'}
+2018-05-01 18:53:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=FF%E6%A0%B7%E8%BD%A6%E8%BF%90%E6%8A%B5%E5%8C%97%E4%BA%AC> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E4%BB%8E%E4%BD%93%E5%86%85%E6%89%AF%E5%87%BA%E7%BA%B1%E5%B8%83)
+2018-05-01 18:53:32 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=FF%E6%A0%B7%E8%BD%A6%E8%BF%90%E6%8A%B5%E5%8C%97%E4%BA%AC'}
+2018-05-01 18:53:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%AD%A6%E5%AF%9F%E5%B1%80%E6%9E%AA%E6%88%98> (referer: http://www.sina.com.cn/mid/search.shtml?q=FF%E6%A0%B7%E8%BD%A6%E8%BF%90%E6%8A%B5%E5%8C%97%E4%BA%AC)
+2018-05-01 18:53:32 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%AD%A6%E5%AF%9F%E5%B1%80%E6%9E%AA%E6%88%98'}
+2018-05-01 18:53:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E6%BB%B4%E6%BB%B4%E5%A4%A7%E4%BC%97%E5%B0%86%E5%BB%BA%E5%90%88%E8%B5%84> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E9%98%BF%E6%A0%B9%E5%BB%B7%E8%AD%A6%E5%AF%9F%E5%B1%80%E6%9E%AA%E6%88%98)
+2018-05-01 18:53:32 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E6%BB%B4%E6%BB%B4%E5%A4%A7%E4%BC%97%E5%B0%86%E5%BB%BA%E5%90%88%E8%B5%84'}
+2018-05-01 18:53:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.sina.com.cn/mid/search.shtml?q=%E4%BF%9E%E7%81%8F%E6%98%8E%E7%9C%8B%E9%9F%B3%E4%B9%90%E8%8A%82> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E6%BB%B4%E6%BB%B4%E5%A4%A7%E4%BC%97%E5%B0%86%E5%BB%BA%E5%90%88%E8%B5%84)
+2018-05-01 18:53:32 [scrapy.core.scraper] WARNING: Dropped: news droped since empty title.
+{'source': 'sina_home', 'content': 'Copyright ©1996-2018 SINA Corporation, All Rights Reserved\r\n隐私保护\r\n客户服务热线：4006900000\u3000违法和不良信息举报电话：010-62675637\u3000举报邮箱：\r\n京网文【2017】10231-1151号\r\n国家药监局（京）-经营性-2014-0004\r\n增值电信业务经营许可证B2-20090108\r\n广播电视节目制作经营许可证（京）字第828号\r\n', 'title': '', 'date': '2018-05-01', 'unix_timestamp': 1525104000, 'link': 'http://www.sina.com.cn/mid/search.shtml?q=%E4%BF%9E%E7%81%8F%E6%98%8E%E7%9C%8B%E9%9F%B3%E4%B9%90%E8%8A%82'}
+2018-05-01 18:53:37 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 75 pages/min), scraped 10 items (at 10 items/min)
+2018-05-01 18:54:37 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 0 pages/min), scraped 10 items (at 0 items/min)
+2018-05-01 18:55:33 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://db.auto.sina.com.cn/photo/g122726-2.html> (failed 1 times): 504 Gateway Time-out
+2018-05-01 18:55:37 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 0 pages/min), scraped 10 items (at 0 items/min)
+2018-05-01 18:56:37 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 0 pages/min), scraped 10 items (at 0 items/min)
+2018-05-01 18:57:36 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://db.auto.sina.com.cn/photo/g122726-2.html> (failed 2 times): 504 Gateway Time-out
+2018-05-01 18:57:37 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 0 pages/min), scraped 10 items (at 0 items/min)
+2018-05-01 18:58:37 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 0 pages/min), scraped 10 items (at 0 items/min)
+2018-05-01 18:59:37 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 0 pages/min), scraped 10 items (at 0 items/min)
+2018-05-01 19:00:07 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://db.auto.sina.com.cn/photo/g122726-2.html> (failed 3 times): 502 Bad Gateway
+2018-05-01 19:00:07 [scrapy.core.engine] DEBUG: Crawled (502) <GET http://db.auto.sina.com.cn/photo/g122726-2.html> (referer: http://www.sina.com.cn/mid/search.shtml?q=%E4%BF%9E%E7%81%8F%E6%98%8E%E7%9C%8B%E9%9F%B3%E4%B9%90%E8%8A%82)
+2018-05-01 19:00:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <502 http://db.auto.sina.com.cn/photo/g122726-2.html>: HTTP status code is not handled or not allowed
+2018-05-01 19:00:07 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-01 19:00:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 28831,
+ 'downloader/request_count': 78,
+ 'downloader/request_method_count/GET': 78,
+ 'downloader/response_bytes': 1814182,
+ 'downloader/response_count': 78,
+ 'downloader/response_status_count/200': 75,
+ 'downloader/response_status_count/502': 1,
+ 'downloader/response_status_count/504': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 1, 11, 0, 7, 730957),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/502': 1,
+ 'item_dropped_count': 65,
+ 'item_dropped_reasons_count/DropItem': 65,
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 90,
+ 'log_count/INFO': 40,
+ 'log_count/WARNING': 65,
+ 'request_depth_max': 75,
+ 'response_received_count': 76,
+ 'retry/count': 2,
+ 'retry/max_reached': 1,
+ 'retry/reason_count/504 Gateway Time-out': 2,
+ 'scheduler/dequeued': 78,
+ 'scheduler/dequeued/memory': 78,
+ 'scheduler/enqueued': 78,
+ 'scheduler/enqueued/memory': 78,
+ 'start_time': datetime.datetime(2018, 5, 1, 10, 52, 37, 748289)}
+2018-05-01 19:00:07 [scrapy.core.engine] INFO: Spider closed (finished)
