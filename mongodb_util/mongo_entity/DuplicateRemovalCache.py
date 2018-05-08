@@ -1,4 +1,4 @@
 from mongoengine import *
 
 class DuplicateRemovalCache(Document):
-    cache = ListField(DictField)
+    cache = ListField(ListField(StringField()))

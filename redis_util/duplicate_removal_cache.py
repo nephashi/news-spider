@@ -14,10 +14,18 @@ class DuplicateRemovalCache(object):
     def load_url_cache(self):
         db_cache = self.__mongo_dup_rmv_dao.query_cache()
         if (db_cache != None):
-            self.__crawled_url_cache = db_cache
+            self.__crawled_url_cache = []
+            for inner_lst in db_cache:
+                cur_lvl = {}
+                for url in inner_lst:
+                    cur_lvl[url] = 1
+                self.__crawled_url_cache.append(cur_lvl)
 
     def save_url_cache(self):
-        self.__mongo_dup_rmv_dao.save_cache(self.__crawled_url_cache)
+        url_lst = []
+        for dic in self.__crawled_url_cache:
+            url_lst.append(list(dic.keys()))
+        self.__mongo_dup_rmv_dao.save_cache(url_lst)
 
     def if_url_crawled(self, url):
         crawled = False

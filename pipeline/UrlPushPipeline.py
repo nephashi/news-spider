@@ -36,8 +36,8 @@ class UrlPushPipeline(object):
             mgdb_port = int(crawler.settings.get('CACHE_MGDB_PORT')),
             mgdb_db_name = crawler.settings.get('CACHE_MGDB_DB_NAME'),
 
-            num_cache_lvl = crawler.settings.get('NUM_CACHE_LVL'),
-            cache_max_size = crawler.settings.get('CACHE_MAX_SIZE')
+            num_cache_lvl = int(crawler.settings.get('NUM_CACHE_LVL')),
+            cache_max_size = int(crawler.settings.get('CACHE_MAX_SIZE'))
         )
 
     def open_spider(self, spider):

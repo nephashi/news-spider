@@ -7,7 +7,10 @@ class MongoDupRmvDao(object):
         connect(db_name, host = host, port = port)
 
     def __mgdbcache2pycache(self, mgdb_cache):
-        return mgdb_cache.cache
+        url_list = []
+        for lvl in mgdb_cache.cache:
+            url_list.append(list(lvl))
+        return url_list
 
     def save_cache(self, cache_lst):
         mgdb_cache_objs = DuplicateRemovalCache.objects

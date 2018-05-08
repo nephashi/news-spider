@@ -29,10 +29,4 @@ class SinaHomeSpider(scrapy.Spider):
                 }
                 yield news_dic
 
-        # 不断进行爬取
-        yield scrapy.Request(url=self.sina_url,
-                             callback=self.parse,
-                             meta={'dont_merge_cookies': True},
-                             dont_filter=True)
-
 

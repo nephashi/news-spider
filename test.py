@@ -17,6 +17,7 @@
 #
 # print("end")
 
-s = r'\u4eba\u751f\u82e6\u77ed\uff0cpy\u662f\u5cb8'
-chn = s.encode('utf-8').decode('unicode_escape')
-print(chn)
+from mongoengine import *
+
+class DuplicateRemovalCache(Document):
+    cache = ListField(DictField)
