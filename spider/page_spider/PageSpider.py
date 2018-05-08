@@ -5,7 +5,7 @@ import common_utils.time_util as tu
 
 class PageSpider(scrapy.Spider):
     name = "page"
-    download_delay = 0
+    download_delay = 2
     handle_httpstatus_list = [404, 500]
 
     def __init__(self):

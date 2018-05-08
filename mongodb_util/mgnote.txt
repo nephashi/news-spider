@@ -5,6 +5,7 @@ show collections
 db.collection.find({}) #查询集合全部内容
 db.news.remove({}) #清空集合
 db.news.find({}).count() #聚合集合元素数
+db.news.find({}).sort({"unix_timestamp":-1}) #按某个数据域倒序排序
 
 坑！！
 mongodb默认绑定本地，要打开远程访问：
@@ -13,4 +14,5 @@ sudo vim /etc/mongodb.conf
 bind_ip = 0.0.0.0
 
 mongoengine在初始化连接时指定数据库，默认使用继承Document的类名作为集合名。
+如果多次调用connect并且指定相同的alias，后调用的无效。
 可以用with上下文管理器来调整这两个数据库配置。

@@ -1,13 +1,26 @@
 from redis_util.redis_queue_dao import RedisQueueDao
 from redis_util.redis_url_pusher import RedisUrlPusher
+from mongodb_util.MongoDupRmvDao import MongoDupRmvDao
+from redis_util.duplicate_removal_cache import DuplicateRemovalCache
 
 class UrlPushPipeline(object):
 
-    def __init__(self, redis_uri, redis_password, redis_port = 6379, redis_queue_key = "queue"):
+    def __init__(self, redis_uri, redis_password, mgdb_uri, num_cache_lvl, cache_max_size, redis_port = 6379, redis_queue_key = "queue",
+                       mgdb_port=27017, mgdb_db_name='news_db'):
         self.__redis_uri = redis_uri
         self.__redis_password = redis_password
         self.__redis_port = redis_port
         self.__redis_queue_key = redis_queue_key
+
+        self.__mgdb_uri = mgdb_uri
+        self.__mgdb_port = mgdb_port
+        self.__mgdb_db_name = mgdb_db_name
+        self.__num_cache_lvl = num_cache_lvl
+        self.__cache_max_size = cache_max_size
+
+        # RedisUrlPusher
+        self.__rup = None
+
         self.__url_count = 0
         self.__redis_push_count = 0
 
@@ -17,7 +30,14 @@ class UrlPushPipeline(object):
             redis_uri = crawler.settings.get('REDIS_URI'),
             redis_password = crawler.settings.get('REDIS_PASSWORD'),
             redis_port = int(crawler.settings.get('REDIS_PORT')),
-            redis_queue_key = crawler.settings.get('REDIS_QUEUE_KEY')
+            redis_queue_key = crawler.settings.get('REDIS_QUEUE_KEY'),
+
+            mgdb_uri = crawler.settings.get('CACHE_MGDB_URI'),
+            mgdb_port = int(crawler.settings.get('CACHE_MGDB_PORT')),
+            mgdb_db_name = crawler.settings.get('CACHE_MGDB_DB_NAME'),
+
+            num_cache_lvl = crawler.settings.get('NUM_CACHE_LVL'),
+            cache_max_size = crawler.settings.get('CACHE_MAX_SIZE')
         )
 
     def open_spider(self, spider):
@@ -25,9 +45,16 @@ class UrlPushPipeline(object):
                             password = self.__redis_password,
                             port = self.__redis_port,
                             queue_key = self.__redis_queue_key)
-        self.__rup = RedisUrlPusher(rqd, spider.logger)
+        mdrd = MongoDupRmvDao(host = self.__mgdb_uri,
+                              db_name = self.__mgdb_db_name,
+                              port = self.__mgdb_port)
+        self.__drc = DuplicateRemovalCache(mdrd, self.__cache_max_size, self.__num_cache_lvl)
+        self.__drc.load_url_cache()
+        self.__rup = RedisUrlPusher(rqd, self.__drc, spider.logger)
 
     def close_spider(self, spider):
+        self.__drc.save_url_cache()
+        del self.__drc
         del self.__rup
 
     def process_item(self, item, spider):
@@ -37,5 +64,6 @@ class UrlPushPipeline(object):
             self.__redis_push_count += 1
         self.__url_count += 1
         if (self.__url_count % 20 == 0 or self.__redis_push_count % 10 == 0):
+            self.__drc.save_url_cache()
             spider.logger.info("catched " + str(self.__url_count) + " URLs, pushed " + str(self.__redis_push_count) + " URLs to redis")
         return item

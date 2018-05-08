@@ -7,7 +7,7 @@ import common_utils.time_util as tu
 # 新闻对象以字典的形式与外部进行交互，外部不必关系mongoengine的实体类
 class MongoNewsDao(object):
 
-    def __init__(self, host, db_name, port = 27017):
+    def __init__(self, host, db_name = 'news', port = 27017):
         connect(db_name, host = host, port = port)
 
     def __mgnews2pynews(self, mongo_news):
