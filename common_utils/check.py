@@ -14,5 +14,4 @@ def checkTitle(title):
 ## rule: 1、http or https protocol; 2、exclude some special domain names from the exclude-list
 def checkLink(link):
     test = r'^https?://(?!%s)(/?)' % '|'.join(exclude)
-    print(test)
     return link != None and re.search(test,link)

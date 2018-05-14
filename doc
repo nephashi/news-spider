@@ -2,7 +2,7 @@
 18.182.13.109：mongodb
 
 当前的url字典结构：
-news_dic = {
+url_dic = {
                'title': news.css('::text').extract_first(),
                'link': news.css('::attr(href)').extract_first(),
                'source': spider.name
@@ -19,8 +19,15 @@ dict = {
         }
 
 关于爬虫的实现：
+
 先从各大门户首页爬链接，再跟据这些链接去爬新闻页，用redis队列连接这两个部分。
+
 由于具体新闻页太多，无法一一设计爬虫，因此采用同一的模式进行粗糙处理。
-而各大门户的首页爬虫作为新闻页url的来源需要进行定制。这个定制的爬虫需要在parse方法中生成符合url字典结构的字典，
-同时在最后递归的生成访问该门户页的请求，以等待下次分析。其他的事情该项目会进行调度。
-具体实现参考spider.url_spider.SinaHomeSpider.py
+
+我们需要去各大门户网站爬链接，这些爬虫需要进行定制。可以较方便的添加新的门户网站爬虫。
+这个定制的爬虫只需要继承scrapy的spider，并且在parse方法中生成(yield)符合url字典结构的字典即可。
+写完新的门户爬虫需要在启动器（launcher.url_spider_launcher）中进行注册。
+另外，爬虫所在的模块的名字（即Python源文件的名字）要和爬虫类的名字一致，并且放在spider.url_spider模块下。这样调度器才能找到爬虫。
+其他的事情该项目会进行调度。
+
+具体实现模板参考spider.url_spider.SinaHomeSpider.py
