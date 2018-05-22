@@ -1,7 +1,15 @@
 from scrapy.crawler import CrawlerProcess
-from spider.url_spider.TencentModuleSpider import TencentModuleSpider
-from spider.url_spider.SinaHomeSpider import SinaHomeSpider
-from spider.url_spider.TencentHomeSpider import TencentHomeSpider
+from spider.url_spider.SohuPoliticsSpider import SohuPoliticsSpider
+from spider.url_spider.SohuInternationalSpider import SohuInternationalSpider
+from spider.url_spider.SohuFashionSpider import SohuFashionSpider
+from spider.url_spider.SohuMilitarySpider import SohuMilitarySpider
+from spider.url_spider.SohuTechnologySpider import SohuTechnologySpider
+from spider.url_spider.SohuFinanceSpider import SohuFinanceSpider
+from spider.url_spider.SohuGameSpider import SohuGameSpider
+from spider.url_spider.SohuAnimationSpider import SohuAnimationSpider
+from spider.url_spider.SohuEntertainmentSpider import SohuEntertainmentSpider
+from spider.url_spider.SohuSportSpider import SohuSportSpider
+from spider.TestSpider import TestSpider
 
 process = CrawlerProcess({
         'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
@@ -15,8 +23,6 @@ process = CrawlerProcess({
         'MGDB_PORT': '27017',
         'MGDB_DB_NAME': 'news_db_test',
         'FEED_EXPORT_ENCODING': 'utf-8',
-        'LOG_FILE': './LOG',
-        'LOG_ENCODING': 'utf-8'
     })
-process.crawl(TencentHomeSpider)
+process.crawl(SohuFashionSpider)
 process.start()

@@ -21,5 +21,9 @@ class MongoDupRmvDao(object):
         cache.save()
 
     def query_cache(self):
-        mgdb_cache_obj = DuplicateRemovalCache.objects[0]
-        return self.__mgdbcache2pycache(mgdb_cache_obj)
+        mgdb_data = DuplicateRemovalCache.objects
+        if (len(mgdb_data) > 0):
+            mgdb_cache_obj = DuplicateRemovalCache.objects[0]
+            return self.__mgdbcache2pycache(mgdb_cache_obj)
+        else:
+            return None

@@ -14,7 +14,7 @@ class RedisUrlPuller(object):
         json = self.get_raw_json()
         if (json == None):
             return None
-        dic = ju.json2dic(json)
+        dic = ju.json2py(json)
         self.__last_pulled_item = dic
         return dic['link']
 

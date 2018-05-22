@@ -39,4 +39,4 @@ class LinearUrlScheduler(object):
                     print(output)
                 except Exception as e:
                     print(e)
-                time.sleep(6)
+            time.sleep(6)

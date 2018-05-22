@@ -20,6 +20,8 @@ class DuplicateRemovalCache(object):
                 for url in inner_lst:
                     cur_lvl[url] = 1
                 self.__crawled_url_cache.append(cur_lvl)
+        else:
+            self.__crawled_url_cache = []
 
     def save_url_cache(self):
         url_lst = []
@@ -43,7 +45,7 @@ class DuplicateRemovalCache(object):
         if (len(self.__crawled_url_cache[-1]) >= self.__crawled_cache_max_size):
             self.__crawled_url_cache.append({})
         # 缓存级数量达到最大，清除第一级(最早添加的)缓存
-        if (len(self.__crawled_url_cache) == self.__num_crawled_cache_level):
+        if (len(self.__crawled_url_cache) > self.__num_crawled_cache_level):
             self.__crawled_url_cache.pop(0)
         self.__crawled_url_cache[-1][uncrawled_url] = 1
 

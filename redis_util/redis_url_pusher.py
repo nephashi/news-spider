@@ -22,7 +22,7 @@ class RedisUrlPusher(object):
 
         if (crawled == False):
             self.__dup_rmv_cache.update_cache(url)
-            news_url_json_str = ju.dic2json(dic)
+            news_url_json_str = ju.py2json(dic)
             self.__redis_queue_dao.put(item = news_url_json_str)
             return True
         else:

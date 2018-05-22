@@ -1,3 +1,5 @@
+import common_utils.check as check
+from scrapy.exceptions import DropItem
 from redis_util.redis_queue_dao import RedisQueueDao
 from redis_util.redis_url_pusher import RedisUrlPusher
 from mongodb_util.MongoDupRmvDao import MongoDupRmvDao
@@ -58,12 +60,18 @@ class UrlPushPipeline(object):
         del self.__rup
 
     def process_item(self, item, spider):
-        if_push = self.__rup.url_push(item)
-        if (if_push == True):
-            spider.logger.info("push to redis")
-            self.__redis_push_count += 1
-        self.__url_count += 1
-        if (self.__url_count % 20 == 0 or self.__redis_push_count % 10 == 0):
-            self.__drc.save_url_cache()
-            spider.logger.info("catched " + str(self.__url_count) + " URLs, pushed " + str(self.__redis_push_count) + " URLs to redis")
-        return item
+        link_url = item['link']
+        if (not check.checkLink(link_url)):
+            raise DropItem("Invalid link, drop item.")
+        else:
+            if_push = self.__rup.url_push(item)
+            if (if_push == True):
+                spider.logger.info("push to redis")
+                self.__redis_push_count += 1
+            else:
+                spider.logger.info("duplicate item")
+            self.__url_count += 1
+            if (self.__url_count % 20 == 0 or self.__redis_push_count % 10 == 0):
+                self.__drc.save_url_cache()
+                spider.logger.info("catched " + str(self.__url_count) + " URLs, pushed " + str(self.__redis_push_count) + " URLs to redis")
+            return item
