@@ -36,7 +36,8 @@ def launch_crawl_single_homepage_for_url(spider_cls, log_path):
         'CACHE_MAX_SIZE': '10000',
         'FEED_EXPORT_ENCODING': 'utf-8',
         'LOG_FILE': log_path,
-        'LOG_ENCODING': 'utf-8'
+        'LOG_ENCODING': 'utf-8',
+        'DOWNLOAD_TIMEOUT': 5
     })
     process.crawl(spider_cls)
     process.start()

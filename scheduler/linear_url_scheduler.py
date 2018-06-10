@@ -21,11 +21,12 @@ if __name__ == '__main__':
 
 class LinearUrlScheduler(object):
 
-    def __init__(self, spider_names, python_command, script_name, log_path):
+    def __init__(self, spider_names, python_command, script_name, log_path, crawl_interval):
         self.spider_names = spider_names
         self.python_command = python_command
         self.script_name = script_name
         self.log_path = log_path
+        self.crawl_interval = crawl_interval
 
     def launch(self):
         while (True):
@@ -39,4 +40,4 @@ class LinearUrlScheduler(object):
                     print(output)
                 except Exception as e:
                     print(e)
-            time.sleep(6)
+            time.sleep(self.crawl_interval)

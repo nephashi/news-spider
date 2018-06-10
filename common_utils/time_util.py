@@ -20,6 +20,10 @@ def date2timestamp(dt):
     s = time.mktime(time.strptime(dt, '%Y-%m-%d'))
     return int(s)
 
+def datetime2timestamp(dttm):
+    s = time.mktime(time.strptime(dttm, '%Y-%m-%d,%H:%M:%S'))
+    return int(s)
+
 
 def is_valid_date(date, pattern):
     try:

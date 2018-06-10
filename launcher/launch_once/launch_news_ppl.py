@@ -37,7 +37,8 @@ def launch_crawl_news(log_path):
         'MGDB_DB_NAME': 'news_db_test',
         'FEED_EXPORT_ENCODING': 'utf-8',
         'LOG_FILE': log_path,
-        'LOG_ENCODING': 'utf-8'
+        'LOG_ENCODING': 'utf-8',
+        'DOWNLOAD_TIMEOUT': 5
     })
     process.crawl(PageSpider)
     process.start()

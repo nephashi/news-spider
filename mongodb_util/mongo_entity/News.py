@@ -3,7 +3,7 @@ from datetime import datetime
 
 class News(Document):
     title = StringField(max_length=100, required=True)
-    link = StringField(max_length=100)
+    link = StringField(max_length=500)
     content = StringField(required=True)
     source = StringField()
     date = DateTimeField(default=datetime.now(), required=True)

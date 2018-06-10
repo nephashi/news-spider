@@ -40,21 +40,43 @@ class PageSpider(scrapy.Spider):
         #抓所有h1，最长的认为是题目
         titles = []
         for title_pom in response.css('h1'):
-            title = title_pom.css('::text').extract_first()
-            if(titles != None):
-                titles.append(title)
+            title = title_pom.css('::text').extract()
+            for t in title:
+                titles.append(t)
+
+        for title_pom in response.css('h2'):
+            title = title_pom.css('::text').extract()
+            for t in title:
+                titles.append(t)
+
+        for title_pom in response.css('h3'):
+            title = title_pom.css('::text').extract()
+            for t in title:
+                titles.append(t)
+
         title = ""
         for t in titles:
-            if (t != None and len(t) > len(title)):
-                title = t
+            if (t.strip() != None and len(t.strip()) > len(title)):
+                title = t.strip()
+
+        # 题目太长，很可能抓到了代码，只留下中文
+        if (len(title) > 100):
+            title_cp = title
+            title = ""
+            for c in title_cp:
+                if ('\u4e00' <= c <= '\u9fff'):
+                    title += c
 
         #抓所有p，连起来认为是内容
         content = ""
         for p_pom in response.css('p'):
-            parag = p_pom.css('::text').extract_first()
-            if (parag != None and len(parag.strip()) > 0):
-                content += parag
-                content += line_break
+            parag_slices = p_pom.css('::text').extract()
+            for parag in parag_slices:
+                if (parag != None and len(parag.strip()) > 0):
+                    content += parag
+                    content += '\r\n'
+
+        datetime_now = time.strftime("%Y-%m-%d,%H:%M:%S", time.localtime())
         date_now = time.strftime("%Y-%m-%d", time.localtime())
         dict = {
             'title': title,
@@ -62,7 +84,7 @@ class PageSpider(scrapy.Spider):
             'content': content,
             'source': source,
             'date': date_now,
-            'unix_timestamp': tu.date2timestamp(date_now)
+            'unix_timestamp': tu.datetime2timestamp(datetime_now)
         }
         return dict
 

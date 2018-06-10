@@ -25,8 +25,7 @@ spider_names = ['SohuAnimationSpider', 'SohuEntertainmentSpider', 'SohuFashionSp
                 'SohuGameSpider', 'SohuInternationalSpider', 'SohuMilitarySpider', 'SohuPoliticsSpider',
                 'SohuSportSpider', 'SohuTechnologySpider',
                 'SinaHomeSpider', 'TencentModuleSpider', 'TencentHomeSpider']
-# spider_names = ['SohuMilitarySpider']
 log_path = 'D:/Projects/news-spider/logs/URL1.log'
 
-lrs = LinearUrlScheduler(spider_names, python_command, script_name, log_path)
+lrs = LinearUrlScheduler(spider_names, python_command, script_name, log_path, 12 * 3600)
 lrs.launch()
