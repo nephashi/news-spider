@@ -21,11 +21,16 @@ from scheduler.linear_url_scheduler import LinearUrlScheduler
 
 python_command = 'C:\Python35\python.exe'
 script_name = 'D:/Projects/news-spider/launcher/launch_once/launch_url_ppl.py'
-spider_names = ['SohuAnimationSpider', 'SohuEntertainmentSpider', 'SohuFashionSpider', 'SohuFinanceSpider',
+spider_names = [
+                'SohuAnimationSpider', 'SohuEntertainmentSpider', 'SohuFashionSpider', 'SohuFinanceSpider',
                 'SohuGameSpider', 'SohuInternationalSpider', 'SohuMilitarySpider', 'SohuPoliticsSpider',
                 'SohuSportSpider', 'SohuTechnologySpider',
-                'SinaHomeSpider', 'TencentModuleSpider', 'TencentHomeSpider']
+                'SinaHomeSpider', 'TencentModuleSpider', 'TencentHomeSpider',
+                'WangYiYaoWenSpider', 'WangYiSportSpider', 'WangYiEntertainmentSpider', 'WangYiFinanceSpider',
+                'WangYiBeijingSpider', 'WangYiTechSpider', 'WangYiDomesticSpider', 'WangYiInternationalSpider',
+                'WangYiAutoSpider', 'WangYiMilitarySpider']
+
 log_path = 'D:/Projects/news-spider/logs/URL1.log'
 
-lrs = LinearUrlScheduler(spider_names, python_command, script_name, log_path, 12 * 3600)
+lrs = LinearUrlScheduler(spider_names, python_command, script_name, log_path, 1 * 3600)
 lrs.launch()

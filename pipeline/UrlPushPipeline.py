@@ -25,6 +25,7 @@ class UrlPushPipeline(object):
 
         self.__url_count = 0
         self.__redis_push_count = 0
+        self.__cache_update_counter = 0
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -71,7 +72,9 @@ class UrlPushPipeline(object):
             else:
                 spider.logger.info("duplicate item")
             self.__url_count += 1
-            if (self.__url_count % 20 == 0 or self.__redis_push_count % 10 == 0):
+            self.__cache_update_counter += 1
+
+            if (self.__cache_update_counter == 300):
                 self.__drc.save_url_cache()
-                spider.logger.info("catched " + str(self.__url_count) + " URLs, pushed " + str(self.__redis_push_count) + " URLs to redis")
+                self.__cache_update_counter = 0
             return item

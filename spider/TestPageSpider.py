@@ -1,41 +1,21 @@
 import scrapy
+from scrapy.crawler import CrawlerProcess
 import common_utils.system_util as su
 import time
 import common_utils.time_util as tu
 
-class PageSpider(scrapy.Spider):
-    name = "page"
-    download_delay = 2
+class TestPageSpider(scrapy.Spider):
+
+    name = 'test_page'
+
     handle_httpstatus_list = [404, 500]
 
-    def __init__(self):
-        super(PageSpider, self).__init__()
-        self.__redis_puller = None
-
-    def get_redis_puller(self):
-        return self.__redis_puller
-
-    def set_redis_puller(self, redis_puller):
-        self.__redis_puller = redis_puller
-
     def start_requests(self):
-        url = self.__redis_puller.get_url()
-        if (url != None):
-            yield scrapy.Request(url=url,
-                        callback=self.parse,
-                        meta={'dont_merge_cookies': True},
-                        dont_filter=True)
-        else:
-            self.logger.info("url queue empty, finish.")
+        yield scrapy.Request(url='http://news.163.com/18/0619/10/DKLI69TG0001875P.html',
+                             callback=self.parse,
+                             meta={'dont_merge_cookies': True})
 
     def parse_content(self, response):
-        line_break = su.get_line_break()
-
-        url_item = self.__redis_puller.get_last_pulled_item()
-        if (url_item != None):
-            source = url_item['source']
-        else:
-            source = "unknown"
 
         #抓所有h1，最长的认为是题目
         titles = []
@@ -84,22 +64,21 @@ class PageSpider(scrapy.Spider):
             'title': title,
             'link': response.url,
             'content': content,
-            'source': source,
+            'source': 'test',
             'date': date_now,
             'unix_timestamp': tu.datetime2timestamp(datetime_now)
         }
         return dict
 
-    def parse(self, response):
-        if (response.status == 200):
-            dict = self.parse_content(response)
-            yield dict
 
-        url = self.__redis_puller.get_url()
-        if (url != None):
-            yield scrapy.Request(url=url,
-                                 callback=self.parse,
-                                 meta={'dont_merge_cookies': True},
-                                 dont_filter=True)
-        else:
-            self.logger.info("url queue empty, finish.")
+    def parse(self, response):
+        dict = self.parse_content(response)
+        yield dict
+
+process = CrawlerProcess({
+        'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
+        'DOWNLOAD_DELAY': '1',
+        'DOWNLOAD_TIMEOUT': 5
+})
+process.crawl(TestPageSpider)
+process.start()
