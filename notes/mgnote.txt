@@ -6,6 +6,7 @@ db.collection.find({}) #查询集合全部内容
 db.news.remove({}) #清空集合
 db.news.find({}).count() #聚合集合元素数
 db.news.find({}).sort({"unix_timestamp":-1}) #按某个数据域倒序排序
+db.student.find({name:/joe/}) #模糊查询
 
 坑！！
 mongodb默认绑定本地，要打开远程访问：

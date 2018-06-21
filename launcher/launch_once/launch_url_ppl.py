@@ -24,7 +24,7 @@ def launch_crawl_single_homepage_for_url(spider_cls, log_path):
     process = CrawlerProcess({
         'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
         'ITEM_PIPELINES': '{"pipeline.UrlPushPipeline.UrlPushPipeline": 300}',
-        'DOWNLOAD_DELAY': '600',
+        'DOWNLOAD_DELAY': '1',
         'REDIS_URI': '13.231.182.153',
         'REDIS_PASSWORD': 'redisredis',
         'REDIS_PORT': '6379',
